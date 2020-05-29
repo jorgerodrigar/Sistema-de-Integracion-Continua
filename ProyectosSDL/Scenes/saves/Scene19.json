@@ -1,0 +1,217 @@
+{
+   "AlenaActiva": true,
+   "CambioActo": true,
+   "CollisionableObject": [
+      {
+         "Texture": 276,
+         "h": 125.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 36.0,
+         "x": 100.0,
+         "y": 300.0
+      },
+      {
+         "Texture": 276,
+         "h": 150.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 50.0,
+         "x": 200.0,
+         "y": 250.0
+      },
+      {
+         "Texture": 276,
+         "h": 150.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 50.0,
+         "x": 970.0,
+         "y": 260.0
+      },
+      {
+         "Texture": 43,
+         "h": 400.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 1280.0,
+         "x": 0.0,
+         "y": 330.0
+      }
+   ],
+   "Decorado": [
+      {
+         "Anims": [
+            [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               1,
+               0,
+               2,
+               1,
+               1,
+               0,
+               0,
+               0,
+               3,
+               0,
+               3,
+               0
+            ]
+         ],
+         "Texture": 230,
+         "animation": true,
+         "h": 40.0,
+         "heightFrame": 40,
+         "loop": true,
+         "numColsFrame": 1,
+         "numFilsFrame": 4,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 272.0,
+         "widthFrame": 272,
+         "x": 1008.0,
+         "y": 125.0
+      }
+   ],
+   "GOTransiciones": [
+      {
+         "Texture": 29,
+         "h": 60.0,
+         "rotat": 0.0,
+         "rotation": 0.0,
+         "scneNum": 22,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 1210.0,
+         "y": 380.0
+      },
+      {
+         "Texture": 29,
+         "h": 60.0,
+         "rotat": -90.0,
+         "rotation": -90.0,
+         "scneNum": 20,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 853.0,
+         "y": 330.0
+      }
+   ],
+   "HeaderActo": "Influencias",
+   "MusicVolume": [
+      0
+   ],
+   "NPC": [
+      {
+         "Anims": [
+            [
+               0,
+               1,
+               2,
+               3
+            ]
+         ],
+         "Texture": 124,
+         "animation": true,
+         "dialogo": "Ander11",
+         "done": false,
+         "h": 125.0,
+         "heightFrame": 149,
+         "loop": true,
+         "numColsFrame": 2,
+         "numFilsFrame": 4,
+         "repeatDialog": true,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 36.0,
+         "widthFrame": 41,
+         "x": 100.0,
+         "y": 300.0
+      },
+      {
+         "Anims": [
+            [
+               10,
+               11
+            ]
+         ],
+         "Texture": 275,
+         "animation": true,
+         "dialogo": "hidroquenoAzul",
+         "done": false,
+         "h": 150.0,
+         "heightFrame": 201,
+         "loop": true,
+         "numColsFrame": 4,
+         "numFilsFrame": 6,
+         "repeatDialog": true,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 50.0,
+         "widthFrame": 68,
+         "x": 200.0,
+         "y": 250.0
+      },
+      {
+         "Anims": [
+            [
+               22,
+               23
+            ]
+         ],
+         "Texture": 52,
+         "animation": true,
+         "dialogo": "hidroquenoVerde",
+         "done": false,
+         "h": 150.0,
+         "heightFrame": 201,
+         "loop": true,
+         "numColsFrame": 4,
+         "numFilsFrame": 6,
+         "repeatDialog": true,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 50.0,
+         "widthFrame": 68,
+         "x": 970.0,
+         "y": 260.0
+      }
+   ],
+   "PlayerPos": {
+      "x": 10.0,
+      "y": 320.0
+   },
+   "PlayerTam": {
+      "h": 120.0,
+      "w": 50.0
+   },
+   "SoundEffect": [
+      4
+   ],
+   "StopActualMusic": [
+      false
+   ],
+   "Texture": 169,
+   "actNumber": 3,
+   "h": 720.0,
+   "numRepeticionesSonidos": [
+      -1
+   ],
+   "rotation": 0.0,
+   "soundEffect": 1,
+   "volumenes": [
+      5
+   ],
+   "w": 1280.0,
+   "x": 0.0,
+   "y": 0.0
+}

@@ -1,0 +1,15 @@
+{
+
+	"NumNodos": 1,
+
+	"Nodo": [
+
+	{"numNodo":0, "nodoSig":-1, "numLineas": 2, "lineas":[ 
+		{"texto": "¡Por fin llegáis! ¡Nos tenéis a los polis de vigilantes!"},
+		{"texto": "Y lo que ha costado mantener a los periodistas fuera..."}],
+	"numOpciones":0, "pj": 272, "emo": 0
+	}
+
+	]
+
+}

@@ -1,0 +1,12 @@
+{
+
+	"NumNodos": 1,
+
+	"Nodo": [
+	{"numNodo":0, "nodoSig":-1, "numLineas": 1, "lineas":[ 
+		{"texto": "La clínica forense está muy bien camuflada."}],
+	"numOpciones":0, "pj": 90, "emo": 2
+	}
+	]
+
+}

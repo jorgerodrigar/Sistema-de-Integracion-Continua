@@ -1,0 +1,47 @@
+{
+
+	"NumNodos": 3,
+
+	"Nodo": [
+
+	{"numNodo":0, "nodoSig":1, "numLineas": 2, "lineas":[ {"texto": "Prueba de texto rico"}, {"texto": "Otra linea lololo"} ],
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{
+	"numNodo":1, "nodoSig":2, 
+
+	"numLineas": 0,
+
+	"numOpciones":5, 
+	"opciones":[
+	{"nodoApuntado": 0, "textoOpcion": "Vuelve al principio"},
+	{"nodoApuntado": 0, "textoOpcion": "Vuelve al principio tambien"},
+	{"nodoApuntado": 1, "textoOpcion": "Vuelve a si mismo inceptionnnnn"},
+	{"nodoApuntado": -1, "textoOpcion": "Acabo el dialogo"},
+	{"nodoApuntado": 2, "textoOpcion": "Al siguiente nodo"}
+	],
+
+	"pj": 90,
+	"emo": 4
+	},
+
+	{"numNodo":2, "nodoSig":-1, 
+
+	"numLineas": 1, 
+	"lineas":[
+	{"texto": "Esto es el fin rip"}
+	],
+
+	"numOpciones":0, 
+
+	"pj": 91,
+	"emo": 2
+
+	}
+
+
+	]
+
+}
+

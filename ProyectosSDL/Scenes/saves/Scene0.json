@@ -1,0 +1,279 @@
+{
+   "AlenaActiva": true,
+   "CambioActo": false,
+   "CollisionableObject": [
+      {
+         "Anims": [
+            [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               1,
+               0,
+               1,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ]
+         ],
+         "Texture": 127,
+         "animation": true,
+         "h": 318.0,
+         "heightFrame": 318,
+         "loop": true,
+         "numColsFrame": 2,
+         "numFilsFrame": 1,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 150.0,
+         "w": 330.0,
+         "widthFrame": 330,
+         "x": 0.0,
+         "y": 140.0
+      },
+      {
+         "Texture": 11,
+         "h": 230.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 220.0,
+         "x": 580.0,
+         "y": 432.0
+      },
+      {
+         "Texture": 12,
+         "h": 300.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 365.0,
+         "x": 915.0,
+         "y": 125.0
+      }
+   ],
+   "Decorado": [
+      {
+         "Anims": [
+            [
+               0,
+               1,
+               2,
+               3
+            ]
+         ],
+         "Texture": 130,
+         "animation": true,
+         "h": 52.0,
+         "heightFrame": 52,
+         "loop": true,
+         "numColsFrame": 2,
+         "numFilsFrame": 2,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 42.0,
+         "widthFrame": 42,
+         "x": 30.0,
+         "y": 324.0
+      }
+   ],
+   "GOConversational": [
+      {
+         "Anims": [
+            [
+               0
+            ],
+            [
+               1
+            ]
+         ],
+         "Texture": 154,
+         "animation": true,
+         "convoName": "AlenaLlavesMoto",
+         "done": false,
+         "h": 40.0,
+         "heightFrame": 40,
+         "loop": true,
+         "numColsFrame": 1,
+         "numFilsFrame": 2,
+         "repeat": false,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 40.0,
+         "widthFrame": 40,
+         "x": 630.0,
+         "y": 500.0
+      },
+      {
+         "Anims": [
+            [
+               0
+            ],
+            [
+               1
+            ]
+         ],
+         "Texture": 20,
+         "animation": true,
+         "convoName": "AlenaJeffaTelefono",
+         "done": false,
+         "h": 40.0,
+         "heightFrame": 40,
+         "loop": true,
+         "numColsFrame": 1,
+         "numFilsFrame": 2,
+         "repeat": false,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 40.0,
+         "widthFrame": 40,
+         "x": 915.0,
+         "y": 280.0
+      }
+   ],
+   "GODoors": [
+      {
+         "Texture": 28,
+         "UnlockId": 1,
+         "h": 242.0,
+         "rotGOTr": -90.0,
+         "rotat": 0.0,
+         "rotation": 0.0,
+         "scneNum": 2,
+         "soundEffect": 23,
+         "tag": "key",
+         "w": 119.0,
+         "x": 612.0,
+         "y": 116.0
+      }
+   ],
+   "GOState": [
+      {
+         "Texture": 29,
+         "UnlockId": 1,
+         "h": 30.0,
+         "numText": 244,
+         "numberPuzzle": 2,
+         "rotation": -45,
+         "soundEffect": 1,
+         "type": 0,
+         "w": 30.0,
+         "x": 670.0,
+         "y": 270.0
+      }
+   ],
+   "GOTransiciones": [
+      {
+         "Texture": 29,
+         "h": 60.0,
+         "rotat": 0.0,
+         "rotation": 0.0,
+         "scneNum": 1,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 1200.0,
+         "y": 600.0
+      }
+   ],
+   "HeaderActo": "El regreso de Alena",
+   "ItemInventario": [
+      {
+         "Anims": [
+            [
+               0
+            ],
+            [
+               1
+            ]
+         ],
+         "Texture": 56,
+         "animation": true,
+         "descripcion": "Es un rotulador... rojo.... y ya.",
+         "h": 40.0,
+         "heightFrame": 40,
+         "loop": true,
+         "numColsFrame": 1,
+         "numFilsFrame": 2,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "tag": "rotulador",
+         "vel": 200.0,
+         "w": 40.0,
+         "widthFrame": 40,
+         "x": 670.0,
+         "y": 500.0
+      },
+      {
+         "Anims": [
+            [
+               0
+            ],
+            [
+               1
+            ]
+         ],
+         "Texture": 55,
+         "animation": true,
+         "descripcion": "La moto salió demasiado cara como para perder esto.",
+         "h": 40.0,
+         "heightFrame": 40,
+         "loop": true,
+         "numColsFrame": 1,
+         "numFilsFrame": 2,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "tag": "keyMoto",
+         "vel": 200.0,
+         "w": 40.0,
+         "widthFrame": 40,
+         "x": 630.0,
+         "y": 500.0
+      }
+   ],
+   "Music": [
+      2
+   ],
+   "MusicVolume": [
+      0
+   ],
+   "PlayerPos": {
+      "x": 100.0,
+      "y": 500.0
+   },
+   "PlayerTam": {
+      "h": 201.6,
+      "w": 84.0
+   },
+   "SoundEffect": [
+      4
+   ],
+   "StopActualMusic": [
+      false
+   ],
+   "Texture": 9,
+   "actNumber": 1,
+   "h": 720.0,
+   "numRepeticionesSonidos": [
+      -1
+   ],
+   "rotation": 0.0,
+   "soundEffect": 1,
+   "volumenes": [
+      5
+   ],
+   "w": 1280.0,
+   "x": 0.0,
+   "y": 0.0
+}

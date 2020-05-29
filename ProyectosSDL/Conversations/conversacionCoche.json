@@ -1,0 +1,63 @@
+{
+    "msg": 0,
+    "numScene": 10,
+
+
+	"NumNodos": 6,
+
+	"Nodo": [
+
+		{"numNodo":0, "nodoSig":1, "numLineas": 3, 
+			"lineas":[ 
+				{"texto": "¿Te importa si pongo la radio?"}, 
+				{"texto": "Quiero saber si han descubierto el cuerpo, si es una noticia."},
+				{"texto": "Quizá eso nos dificulte el trabajo."}
+			],
+			"numOpciones":0, "pj": 90, "emo": 0
+		},
+
+		{"numNodo":1, "nodoSig":2, "numLineas": 2, 
+			"lineas":[ 
+				{"texto": "... pues sí, Andrezj, se ha descubierto el cuerpo esta mañana."}, 
+				{"texto": "Al parecer el hombre había estado consumiendo sustancias estupefacientes..."}
+			],
+			"numOpciones":0, "pj": 218, "emo": 3
+		},
+
+		{"numNodo":2, "nodoSig":3, "numLineas": 1, 
+			"lineas":[ 
+				{"texto": "Mierda, se nos han adelantado."}
+			],
+			"numOpciones":0, "pj": 90, "emo": 3
+		},
+
+		{"numNodo":3, "nodoSig":4, "numLineas": 2, 
+			"lineas":[ 
+				{"texto": "Bueno, eso lo único que va a hacer es que tardemos más en acceder"}, 
+				{"texto": "al edificio, ten en cuenta que la policía ya no cuenta con investigadores."}
+			],
+			"numOpciones":0, "pj": 89, "emo": 0
+		},
+
+		{"numNodo":4, "nodoSig":5, "numLineas": 2, 
+			"lineas":[ 
+				{"texto": "Cierto, desde la creación de La Organizacja Detektywistyczna,"}, 
+				{"texto": "todo se ha monopolizado bastante."}
+			],
+			"numOpciones":0, "pj": 90, "emo": 1
+		},
+
+		{"numNodo":5, "nodoSig":-1, "numLineas": 3, 
+			"lineas":[ 
+				{"texto": "Por eso mismo, Ander."}, 
+				{"texto": "No te preocupes, solo tenemos que saltar por encima de los periodistas"},
+				{"texto":"y el problema está resuelto."}
+			],
+			"numOpciones":0, "pj": 89, "emo": 0
+		}
+
+
+	]
+
+}
+

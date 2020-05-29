@@ -1,0 +1,13 @@
+{
+
+	"NumNodos": 1,
+
+	"Nodo": [
+	{"numNodo":0, "nodoSig":-1, "numLineas": 2, "lineas":[ 
+		{"texto": "Estamos en la fábrica de Polbots. Vamos a hablar con uno"},
+		{"texto": "de los trabajadores llamado Maks."}],
+	"numOpciones":0, "pj": 90, "emo": 0
+	}
+	]
+
+}

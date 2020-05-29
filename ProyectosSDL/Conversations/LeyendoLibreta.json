@@ -1,0 +1,452 @@
+{
+	"NumNodos": 51,
+
+	"Nodo": [
+
+	{"numNodo":0, "nodoSig":1, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Qué original, se ha puesto el nombre de un revolucionario, igual piensa"},
+	{"texto": "que así él también será un revolucionario."}],
+	
+	"numOpciones":0, "pj": 90, "emo": 5
+	},
+
+	{"numNodo":1, "nodoSig":0, "numLineas": 0,
+
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 2, "textoOpcion": "Sí, pero no deja de ser un camello ilegal."},
+	{"nodoApuntado": 9, "textoOpcion": "Seguro que revolucionan la política, ya verás."}
+	],
+	"pj": 89, "emo": 0
+	},
+
+	{"numNodo":2, "nodoSig":3, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Pero el que parece más activo sin duda es el señor holandés. "},
+	{"texto": "Vende bastante al parecer."}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":3, "nodoSig":4, "numLineas": 3, 
+
+	"lineas":[ {"texto": "Si te fijas los sellos de los vendedores son los más grandes."},
+	{"texto": "Los compradores también tienen seudónimos, pero no parecen muy "},
+	{"texto": "imaginativos."}],
+	
+	"numOpciones":0, "pj": 90, "emo": 0
+	},
+
+	{"numNodo":4, "nodoSig":0, "numLineas": 0,
+
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 5, "textoOpcion": "Bueno, este de aquí que se llama Nervioso..."},
+	{"nodoApuntado": 8, "textoOpcion": "Lo que más me intriga es que hay un símbolo raro."}
+	],
+	"pj": 89, "emo": 0
+	},
+
+	{"numNodo":5, "nodoSig":6, "numLineas": 3, 
+
+	"lineas":[ {"texto": "Podríamos identificarlo como a nuestro cadáver, Dimitri. ¿No decía"},
+	{"texto": "la gente que le conocía que era un tipo bastante nervioso y raro?"},
+	{"texto": "Igual por eso le dieron este nombre tan raro."}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":6, "nodoSig":7, "numLineas": 4, 
+
+	"lineas":[ {"texto": "Podría ser que fuera él. Pero no hay nada seguro. Sin embargo estas "},
+	{"texto": "cifras parecen preocupantes.Venden demasiado y hay bastante gente que les "},
+	{"texto": "compra, espero que esto no se convierta en un problema a escala mundial. "},
+	{"texto": "Será complicado pillar a esta gente si usan esta simbología."}],
+	
+	"numOpciones":0, "pj": 90, "emo": 0
+	},
+
+	{"numNodo":7, "nodoSig":8, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Lo que más me intriga es que hay un símbolo raro. "}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":8, "nodoSig":10, "numLineas": 3, 
+
+	"lineas":[ {"texto": "Aquí, en el sello de los vendedores. Fíjate, parece la luna esa rara "},
+	{"texto": "que aparecía en una película de hace muchos siglos. Ese cohete incrustado"},
+	{"texto": "en el ojo es bastante complicado de olvidar."}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":9, "nodoSig":7, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Hombre, si pensaban revolucionar el mundo, esos nombres que ponen"},
+	{"texto": "a sus compradores son un poco tristes. ¿No crees?"}],
+	
+	"numOpciones":0, "pj": 90, "emo": 0
+	},
+
+	{"numNodo":10, "nodoSig":11, "numLineas": 4, 
+
+	"lineas":[ {"texto": "Qué primitivos que éramos los humanos antes. Pensábamos que si "},
+	{"texto": "llegábamos a la luna ya  sería lo mejor y en verdad teníamos que llegar "},
+	{"texto": "a Marte y Venus para conocer de verdad el futuro."},
+	{"texto": "Que horrible que es esa película por cierto."}],
+	
+	"numOpciones":0, "pj": 90, "emo": 0
+	},
+
+	{"numNodo":11, "nodoSig":0, "numLineas": 0,
+
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 12, "textoOpcion": "No sé a qué viene eso, la verdad."},
+	{"nodoApuntado": 16, "textoOpcion": "A mí me gusta."}
+	],
+	"pj": 89, "emo": 0
+	},
+
+	{"numNodo":12, "nodoSig":13, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Era una opinión. Lo que me intriga es, ¿por qué ese símbolo en concreto?"}],
+	
+	"numOpciones":0, "pj": 90, "emo": 0
+	},
+
+	{"numNodo":13, "nodoSig":0, "numLineas": 0,
+
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 14, "textoOpcion": "Igual les pareció bonito."},
+	{"nodoApuntado": 23, "textoOpcion": "Espera, Jeffa me comentó algo de Moonprice cuando me dio el caso."}
+	],
+	"pj": 89, "emo": 0
+	},
+
+	{"numNodo":14, "nodoSig":15, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Eso me parece un motivo muy raro. ¿Por qué una luna?"}],
+	
+	"numOpciones":0, "pj": 90, "emo": 2
+	},
+
+	{"numNodo":15, "nodoSig":23, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Espera, Jeffa me comentó algo de Moonprice cuando me dio el caso."}],
+	
+	"numOpciones":0, "pj": 90, "emo": 2
+	},
+
+	{"numNodo":16, "nodoSig":17, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Me la he visto un par de veces y hay que reconocer que su director  "},
+	{"texto": "le echó imaginación. Pero ese no es el caso. ¿Por qué una luna? "}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":17, "nodoSig":18, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Bueno, podría haber muchas razones, pero ahora mismo no se me "},
+		{"texto": "ocurre ninguna."}],
+	
+	"numOpciones":0, "pj": 90, "emo": 0
+	},
+
+	{"numNodo":18, "nodoSig":19, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Menudos nombres se inventa la gente. Polvo Estelar..."}],
+	
+	"numOpciones":0, "pj": 90, "emo": 2
+	},
+
+	{"numNodo":19, "nodoSig":0, "numLineas": 0,
+
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 20, "textoOpcion": "Sí, pero el mismo símbolo aparece aquí otra vez."},
+	{"nodoApuntado": 23, "textoOpcion": "Espera, Jeffa me comentó algo de Moonprice cuando me dio el caso."}
+	],
+	"pj": 89, "emo": 0
+	},
+
+	{"numNodo":20, "nodoSig":21, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Y grabado con hilo dorado. Estos no son camellos corrientes Ander."},
+	{"texto": "Esto parece más un negocio."}],
+	
+	"numOpciones":0, "pj": 89, "emo": 1
+	},
+
+	{"numNodo":21, "nodoSig":22, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Espera, ¿no había comentado algo Jeffa sobre Moonprice?"}],
+	
+	"numOpciones":0, "pj": 90, "emo": 2
+	},
+
+	{"numNodo":22, "nodoSig":26, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Es verdad."}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":23, "nodoSig":24, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Que se creía que estaban experimentando con un nuevo producto o algo así."}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":24, "nodoSig":25, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Pero el símbolo de Moonprice es una luna creciente, no esta luna."},
+	{"texto": "No tiene sentido."}],
+	
+	"numOpciones":0, "pj": 90, "emo": 0
+	},
+
+	{"numNodo":25, "nodoSig":0, "numLineas": 0,
+
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 26, "textoOpcion": "Es verdad"},
+	{"nodoApuntado": 28, "textoOpcion": "Tiene cierto sentido."}
+	],
+	"pj": 89, "emo": 0
+	},
+
+	{"numNodo":26, "nodoSig":27, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Sin embargo, esto me parece muy extraño. No le veo el sentido."}],
+	
+	"numOpciones":0, "pj": 90, "emo": 0
+	},
+
+	{"numNodo":27, "nodoSig":28, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Tiene cierto sentido."}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":28, "nodoSig":29, "numLineas": 4, 
+
+	"lineas":[ {"texto": "Puede que parezca que no tenga sentido, pero así se libran de que se les"},
+	{"texto": "se les relacione con la venta de esta droga. Tú no pondrías tu símbolo o"},
+	{"texto": "tu foto como símbolo en un cuaderno de contabilidad de la droga que estás "},
+	{"texto": "vendiendo."}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":29, "nodoSig":30, "numLineas": 4, 
+
+	"lineas":[ {"texto": "Cierto, pero no sé. ¿No te parece demasiado obvio? "},
+	{"texto": "Quiero decir, si no quieres tener nada que ver con la droga no pones un"},
+	{"texto": "sello y un símbolo a tus camellos para que vayan directamente hacia ti si "},
+	{"texto": "encuentran una pista. "}],
+	
+	"numOpciones":0, "pj": 90, "emo": 1
+	},
+
+	{"numNodo":30, "nodoSig":31, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Pero igual quieren que los descubran."}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":31, "nodoSig":32, "numLineas": 3, 
+
+	"lineas":[ {"texto": "Todos los criminales con los que he trabajado, algunos lo hacían por "},
+	{"texto": "desesperación y mataban o torturaban a alguien y no querían ser encontrados,"},
+	{"texto": "esos eran los más complicados."}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":32, "nodoSig":33, "numLineas": 4, 
+
+	"lineas":[ {"texto": "Porque aunque estaban muy nerviosos y de verdad podías ver en sus ojos"},
+		{"texto": "que no querían hacerlo, los cabrones se las apañaban muy bien para no  "},
+		{"texto":"dejar un solo rastro. Siempre se les escapaba algo, pero eran detalles"},
+		{"texto":"muy sutiles."}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":33, "nodoSig":37, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Sin embargo, una vez trabajé el caso de un psicópata que había torturado "},
+	{"texto": "y matado a más de treinta personas él solito."} ],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":34, "nodoSig":35, "numLineas": 3, 
+
+	"lineas":[ {"texto": "Él entendía eso como un trabajo y quería que se le reconociera tal hazaña."},
+	{"texto": "Quería que la gente le tuviera miedo, que hablaran de él, dejó pistas muy "},
+	{"texto": "sutiles, pero suficientes como para que apuntaran a él. "}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":35, "nodoSig":36, "numLineas": 1, 
+
+	"lineas":[ {"texto": "¿Pero quién querría pasarse a vida en la cárcel?"}],
+	
+	"numOpciones":0, "pj": 90, "emo": 2
+	},
+
+	{"numNodo":36, "nodoSig":38, "numLineas": 4, 
+
+	"lineas":[ {"texto": "Teniendo en cuenta que no tenía mucho dinero después de hacer todo lo"},
+	{"texto": "que hizo, pensó que sería mejor la cárcel que dormir debajo de un puente."},
+	{"texto": "El caso es que pillamos a un sospechoso, algunas pruebas apuntaban a él  "},
+	{"texto": "pero no había nada seguro y no teníamos pensado meterle en la cárcel. "}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	
+
+	{"numNodo":37, "nodoSig":34, "numLineas": 4, 
+
+	"lineas":[ {"texto": "Se cubría muy bien las espaldas y no dejaba ni un solo "},
+	{"texto": "rastro que él no quisiera dejar, pero tenía un fallo que él mismo admitió "},
+	{"texto": "cuando se le condenó a más de cuatro mil años en la prisión solar, la que "},
+	{"texto": "está en mercurio."}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":38, "nodoSig":39, "numLineas": 4, 
+
+	"lineas":[ {"texto": "Pero al día siguiente de ir a hablar con él a su casa para tomarle "},
+	{"texto": "declaración y comprobar si tenía una coartada, apareció muerto en el salón "},
+	{"texto": "de su casa de la misma forma en que habían muerto las otras treinta "},
+	{"texto": "personas: despellejado y recubierto de pintura, esta era azul."}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":39, "nodoSig":40, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Pero tenía algo escrito en su pecho: ''Este no es el hombre que buscáis.''"}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":40, "nodoSig":41, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Por eso dimos con este otro monstruo, se dejó ver en una cámara de  "},
+	{"texto": "vigilancia cerca de la casa del sospechoso justo la noche en que este murió. "}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":41, "nodoSig":42, "numLineas": 4, 
+
+	"lineas":[ {"texto": " Quería ser reconocido y cuando le juzgaron y le pregunté que por qué "},
+	{"texto": "había matado a este otro hombre simplemente respondió con una calma fría "},
+	{"texto": "y los ojos duros como diamantes: ''No iba a dejar que otro se llevara la "},
+	{"texto": "gloria de que le adjudicaran el arte que yo había creado, ¿verdad?''"}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":42, "nodoSig":43, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Qué mal rollo."}],
+	
+	"numOpciones":0, "pj": 90, "emo": 2
+	},
+
+	{"numNodo":43, "nodoSig":0, "numLineas": 0,
+
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 44, "textoOpcion": "Y que lo digas."},
+	{"nodoApuntado": 48, "textoOpcion": "Bueno, no es la primera vez en la historia que ocurre."}
+	],
+	"pj": 89, "emo": 0
+	},
+
+	{"numNodo":44, "nodoSig":45, "numLineas": 3, 
+
+	"lineas":[ {"texto": "La mitad de los que llevamos ese caso no pudios dormir siete noches "},
+	{"texto": "seguidas. Por eso te digo que esto puede ser una pista que nos lleve hasta "},
+	{"texto": "Moonprice porque ellos quieren que lleguemos hasta ellos.  "}],
+	
+	"numOpciones":0, "pj": 89, "emo": 1
+	},
+
+	{"numNodo":45, "nodoSig":46, "numLineas": 2, 
+
+	"lineas":[ {"texto": "¿Pero no es demasiado obvia quizá? No sé, tampoco soy narcotraficante, "},
+	{"texto": "pero si lo fuera no dejaría pistas tan obvias."}],
+	
+	"numOpciones":0, "pj": 90, "emo": 1
+	},
+
+	{"numNodo":46, "nodoSig":0, "numLineas": 0,
+
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 51, "textoOpcion": "Cierto."},
+	{"nodoApuntado": 50, "textoOpcion": "¿Tenemos algo más en la casa que nos pueda conducir a ellos?"}
+	],
+	"pj": 89, "emo": 0
+	},
+
+	
+
+	{"numNodo":47, "nodoSig":50, "numLineas": 1, 
+
+	"lineas":[ {"texto": "¿Tenemos algo más en la casa que nos pueda conducir a ellos? "}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":48, "nodoSig":49, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Se me está poniendo muy mal cuerpo con esto, la verdad.  "}],
+	
+	"numOpciones":0, "pj": 90, "emo": 2
+	},
+
+	{"numNodo":49, "nodoSig":47, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Pues ya te puedes ir acostumbrando, es algo relativamente común "},
+		{"texto": "en nuestro trabajo."}],
+	
+	"numOpciones":0, "pj": 89, "emo": 1
+	},
+
+	{"numNodo":50, "nodoSig":-1, "numLineas": 2, 
+
+	"lineas":[ {"texto": "No he visto mucho la verdad, pero este edificio es de los que tiene el  "},
+	{"texto": "buzón en la propia puerta de la casa, igual podríamos mirar allí. "}],
+	
+	"numOpciones":0, "pj": 90, "emo": 0
+	},
+
+	{"numNodo":51, "nodoSig":47, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Entonces igual deberíamos buscar pistas más solidas. Alguna declaración "},
+		{"texto": "o algo del estilo. "}],
+	
+	"numOpciones":0, "pj": 90, "emo": 0
+	}
+
+	
+	]
+}

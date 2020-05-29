@@ -1,0 +1,45 @@
+{
+
+    "Texture": 9,
+    "h": 720.0,
+    "w": 1280.0,
+    "x": 0.0,
+    "y": 0.0,
+
+    "Music": [ 
+        2
+    ],
+
+    "volumenes": [
+        3
+    ],
+
+    "CollisionableObject": [
+        { "x": 0, "y": 140, "w": 330, "h": 318, "Texture": 127,"animation": true, "numFilsFrame": 1, "numColsFrame": 2,
+            "widthFrame": 330, "heightFrame": 318, "vel": 150, "loop": true,
+            "Anims": [ [0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0] ] },
+        { "x": 580, "y": 432, "w": 220, "h": 230, "Texture": 11 },
+        { "x": 915, "y": 125, "w": 365, "h": 300, "Texture": 12 }
+    ],
+
+    "Decorado": [
+        { "x": 30, "y": 324, "w": 42, "h": 52, "Texture": 130, "animation": true, "numFilsFrame": 2, "numColsFrame": 2,
+            "widthFrame": 42, "heightFrame": 52, "vel": 200, "loop": true,
+            "Anims": [ [0, 1, 2, 3] ] }
+    ],
+
+    "GOConversational": [
+         { "x": 915, "y": 280, "w": 40, "h": 40, "Texture": 20, "convoName": "AlenaJeffaTelefono2", "repeat": true,"animation": true, "numFilsFrame": 2, "numColsFrame": 1,
+            "widthFrame": 40, "heightFrame": 40, "vel": 200, "loop": true,
+            "Anims": [ [0],[1] ]}
+    ],
+    
+    "PlayerPos": {
+        "x": 100,
+        "y": 500
+    },
+
+    "AutoGOConversational": [
+         { "x": 581, "y": 400, "w": 0, "h": 0, "Texture": 19, "convoName": "Ring", "repeat":  false }
+    ]
+}

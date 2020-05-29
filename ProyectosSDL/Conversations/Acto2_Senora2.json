@@ -1,0 +1,273 @@
+{
+  "NumNodos": 16,
+
+  "Nodo": [
+    {
+      "numNodo": 0,
+      "nodoSig": 1,
+      "numLineas": 1,
+
+      "lineas": [ { "texto": "Bueno, ¿Que puede decirnos del joven del cuarto piso?" } ],
+
+      "numOpciones": 0,
+      "pj": 89,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 1,
+      "nodoSig": 2,
+      "numLineas": 1,
+
+      "lineas": [ { "texto": "Pues no sé mucho la verdad" } ],
+
+      "numOpciones": 0,
+      "pj": 256,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 2,
+      "nodoSig": 1,
+      "numLineas": 0,
+
+      "numOpciones": 3,
+      "opciones": [
+        {
+          "nodoApuntado": 3,
+          "textoOpcion": "Venga, seguro que algo sabe."
+        },
+        {
+          "nodoApuntado": 15,
+          "textoOpcion": "No se preocupe, muchas gracias."
+        },
+        {
+          "nodoApuntado": 7,
+          "textoOpcion": "¿Seguro que no sabe nada?"
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 3,
+      "nodoSig": 4,
+      "numLineas": 3,
+
+      "lineas": [
+        { "texto": "No era un muchacho muy centrado, la verdad. Sólo llevaba viviendo aquí" },
+        { "texto": "unos meses y su novia ya se ha tenido que largar porque no soportaba" },
+        { "texto": "vivir con él todos los días. Tengo entendido que ambos bebían mucho," }
+      ],
+
+      "numOpciones": 0,
+      "pj": 256,
+      "emo": 0
+    },
+    {
+      "numNodo": 4,
+      "nodoSig": 5,
+      "numLineas": 3,
+
+      "lineas": [
+        { "texto": "no podía faltar su chupito de vodka por la mañana con el desayuno." },
+        { "texto": "unos meses y su novia ya se ha tenido que largar porque no soportaba. Así les iba. " },
+        { "texto": "Ella era estéril, y él tenía impotencia, menuda pareja la de estos muchachos." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 256,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 5,
+      "nodoSig": 6,
+      "numLineas": 1,
+
+      "lineas": [ { "texto": "Vaya esa información puede ser útil." } ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 6,
+      "nodoSig": 1,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 9,
+          "textoOpcion": "¿Sabe si consumía drogas o algo por el estilo?"
+        },
+        {
+          "nodoApuntado": 12,
+          "textoOpcion": "Ahm, no se de qué puede servirnos eso."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 7,
+      "nodoSig": 8,
+      "numLineas": 1,
+
+      "lineas": [ { "texto": "No, he hablado muy poco con él. " } ],
+
+      "numOpciones": 0,
+      "pj": 256,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 8,
+      "nodoSig": 7,
+      "numLineas": 0,
+
+      "numOpciones": 3,
+      "opciones": [
+
+        {
+          "nodoApuntado": 7,
+          "textoOpcion": "¿Seguro que no sabe nada?"
+        },
+        {
+          "nodoApuntado": 3,
+          "textoOpcion": "Venga, seguro que algo sabe."
+        },
+        {
+          "nodoApuntado": 15,
+          "textoOpcion": "No se preocupe, muchas gracias."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 9,
+      "nodoSig": 10,
+      "numLineas": 3,
+
+      "lineas": [
+        { "texto": "Sí, fumaban, los dos. Todo tipo de cosas, el rellano de su piso apestaba" },
+        { "texto": "a marihuana día sí y día también. Una vez tuvieron problemas con otro" },
+        { "texto": "vecino que también se droga porque les dejó dinero o algo así." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 256,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 10,
+      "nodoSig": 11,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "La discusión se pudo oír desde la calle." },
+        { "texto": "Pero no sé nada más." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 256,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 11,
+      "nodoSig": 10,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 15,
+          "textoOpcion": "No se preocupe, muchas gracias."
+        },
+        {
+          "nodoApuntado": 14,
+          "textoOpcion": "¿Dónde vive ese vecino que dice que también consume drogas?"
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 12,
+      "nodoSig": 13,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Tampoco sé mucho más la verdad." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 256,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 13,
+      "nodoSig": 12,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 9,
+          "textoOpcion": "¿Sabe si consumía drogas o algo por el estilo?."
+        },
+        {
+          "nodoApuntado": 15,
+          "textoOpcion": "No se preocupe, muchas gracias."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 14,
+      "nodoSig": 15,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "En el mismo piso, la puerta de al lado." },
+        { "texto": "Pero ya no les puedo decir más, lo siento." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 256,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 15,
+      "nodoSig": -1,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Muy buenas." }
+      ],
+
+      "numOpciones": 0,
+      "pj":256,
+      "emo": 0
+    }
+
+  ]
+}

@@ -1,0 +1,81 @@
+{
+
+    "Texture": 165,
+    "h": 720.0,
+    "w": 1280.0,
+    "x": 0.0,
+    "y": 0.0,
+
+    "GOTransiciones": [
+        { "x": 495, "y": 295, "w": 60, "h": 60, "Texture": 29, "scneNum": 23, "rotation": -90, "soundEffect": 23 },
+        { "x": 10, "y": 400, "w": 60, "h": 60, "Texture": 29, "scneNum": 19, "rotation": -180 }
+    ],
+
+    "CollisionableObject": [
+        { "x": 50, "y": 455, "w": 380, "h": 95, "Texture": 167 },
+        { "x": 450, "y": 455, "w": 380, "h": 95, "Texture": 166 },
+        { "x": 0, "y": 335, "w": 1280, "h": 400, "Texture": 43 }
+    ],
+
+    "StopActualMusic": [
+        true
+    ],
+
+    "GODoors": [
+        { "x": 880, "y": 410, "w": 380, "h": 157, "Texture": 221, "tag": "keyCoche", "scneNum": 24, "rotGOTr": 90 }
+    ],
+
+    "volumenes": [
+        5
+    ],
+
+    "numRepeticionesSonidos": [
+        -1
+    ],
+    "PlayerPos": {
+        "x": 10,
+        "y": 320
+    },
+
+    "PlayerTam": {
+        "w": 50,
+        "h": 120
+    },
+
+    "NPC":[
+
+          { "x": 200, "y": 280, "w": 36, "h": 125, "Texture": 124,
+            "animation": true, "numFilsFrame": 4, "numColsFrame": 2,
+            "widthFrame": 41, "heightFrame": 149, "vel": 200, "loop": true,
+            "Anims": [ [0,1,2,3] ], "dialogo": "Ander14"
+        },
+        { "x": 300, "y": 260, "w": 50, "h": 150, "Texture": 275,
+            "animation": true, "numFilsFrame": 6, "numColsFrame": 4,
+            "widthFrame": 68, "heightFrame": 201, "vel": 200, "loop": true,
+            "Anims": [ [20,21] ], "dialogo": "hidroquenoVerde" },
+        { "x": 970, "y": 250, "w": 50, "h": 150, "Texture": 52,
+            "animation": true, "numFilsFrame": 6, "numColsFrame": 4,
+            "widthFrame": 68, "heightFrame": 201, "vel": 200, "loop": true,
+            "Anims": [ [2,3] ], "dialogo": "hidroquenoRojo" }
+    ],
+
+    "Decorado": [
+        {
+            "x": 935,
+            "y": 218,
+            "w": 195,
+            "h": 30,
+            "Texture": 231,
+            "animation": true,
+            "numFilsFrame": 4,
+            "numColsFrame": 1,
+            "widthFrame": 218,
+            "heightFrame": 30,
+            "vel": 200,
+            "loop": true,
+            "Anims": [ [ 0, 0, 0, 0, 0, 0, 1, 0, 2, 1, 1, 0, 0, 0, 3, 0, 3, 0 ] ]
+        },
+        { "x": 233, "y": 277, "w": 14, "h": 18, "Texture": 232, "animation": true, "numFilsFrame": 1, "numColsFrame": 2,
+            "widthFrame": 14, "heightFrame": 18, "vel": 200, "loop": true, "Anims": [ [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0] ] }
+    ]
+}

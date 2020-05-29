@@ -1,0 +1,63 @@
+{
+   "AlenaActiva": true,
+   "CambioActo": false,
+   "CollisionableObject": [
+      {
+         "Texture": 23,
+         "h": 260.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 330.0,
+         "x": 560.0,
+         "y": 180.0
+      },
+      {
+         "Texture": 22,
+         "h": 150.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 86.0,
+         "x": 804.0,
+         "y": 470.0
+      }
+   ],
+   "GOTransiciones": [
+      {
+         "Texture": 29,
+         "h": 60.0,
+         "rotat": 180.0,
+         "rotation": 180.0,
+         "scneNum": 0,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 400.0,
+         "y": 380.0
+      }
+   ],
+   "HeaderActo": "",
+   "Music": [
+      2
+   ],
+   "MusicVolume": [
+      0
+   ],
+   "PlayerPos": {
+      "x": 400.0,
+      "y": 380.0
+   },
+   "PlayerTam": {
+      "h": 201.6,
+      "w": 84.0
+   },
+   "StopActualMusic": [
+      false
+   ],
+   "Texture": 24,
+   "actNumber": -1,
+   "h": 500.0,
+   "rotation": 0.0,
+   "soundEffect": 1,
+   "w": 500.0,
+   "x": 390.0,
+   "y": 110.0
+}

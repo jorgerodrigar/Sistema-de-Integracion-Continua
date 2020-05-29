@@ -1,0 +1,15 @@
+{
+
+	"NumNodos": 1,
+
+	"Nodo": [
+
+	{"numNodo":0, "nodoSig":-1, "numLineas": 2, "lineas":[ 
+		{"texto": "Dicen que se han encontrado un muerto en el edificio."},
+		{"texto": "La verdad, vivo enfrente y no me extraña."}],
+	"numOpciones":0, "pj": 272, "emo": 2
+	}
+
+	]
+
+}

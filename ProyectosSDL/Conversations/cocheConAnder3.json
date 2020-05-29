@@ -1,0 +1,17 @@
+{
+
+	"NumNodos": 1,
+	"msg": 0,
+	"numScene": 29,
+	
+	"Nodo": [
+
+	{"numNodo":0, "nodoSig":-1, "numLineas": 2, "lineas":[ 
+		{ "texto": "Vamos a la fábrica de Polbots." },
+        {"texto": "A lo mejor los trabajadores saben algo útil."}],
+	"numOpciones":0, "pj": 90, "emo": 1
+	}
+
+	]
+
+}

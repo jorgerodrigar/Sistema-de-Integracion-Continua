@@ -1,0 +1,13 @@
+{
+
+	"NumNodos": 1,
+	"msg": 0,
+    "numScene": 44,
+	"Nodo": [
+	{"numNodo":0, "nodoSig":-1, "numLineas": 1, "lineas":[ 
+		{"texto": "Con la información de la carta, podemos ir a hablar con el forense."}],
+	"numOpciones":0, "pj": 90, "emo": 1
+	}
+	]
+
+}

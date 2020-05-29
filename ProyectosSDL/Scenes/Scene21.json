@@ -1,0 +1,69 @@
+{
+
+    "Texture": 164,
+    "h": 720.0,
+    "w": 1280.0,
+    "x": 0.0,
+    "y": 0.0,
+
+    "GOTransiciones": [
+        { "x": 200, "y": 648, "w": 60, "h": 60, "Texture": 29, "scneNum": 20, "rotation": 90, "soundEffect": 23 }
+    ],
+
+    "CollisionableObject": [
+        { "x": 875, "y": 230, "w": 400, "h": 190, "Texture": 198 },
+        { "x": 90, "y": 390, "w": 400, "h": 192, "Texture": 201 }
+    ],
+
+    "Decorado": [
+        {
+            "x": 915,
+            "y": 99,
+            "w": 171,
+            "h": 180,
+            "Texture": 199,
+            "animation": true,
+            "numFilsFrame": 2,
+            "numColsFrame": 2,
+            "widthFrame": 171,
+            "heightFrame": 180,
+            "vel": 150,
+            "loop": true,
+            "Anims": [ [ 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0 ] ]
+        },
+
+        { "x": 560, "y": 118, "w": 141, "h": 230, "Texture": 200 }
+    ],
+
+    "Music": [
+        3
+    ],
+
+    "MusicVolume": [ 
+        40
+    ],
+
+    "NPC":[
+
+         { "x": 200, "y": 320, "w": 60, "h": 206, "Texture": 124,
+            "animation": true, "numFilsFrame": 4, "numColsFrame": 2,
+            "widthFrame": 41, "heightFrame": 149, "vel": 200, "loop": true,
+            "Anims": [ [0,1,2,3] ], "dialogo": "Ander13"
+        },
+        { "x": 950, "y": 450, "w": 50, "h": 202, "Texture": 158,
+            "animation": true, "numFilsFrame": 2, "numColsFrame": 4,
+            "widthFrame": 32, "heightFrame": 142, "vel": 200, "loop": true,
+            "Anims": [ [0,1,0,1,0,1,0,1,0,1,2,3,4,5,6,7,4,5,6,7,4,5,6,7,3,2,1] ], "dialogo": "Acto3.1", "repeatDialog": false
+        },
+        { "x": 500, "y": 380, "w": 65, "h": 206, "Texture": 159,
+            "animation": true, "numFilsFrame": 2, "numColsFrame": 4,
+            "widthFrame": 42, "heightFrame": 127, "vel": 200, "loop": true,
+            "Anims": [ [0,2,0,2,0,2,1,4,5,6,2,0,2,0,2,0,3] ], "dialogo": "caso1_acto3_SenyorBazar"
+        }
+    ],
+    
+    "PlayerPos": {
+        "x": 200,
+        "y": 500
+    }
+}

@@ -1,0 +1,160 @@
+{
+   "AlenaActiva": true,
+   "CambioActo": false,
+   "CollisionableObject": [
+      {
+         "Texture": 276,
+         "h": 206.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 1000.0,
+         "y": 450.0
+      },
+      {
+         "Texture": 43,
+         "h": 740.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 184.0,
+         "x": 0.0,
+         "y": 0.0
+      },
+      {
+         "Texture": 103,
+         "h": 90.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 186.0,
+         "y": 290.0
+      },
+      {
+         "Texture": 104,
+         "h": 105.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 142.0,
+         "x": 642.0,
+         "y": 315.0
+      },
+      {
+         "Texture": 105,
+         "h": 394.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 506.0,
+         "x": 742.0,
+         "y": 0.0
+      }
+   ],
+   "GODoors": [
+      {
+         "Texture": 102,
+         "UnlockId": 1,
+         "h": 223.0,
+         "rotGOTr": -90.0,
+         "rotat": 0.0,
+         "rotation": 0.0,
+         "scneNum": 13,
+         "soundEffect": 23,
+         "tag": "key",
+         "w": 205.0,
+         "x": 478.0,
+         "y": 140.0
+      }
+   ],
+   "GOState": [
+      {
+         "TexturaFondo": 176,
+         "Texture": 29,
+         "UnlockId": 1,
+         "h": 30.0,
+         "password": "stevens",
+         "posFontX": 410,
+         "posFontY": 438,
+         "rotation": -45,
+         "soundEffect": 1,
+         "type": 2,
+         "w": 30.0,
+         "x": 588.0,
+         "y": 240.0
+      }
+   ],
+   "GOTransiciones": [
+      {
+         "Texture": 29,
+         "h": 60.0,
+         "rotat": -90.0,
+         "rotation": -90.0,
+         "scneNum": 12,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 1155.0,
+         "y": 295.0
+      },
+      {
+         "Texture": 29,
+         "h": 60.0,
+         "rotat": 90.0,
+         "rotation": 90.0,
+         "scneNum": 10,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 550.0,
+         "y": 655.0
+      }
+   ],
+   "HeaderActo": "",
+   "MusicVolume": [
+      0
+   ],
+   "NPC": [
+      {
+         "Anims": [
+            [
+               4,
+               5,
+               6,
+               7
+            ]
+         ],
+         "Texture": 124,
+         "animation": true,
+         "dialogo": "Ander3",
+         "done": false,
+         "h": 206.0,
+         "heightFrame": 149,
+         "loop": true,
+         "numColsFrame": 2,
+         "numFilsFrame": 4,
+         "repeatDialog": true,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 60.0,
+         "widthFrame": 41,
+         "x": 1000.0,
+         "y": 450.0
+      }
+   ],
+   "PlayerPos": {
+      "x": 550.0,
+      "y": 500.0
+   },
+   "PlayerTam": {
+      "h": 201.6,
+      "w": 84.0
+   },
+   "StopActualMusic": [
+      false
+   ],
+   "Texture": 101,
+   "actNumber": -1,
+   "h": 720.0,
+   "rotation": 0.0,
+   "soundEffect": 1,
+   "w": 1280.0,
+   "x": 0.0,
+   "y": 0.0
+}

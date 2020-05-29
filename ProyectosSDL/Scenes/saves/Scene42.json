@@ -1,0 +1,319 @@
+{
+   "AlenaActiva": true,
+   "AutoGOConversational": [
+      {
+         "Texture": 19,
+         "convoName": "DentroDelPiso",
+         "h": 0.0,
+         "repeat": false,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 0.0,
+         "x": 581.0,
+         "y": 400.0
+      }
+   ],
+   "CambioActo": false,
+   "CollisionableObject": [
+      {
+         "Texture": 276,
+         "h": 206.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 122.0,
+         "y": 400.0
+      },
+      {
+         "Texture": 239,
+         "h": 156.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 300.0,
+         "x": 800.0,
+         "y": 270.0
+      },
+      {
+         "Texture": 240,
+         "h": 200.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 252.0,
+         "x": 840.0,
+         "y": 470.0
+      }
+   ],
+   "Decorado": [
+      {
+         "Anims": [
+            [
+               0,
+               1,
+               1,
+               0,
+               0,
+               0,
+               0,
+               1,
+               0,
+               1,
+               0,
+               0,
+               1,
+               1,
+               0,
+               0,
+               1,
+               0,
+               0,
+               1
+            ],
+            [
+               2
+            ]
+         ],
+         "Texture": 238,
+         "animation": true,
+         "h": 81.0,
+         "heightFrame": 81,
+         "loop": true,
+         "numColsFrame": 1,
+         "numFilsFrame": 3,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 150.0,
+         "w": 70.0,
+         "widthFrame": 70,
+         "x": 700.0,
+         "y": 305.0
+      }
+   ],
+   "GOCofres": [
+      {
+         "Anims": [
+            [
+               0
+            ],
+            [
+               1
+            ]
+         ],
+         "Texture": 236,
+         "animation": true,
+         "descripcionItem": "Con esto ya tenemos pruebas más sólidas contra Moonprice.",
+         "generaState": false,
+         "h": 55.0,
+         "hItem": 18,
+         "heightFrame": 55,
+         "loop": true,
+         "numColsFrame": 1,
+         "numFilsFrame": 2,
+         "numTextItem": 210,
+         "open": false,
+         "permanenteItem": false,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "tag": "",
+         "tagItem": "carta",
+         "vel": 20.0,
+         "w": 50.0,
+         "wItem": 18,
+         "widthFrame": 50,
+         "x": 213.0,
+         "xItem": 218,
+         "y": 275.0,
+         "yItem": 280
+      },
+      {
+         "Texture": 57,
+         "descripcionItem": "",
+         "generaState": true,
+         "h": 80.0,
+         "hItem": -842150451,
+         "numTextItem": 276,
+         "open": false,
+         "permanenteItem": true,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "tag": "carta",
+         "tagItem": "",
+         "w": 80.0,
+         "wItem": -842150451,
+         "x": 917.0,
+         "xItem": -842150451,
+         "y": 470.0,
+         "yItem": -842150451
+      }
+   ],
+   "GOState": [
+      {
+         "Texture": 29,
+         "UnlockId": 1,
+         "dificultad": 4,
+         "h": 30.0,
+         "numCas": 3,
+         "rotation": -45,
+         "soundEffect": 1,
+         "type": 1,
+         "w": 30.0,
+         "x": 705.0,
+         "y": 325.0
+      },
+      {
+         "Texture": 29,
+         "UnlockId": 1,
+         "h": 30.0,
+         "numText": 244,
+         "numberPuzzle": 0,
+         "rotation": -45,
+         "soundEffect": 1,
+         "swapScene": true,
+         "type": 0,
+         "w": 30.0,
+         "x": 930.0,
+         "y": 500.0
+      }
+   ],
+   "GOTransiciones": [
+      {
+         "Texture": 29,
+         "h": 60.0,
+         "rotat": -90.0,
+         "rotation": -90.0,
+         "scneNum": 40,
+         "soundEffect": 23,
+         "w": 60.0,
+         "x": 209.0,
+         "y": 310.0
+      }
+   ],
+   "HeaderActo": "",
+   "Interruptores": [
+      {
+         "Texture": 237,
+         "UnlockId": 1,
+         "canWork": false,
+         "h": 34.0,
+         "maxAlpha": 220,
+         "minAlpha": 0,
+         "off": true,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "tag": "interruptor0",
+         "w": 37.0,
+         "x": 100.0,
+         "y": 235.0
+      }
+   ],
+   "ItemInventario": [
+      {
+         "Anims": [
+            [
+               0
+            ],
+            [
+               1
+            ]
+         ],
+         "Texture": 211,
+         "animation": true,
+         "descripcion": "No hay muchisima informacion, pero con esto sabemos como se organizan.",
+         "h": 54.0,
+         "heightFrame": 44,
+         "loop": true,
+         "numColsFrame": 1,
+         "numFilsFrame": 2,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "tag": "cuadernoDroga",
+         "vel": 200.0,
+         "w": 64.0,
+         "widthFrame": 54,
+         "x": 1015.0,
+         "y": 471.0
+      },
+      {
+         "Anims": [
+            [
+               0
+            ],
+            [
+               1
+            ]
+         ],
+         "Texture": 209,
+         "animation": true,
+         "descripcion": "Ese símbolo lo hemos visto ya en muchos sitios.",
+         "h": 30.0,
+         "heightFrame": 42,
+         "loop": true,
+         "numColsFrame": 1,
+         "numFilsFrame": 2,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "tag": "bolsaCocaLogo",
+         "vel": 200.0,
+         "w": 30.0,
+         "widthFrame": 42,
+         "x": 890.0,
+         "y": 470.0
+      }
+   ],
+   "Music": [
+      5
+   ],
+   "MusicVolume": [
+      0
+   ],
+   "NPC": [
+      {
+         "Anims": [
+            [
+               0,
+               1,
+               2,
+               3
+            ]
+         ],
+         "Texture": 124,
+         "animation": true,
+         "dialogo": "Ander27",
+         "done": false,
+         "h": 206.0,
+         "heightFrame": 149,
+         "loop": true,
+         "numColsFrame": 2,
+         "numFilsFrame": 4,
+         "repeatDialog": true,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 60.0,
+         "widthFrame": 41,
+         "x": 122.0,
+         "y": 400.0
+      }
+   ],
+   "PlayerPos": {
+      "x": 230.0,
+      "y": 330.0
+   },
+   "PlayerTam": {
+      "h": 201.6,
+      "w": 84.0
+   },
+   "StopActualMusic": [
+      false
+   ],
+   "Texture": 235,
+   "actNumber": -1,
+   "h": 720.0,
+   "rotation": 0.0,
+   "soundEffect": 1,
+   "volumenes": [
+      3
+   ],
+   "w": 1280.0,
+   "x": 0.0,
+   "y": 0.0
+}

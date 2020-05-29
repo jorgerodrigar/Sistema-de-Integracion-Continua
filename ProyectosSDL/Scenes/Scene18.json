@@ -1,0 +1,178 @@
+{
+
+    "Texture": 112,
+    "h": 720.0,
+    "w": 1280.0,
+    "x": 0.0,
+    "y": 0.0,
+
+    "GOTransiciones": [
+        { "x": 10, "y": 450, "w": 60, "h": 60, "Texture": 29, "scneNum": 17, "rotation": 180 }
+    ],
+
+    "SoundEffect": [
+        24
+    ],
+
+    "volumenes": [
+        5
+    ],
+
+    "numRepeticionesSonidos": [
+        -1
+    ],
+
+    "CollisionableObject": [
+        { "x": 370, "y": 420, "w": 210, "h": 128, "Texture": 141 },
+        { "x": 750, "y": 165, "w": 458, "h": 249, "Texture": 113 }
+    ],
+
+    "Decorado": [
+        {
+            "x": 905,
+            "y": 270,
+            "w": 40,
+            "h": 40,
+            "Texture": 15,
+            "animation": true,
+            "numFilsFrame": 2,
+            "numColsFrame": 1,
+            "widthFrame": 40,
+            "heightFrame": 40,
+            "vel": 200,
+            "loop": true,
+            "Anims": [ [ 0 ], [ 1 ] ]
+        },
+        {
+            "x": 1075,
+            "y": 260,
+            "w": 45,
+            "h": 45,
+            "Texture": 71,
+            "rotation": 45,
+            "animation": true,
+            "numFilsFrame": 2,
+            "numColsFrame": 1,
+            "widthFrame": 40,
+            "heightFrame": 40,
+            "vel": 200,
+            "loop": true,
+            "Anims": [ [ 0 ], [ 1 ] ]
+        },
+
+         { "x": 600, "y": 285, "w": 70, "h": 81, "Texture": 238, "animation": true, "numFilsFrame": 3, "numColsFrame": 1,
+            "widthFrame": 70, "heightFrame": 81, "vel": 150, "loop": true,
+            "Anims": [ [0,1,1,0,0,0,0,1,0,1,0,0,1,1,0,0,1,0,0,1], [2] ]}
+    ],
+
+    "GOState":[
+        {"x": 610, "y": 305, "w": 30, "h": 30, "Texture": 29, "rotation": -45,"type": 1, "numCas": 3, "dificultad": 2, "UnlockId": 1}
+    ],
+
+    "Interruptores": [
+        { "x": 400, "y": 235, "w": 37, "h": 34, "Texture": 237, "tag": "interruptor0", "maxAlpha": 220, "minAlpha": 0, "UnlockId": 1, "off": true, "canWork": false  }
+    ],
+
+    "ItemInventario": [
+        {
+            "x": 1180,
+            "y": 300,
+            "w": 20,
+            "h": 20,
+            "descripcion": "Se dejó bastante dinero en vodka. Ojalá poder hacer lo mismo...",
+            "tag": "ticket",
+            "Texture": 21,
+            "rotation": 45,
+            "soundEffect": 1,
+            "animation": true,
+            "numFilsFrame": 2,
+            "numColsFrame": 1,
+            "widthFrame": 40,
+            "heightFrame": 40,
+            "vel": 200,
+            "loop": true,
+            "Anims": [ [ 0 ], [ 1 ] ]
+        },
+        {
+            "x": 975,
+            "y": 270,
+            "w": 45,
+            "h": 45,
+            "descripcion": "Huele a       café recién hecho.",
+            "tag": "bolsaCafe",
+            "Texture": 71,
+            "soundEffect": 1,
+            "animation": true,
+            "numFilsFrame": 2,
+            "numColsFrame": 1,
+            "widthFrame": 42,
+            "heightFrame": 42,
+            "vel": 200,
+            "loop": true,
+            "Anims": [ [ 0 ], [ 1 ] ]
+        },
+        {
+            "x": 380,
+            "y": 435,
+            "w": 45,
+            "h": 45,
+            "descripcion": "Nos puede proporcionar muchas pistas.",
+            "tag": "MovilMuerto",
+            "Texture": 20,
+            "soundEffect": 1,
+            "animation": true,
+            "numFilsFrame": 2,
+            "numColsFrame": 1,
+            "widthFrame": 40,
+            "heightFrame": 40,
+            "vel": 200,
+            "loop": true,
+            "Anims": [ [ 0 ], [ 1 ] ]
+        }
+    ],
+
+    "GOConversational": [
+        {
+            "x": 380,
+            "y": 435,
+            "w": 45,
+            "h": 45,
+            "Texture": 20,
+            "convoName": "Ander10",
+            "repeat": false,
+            "animation": true,
+            "numFilsFrame": 2,
+            "numColsFrame": 1,
+            "widthFrame": 40,
+            "heightFrame": 40,
+            "vel": 200,
+            "loop": true,
+            "Anims": [ [ 0 ], [ 1 ] ]
+        }
+    ],
+
+            "PlayerPos": {
+                "x": 30,
+                "y": 450
+            },
+
+            "NPC": [
+
+                {
+                    "x": 100,
+                    "y": 300,
+                    "w": 60,
+                    "h": 206,
+                    "Texture": 124,
+                    "animation": true,
+                    "numFilsFrame": 4,
+                    "numColsFrame": 2,
+                    "widthFrame": 41,
+                    "heightFrame": 149,
+                    "vel": 200,
+                    "loop": true,
+                    "Anims": [ [ 0, 1, 2, 3 ] ],
+                    "dialogo": "Ander2"
+                }
+            ]
+        }

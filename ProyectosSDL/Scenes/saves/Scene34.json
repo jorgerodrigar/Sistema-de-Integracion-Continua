@@ -1,0 +1,160 @@
+{
+   "AlenaActiva": true,
+   "CambioActo": true,
+   "CollisionableObject": [
+      {
+         "Texture": 276,
+         "h": 200.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 1030.0,
+         "y": 180.0
+      },
+      {
+         "Texture": 276,
+         "h": 96.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 240.0,
+         "x": 300.0,
+         "y": 360.0
+      },
+      {
+         "Texture": 276,
+         "h": 206.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 122.0,
+         "y": 490.0
+      },
+      {
+         "Texture": 43,
+         "h": 750.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 400.0,
+         "x": 1102.0,
+         "y": 0.0
+      }
+   ],
+   "GOTransiciones": [
+      {
+         "Texture": 29,
+         "h": 60.0,
+         "rotat": 0.0,
+         "rotation": 0.0,
+         "scneNum": 35,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 1030.0,
+         "y": 495.0
+      }
+   ],
+   "HeaderActo": "Últimas pistas",
+   "MusicVolume": [
+      0
+   ],
+   "NPC": [
+      {
+         "Anims": [
+            [
+               0,
+               0,
+               1,
+               1,
+               2,
+               2,
+               3,
+               3,
+               4,
+               4,
+               5,
+               5,
+               6,
+               6,
+               7,
+               7,
+               8,
+               8
+            ]
+         ],
+         "Texture": 180,
+         "animation": true,
+         "dialogo": "Acto4.3CamelloCallejon",
+         "done": false,
+         "h": 200.0,
+         "heightFrame": 129,
+         "loop": true,
+         "numColsFrame": 3,
+         "numFilsFrame": 3,
+         "repeatDialog": true,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 60.0,
+         "widthFrame": 38,
+         "x": 1030.0,
+         "y": 180.0
+      },
+      {
+         "Texture": 205,
+         "dialogo": "caso1_acto1_drogadicto",
+         "done": false,
+         "h": 96.0,
+         "repeatDialog": true,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 240.0,
+         "x": 300.0,
+         "y": 360.0
+      },
+      {
+         "Anims": [
+            [
+               0,
+               1,
+               2,
+               3
+            ]
+         ],
+         "Texture": 124,
+         "animation": true,
+         "dialogo": "Ander23",
+         "done": false,
+         "h": 206.0,
+         "heightFrame": 149,
+         "loop": true,
+         "numColsFrame": 2,
+         "numFilsFrame": 4,
+         "repeatDialog": true,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 60.0,
+         "widthFrame": 41,
+         "x": 122.0,
+         "y": 490.0
+      }
+   ],
+   "PlayerPos": {
+      "x": 10.0,
+      "y": 320.0
+   },
+   "PlayerTam": {
+      "h": 201.6,
+      "w": 84.0
+   },
+   "StopActualMusic": [
+      true
+   ],
+   "Texture": 204,
+   "actNumber": 5,
+   "h": 720.0,
+   "rotation": 0.0,
+   "soundEffect": 1,
+   "w": 1280.0,
+   "x": 0.0,
+   "y": 0.0
+}

@@ -1,0 +1,16 @@
+{
+
+	"NumNodos": 1,
+
+	"Nodo": [
+
+	{"numNodo":0, "nodoSig":-1, "numLineas": 3, "lineas":[ 
+		{"texto": "¡Vaya! ¿Qué es todo este jaleo?"},
+		{"texto": "Me gustaría entrar en casa a por unas cosas..."},
+		{"texto": "Agente. ¡Agente! ¡Déjeme ir a mi casa!"}],
+	"numOpciones":0, "pj": 272, "emo": 3
+	}
+
+	]
+
+}

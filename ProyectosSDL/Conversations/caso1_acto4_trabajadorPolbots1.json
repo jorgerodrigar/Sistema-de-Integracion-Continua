@@ -1,0 +1,15 @@
+{
+
+	"NumNodos": 1,
+
+	"Nodo": [
+
+	{"numNodo":0, "nodoSig":-1, "numLineas": 2, "lineas":[ 
+		{"texto": "Asco de día, cada vez está más nublado."},
+		{"texto": "Por lo menos aquí no está el ruido de las máquinas."}],
+	"numOpciones":0, "pj": 273, "emo": 0
+	}
+
+	]
+
+}

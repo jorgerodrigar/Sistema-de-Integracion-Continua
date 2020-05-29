@@ -1,0 +1,12 @@
+{
+
+	"NumNodos": 1,
+	"Nodo": [
+
+	{"numNodo":0, "nodoSig":-1, "numLineas": 2, "lineas":[ {"texto": "Buenos dias Alena. Ven a la central, es importante."}, {"texto": "No tardes."} ],
+	"numOpciones":0, "pj": 148, "emo": 4
+	}
+
+	]
+
+}

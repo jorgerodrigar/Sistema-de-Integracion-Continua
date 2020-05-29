@@ -1,0 +1,15 @@
+{
+
+	"NumNodos": 1,
+
+	"Nodo": [
+
+	{"numNodo":0, "nodoSig":-1, "numLineas": 2, "lineas":[ 
+		{"texto": "Pfff... Os va a encantar lo que hay dentro."},
+		{"texto": "Aunque espero no tener que entrar nunca más..."}],
+	"numOpciones":0, "pj": 272, "emo": 1
+	}
+
+	]
+
+}

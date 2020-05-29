@@ -1,0 +1,274 @@
+{
+    "NumNodos": 19,
+
+    "Nodo": [
+        {
+			"numNodo": 0,
+      		"nodoSig": 1,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+      		{"texto": "Hola buenas tardes, ¿quién llama? He estado a punto de no"}, 
+      		{"texto": "cogerlo, la próxima vez que llame no lo haga en oculto."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 268,
+      		"emo": 1 
+        },
+        
+        {
+			"numNodo": 1,
+      		"nodoSig": 2,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "Buenas tardes. ¿Eres Artyom?"}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 0 
+        },
+        
+        {
+			"numNodo": 2,
+      		"nodoSig": 3,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "Sí, ¿quién eres?"}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 268,
+      		"emo": 1 
+        },
+
+        {
+			"numNodo": 3,
+      		"nodoSig": 4,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "Me llamo Alena, me gustaría comprarte algo."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 0 
+        },
+
+        {
+			"numNodo": 4,
+      		"nodoSig": 5,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "Ya, claro, ¿cómo sé que no eres poli o algo del estilo?"}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 268,
+      		"emo": 1 
+        },
+
+        {
+			"numNodo": 5,
+      		"nodoSig": 6,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+              {"texto": "Depende, puedo ser alguien relacionada con investigaciones"},
+              {"texto": "y no querer arrestarte porque necesito información."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 2 
+        },
+
+        {
+			"numNodo": 6,
+      		"nodoSig": 7,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": ". . ."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 268,
+      		"emo": 1 
+        },
+
+        {
+			"numNodo": 7,
+      		"nodoSig": 8,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "¿Y bien? ¿Me vas a vender o no?"}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 0 
+        },
+
+        {
+			"numNodo": 8,
+      		"nodoSig": 9,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "¿Qué quiere exactamente?"}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 268,
+      		"emo": 1 
+        },
+
+        {
+			"numNodo": 9,
+      		"nodoSig": 10,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "¿Qué me puedes ofrecer?"}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 0 
+        },
+
+        {
+			"numNodo": 10,
+      		"nodoSig": 11,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "Heroína, cocaína, marihuana y jachís. No tengo más."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 268,
+      		"emo": 1 
+        },
+
+        {
+			"numNodo": 11,
+      		"nodoSig": 12,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+              {"texto": "Vaya, ¿no tienes nada nuevo? Quiero decir, ¿seguro que hay alguna"},
+              {"texto": "droga nueva o algo así? Esas ya las he probado."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 5 
+        },
+
+        {
+			"numNodo": 12,
+      		"nodoSig": 13,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "No, si quiere algo eso es lo que le puedo ofrecer. O lo toma o lo deja."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 268,
+      		"emo": 1 
+        },
+
+        {
+			"numNodo": 13,
+      		"nodoSig": 14,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "Hmm bueno, que sea marihuana entonces. ¿Esta tarde me la puedes dar?"}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 0 
+        },
+
+        {
+			"numNodo": 14,
+      		"nodoSig": 15,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "Imposible. ¿Puede ser dentro de cuatro días?"}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 268,
+      		"emo": 1 
+        },
+
+        {
+			"numNodo": 15,
+      		"nodoSig": 16,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "Hmm vale, sí, puede ser. ¿Dónde?"}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 1 
+        },
+
+        {
+			"numNodo": 16,
+      		"nodoSig": 17,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "Le enviaré la dirección encriptada al móvil."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 268,
+      		"emo": 1 
+        },
+
+        {
+			"numNodo": 17,
+      		"nodoSig": 18,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "Pero si no tienes mi número. ¿Cómo lo vas a hacer?"}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 1 
+        },
+
+        {
+			"numNodo": 18,
+      		"nodoSig": -1,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "Tenemos nuestras mañas. Hasta dentro de cuatro días Alena."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 268,
+      		"emo": 1 
+        }        
+    ]
+}

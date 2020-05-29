@@ -1,0 +1,124 @@
+{
+   "AlenaActiva": true,
+   "CambioActo": false,
+   "CollisionableObject": [
+      {
+         "Texture": 276,
+         "h": 240.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 74.0,
+         "x": 1000.0,
+         "y": 200.0
+      },
+      {
+         "Texture": 38,
+         "h": 135.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 460.0,
+         "x": 0.0,
+         "y": 530.0
+      },
+      {
+         "Texture": 43,
+         "h": 230.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 1280.0,
+         "x": 0.0,
+         "y": 480.0
+      }
+   ],
+   "GODoors": [
+      {
+         "Texture": 38,
+         "h": 135.0,
+         "rotGOTr": 90.0,
+         "rotat": 0.0,
+         "rotation": 0.0,
+         "scneNum": 4,
+         "soundEffect": 8,
+         "tag": "keyMoto",
+         "w": 460.0,
+         "x": 0.0,
+         "y": 530.0
+      },
+      {
+         "Texture": 221,
+         "h": 300.0,
+         "rotGOTr": 90.0,
+         "rotat": 0.0,
+         "rotation": 0.0,
+         "scneNum": 9,
+         "soundEffect": 16,
+         "tag": "keyCoche",
+         "w": 726.0,
+         "x": 580.0,
+         "y": 420.0
+      }
+   ],
+   "GOTransiciones": [
+      {
+         "Texture": 29,
+         "h": 40.0,
+         "rotat": -90.0,
+         "rotation": -90.0,
+         "scneNum": 6,
+         "soundEffect": 23,
+         "w": 40.0,
+         "x": 620.0,
+         "y": 290.0
+      }
+   ],
+   "HeaderActo": "",
+   "MusicVolume": [
+      0
+   ],
+   "NPC": [
+      {
+         "Anims": [
+            [
+               19,
+               18
+            ]
+         ],
+         "Texture": 52,
+         "animation": true,
+         "dialogo": "hidroquenoRojo",
+         "done": false,
+         "h": 240.0,
+         "heightFrame": 201,
+         "loop": true,
+         "numColsFrame": 4,
+         "numFilsFrame": 6,
+         "repeatDialog": true,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 74.0,
+         "widthFrame": 68,
+         "x": 1000.0,
+         "y": 200.0
+      }
+   ],
+   "PlayerPos": {
+      "x": 100.0,
+      "y": 290.0
+   },
+   "PlayerTam": {
+      "h": 201.6,
+      "w": 84.0
+   },
+   "StopActualMusic": [
+      true
+   ],
+   "Texture": 53,
+   "actNumber": -1,
+   "h": 720.0,
+   "rotation": 0.0,
+   "soundEffect": 1,
+   "w": 1280.0,
+   "x": 0.0,
+   "y": 0.0
+}

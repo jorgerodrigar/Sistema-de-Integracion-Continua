@@ -1,0 +1,41 @@
+{
+
+    "Texture": 234,
+    "h": 720.0,
+    "w": 1280.0,
+    "x": 0.0,
+    "y": 0.0,
+
+    "CollisionableObject": [
+        { "x": 0, "y": 400, "w": 1280, "h": 230, "Texture": 43 },
+        { "x": 245, "y": 455, "w": 380, "h": 95, "Texture": 166 }
+    ],
+
+    "GOTransiciones": [
+        { "x": 907, "y": 330, "w": 40, "h": 40, "Texture": 29, "scneNum": 36, "rotation": -90, "soundEffect": 23 },
+       { "x": 10, "y": 400, "w": 60, "h": 60, "Texture": 29, "scneNum": 34, "rotation": -180 }
+    ],
+
+    "PlayerPos": {
+        "x": 30,
+        "y": 360
+    },
+
+    "PlayerTam": {
+        "w": 50,
+        "h": 120
+    },
+
+     "StopActualMusic": [ 
+        true
+    ],
+
+    "NPC": [
+
+        { "x": 1100, "y": 290, "w": 36, "h": 125, "Texture": 124,
+            "animation": true, "numFilsFrame": 4, "numColsFrame": 2,
+            "widthFrame": 41, "heightFrame": 149, "vel": 200, "loop": true,
+            "Anims": [ [4,5,6,7] ], "dialogo": "Ander24"
+        }
+    ]
+}

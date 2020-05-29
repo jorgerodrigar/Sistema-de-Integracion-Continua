@@ -1,0 +1,85 @@
+{
+   "AlenaActiva": false,
+   "Anims": [
+      [
+         0,
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8,
+         9,
+         10,
+         11,
+         12,
+         13,
+         14,
+         15,
+         16,
+         17,
+         18,
+         19,
+         20,
+         21,
+         22,
+         23,
+         24
+      ]
+   ],
+   "AutoGOConversational": [
+      {
+         "Texture": 19,
+         "convoName": "cocheConAnder2",
+         "h": 0.0,
+         "repeat": false,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 0.0,
+         "x": 581.0,
+         "y": 400.0
+      }
+   ],
+   "CambioActo": false,
+   "HeaderActo": "",
+   "MusicVolume": [
+      0
+   ],
+   "PlayerPos": {
+      "x": 1150.0,
+      "y": 300.0
+   },
+   "PlayerTam": {
+      "h": 201.6,
+      "w": 84.0
+   },
+   "SoundEffect": [
+      14
+   ],
+   "StopActualMusic": [
+      false
+   ],
+   "Texture": 212,
+   "actNumber": -1,
+   "animation": true,
+   "h": 720.0,
+   "heightFrame": 720,
+   "loop": true,
+   "numColsFrame": 4,
+   "numFilsFrame": 7,
+   "numRepeticionesSonidos": [
+      -1
+   ],
+   "rotation": 0.0,
+   "soundEffect": 1,
+   "vel": 85.0,
+   "volumenes": [
+      100
+   ],
+   "w": 1280.0,
+   "widthFrame": 1280,
+   "x": 0.0,
+   "y": 0.0
+}

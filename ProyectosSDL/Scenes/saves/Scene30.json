@@ -1,0 +1,425 @@
+{
+   "AlenaActiva": true,
+   "CambioActo": false,
+   "CollisionableObject": [
+      {
+         "Texture": 276,
+         "h": 206.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 1100.0,
+         "y": 500.0
+      },
+      {
+         "Texture": 276,
+         "h": 206.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 55.0,
+         "x": 1000.0,
+         "y": 350.0
+      },
+      {
+         "Texture": 276,
+         "h": 206.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 250.0,
+         "y": 350.0
+      },
+      {
+         "Texture": 276,
+         "h": 210.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 57.0,
+         "x": 300.0,
+         "y": 400.0
+      },
+      {
+         "Texture": 250,
+         "h": 236.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 943.0,
+         "x": 0.0,
+         "y": 255.0
+      },
+      {
+         "Texture": 247,
+         "h": 132.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 61.0,
+         "x": 40.0,
+         "y": 455.0
+      },
+      {
+         "Texture": 248,
+         "h": 128.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 52.0,
+         "x": 200.0,
+         "y": 430.0
+      },
+      {
+         "Texture": 248,
+         "h": 128.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 52.0,
+         "x": 350.0,
+         "y": 420.0
+      },
+      {
+         "Texture": 247,
+         "h": 132.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 61.0,
+         "x": 480.0,
+         "y": 455.0
+      },
+      {
+         "Texture": 247,
+         "h": 132.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 61.0,
+         "x": 640.0,
+         "y": 445.0
+      },
+      {
+         "Texture": 248,
+         "h": 128.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 52.0,
+         "x": 780.0,
+         "y": 424.0
+      },
+      {
+         "Anims": [
+            [
+               0,
+               1,
+               2,
+               3,
+               4,
+               5,
+               6,
+               7,
+               8,
+               9,
+               10,
+               11,
+               12,
+               13,
+               14,
+               15,
+               16,
+               17,
+               18,
+               19,
+               20,
+               21,
+               22,
+               23,
+               24,
+               25,
+               26,
+               27,
+               28
+            ]
+         ],
+         "Texture": 249,
+         "animation": true,
+         "h": 207.0,
+         "heightFrame": 227,
+         "loop": true,
+         "numColsFrame": 7,
+         "numFilsFrame": 5,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 150.0,
+         "w": 123.0,
+         "widthFrame": 135,
+         "x": 955.0,
+         "y": 225.0
+      },
+      {
+         "Texture": 252,
+         "h": 179.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 53.0,
+         "x": 1220.0,
+         "y": 210.0
+      }
+   ],
+   "Decorado": [
+      {
+         "Anims": [
+            [
+               0,
+               1,
+               1,
+               0,
+               0,
+               0,
+               0,
+               1,
+               0,
+               1,
+               0,
+               0,
+               1,
+               1,
+               0,
+               0,
+               1,
+               0,
+               0,
+               1
+            ]
+         ],
+         "Texture": 251,
+         "animation": true,
+         "h": 28.0,
+         "heightFrame": 28,
+         "loop": true,
+         "numColsFrame": 2,
+         "numFilsFrame": 1,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 150.0,
+         "w": 68.0,
+         "widthFrame": 68,
+         "x": 1122.0,
+         "y": 91.0
+      },
+      {
+         "Anims": [
+            [
+               0,
+               1,
+               2,
+               3,
+               4,
+               5,
+               6,
+               7,
+               8,
+               9,
+               10,
+               11,
+               12,
+               13,
+               14,
+               15,
+               16,
+               17,
+               18,
+               19,
+               20,
+               21
+            ]
+         ],
+         "Texture": 253,
+         "animation": true,
+         "h": 147.0,
+         "heightFrame": 147,
+         "loop": true,
+         "numColsFrame": 4,
+         "numFilsFrame": 6,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 150.0,
+         "w": 260.0,
+         "widthFrame": 260,
+         "x": 813.0,
+         "y": 81.0
+      }
+   ],
+   "GOTransiciones": [
+      {
+         "Texture": 29,
+         "h": 60.0,
+         "rotat": -90.0,
+         "rotation": -90.0,
+         "scneNum": 31,
+         "soundEffect": 23,
+         "w": 60.0,
+         "x": 1128.0,
+         "y": 290.0
+      },
+      {
+         "Texture": 29,
+         "h": 60.0,
+         "rotat": 180.0,
+         "rotation": 180.0,
+         "scneNum": 29,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 10.0,
+         "y": 590.0
+      }
+   ],
+   "HeaderActo": "",
+   "Music": [
+      3
+   ],
+   "MusicVolume": [
+      40
+   ],
+   "NPC": [
+      {
+         "Anims": [
+            [
+               4,
+               5,
+               6,
+               7
+            ]
+         ],
+         "Texture": 124,
+         "animation": true,
+         "dialogo": "Ander20",
+         "done": false,
+         "h": 206.0,
+         "heightFrame": 149,
+         "loop": true,
+         "numColsFrame": 2,
+         "numFilsFrame": 4,
+         "repeatDialog": true,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 60.0,
+         "widthFrame": 41,
+         "x": 1100.0,
+         "y": 500.0
+      },
+      {
+         "Anims": [
+            [
+               0,
+               1,
+               2,
+               3,
+               4,
+               5
+            ]
+         ],
+         "Texture": 183,
+         "animation": true,
+         "dialogo": "caso1_acto4_trabajadorPolbots1",
+         "done": false,
+         "h": 206.0,
+         "heightFrame": 125,
+         "loop": true,
+         "numColsFrame": 3,
+         "numFilsFrame": 2,
+         "repeatDialog": true,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 300.0,
+         "w": 55.0,
+         "widthFrame": 31,
+         "x": 1000.0,
+         "y": 350.0
+      },
+      {
+         "Anims": [
+            [
+               0,
+               5,
+               0,
+               5,
+               0,
+               4,
+               0,
+               5,
+               6,
+               7,
+               8,
+               9,
+               10,
+               11,
+               0,
+               5
+            ]
+         ],
+         "Texture": 181,
+         "animation": true,
+         "dialogo": "Acto4.1",
+         "done": false,
+         "h": 206.0,
+         "heightFrame": 126,
+         "loop": true,
+         "numColsFrame": 6,
+         "numFilsFrame": 2,
+         "repeatDialog": true,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 270.0,
+         "w": 60.0,
+         "widthFrame": 31,
+         "x": 250.0,
+         "y": 350.0
+      },
+      {
+         "Anims": [
+            [
+               0,
+               7,
+               3,
+               9,
+               2,
+               8,
+               4,
+               6
+            ]
+         ],
+         "Texture": 182,
+         "animation": true,
+         "dialogo": "AmigoMaks",
+         "done": false,
+         "h": 210.0,
+         "heightFrame": 126,
+         "loop": true,
+         "numColsFrame": 5,
+         "numFilsFrame": 2,
+         "repeatDialog": true,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 250.0,
+         "w": 57.0,
+         "widthFrame": 31,
+         "x": 300.0,
+         "y": 400.0
+      }
+   ],
+   "PlayerPos": {
+      "x": 10.0,
+      "y": 500.0
+   },
+   "PlayerTam": {
+      "h": 201.6,
+      "w": 84.0
+   },
+   "StopActualMusic": [
+      false
+   ],
+   "Texture": 246,
+   "actNumber": -1,
+   "h": 720.0,
+   "rotation": 0.0,
+   "soundEffect": 1,
+   "w": 1280.0,
+   "x": 0.0,
+   "y": 0.0
+}

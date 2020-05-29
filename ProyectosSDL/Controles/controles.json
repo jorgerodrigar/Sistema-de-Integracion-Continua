@@ -1,0 +1,33 @@
+{
+  "imagenes":[
+  	
+  	{"w": 150, "h": 235, "x":200, "y": 70, "animated":true, 
+  		"frames": [0, 0, 1, 1, 2, 2, 3, 3 ,4, 4,5, 5, 6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23 ],
+  	"loop": true, "vel": 65, "numText": 172, "cols": 6,"fils": 4, "frameWidth": 150, "frameHeight": 235},
+
+  	{"w": 200, "h": 144, "x":200, "y": 380, "animated":true, 
+  		"frames": [0, 0, 1, 1, 2, 2, 3, 3 ,4, 4,5, 5, 6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27 ],
+  	"loop": true, "vel": 65, "numText": 171, "cols": 5,"fils": 6, "frameWidth": 200, "frameHeight": 144},
+
+  	{"w": 59, "h": 108, "x":415, "y": 400, "animated":true, 
+  		"frames": [1, 1, 0, 0],
+  	"loop": true, "vel": 200, "numText": 175, "cols": 1,"fils": 2, "frameWidth": 59, "frameHeight": 108},
+
+  	{"w": 201, "h": 108, "x":620, "y": 250, "animated":true, 
+  		"frames": [0, 0, 1, 1],
+  	"loop": true, "vel": 200, "numText": 220, "cols": 1,"fils": 2, "frameWidth": 201, "frameHeight": 108},
+
+  	{"w": 112, "h": 43, "x":940, "y": 120, "animated":true, 
+  		"frames": [0, 0, 1, 1],
+  	"loop": true, "vel": 200, "numText": 174, "cols": 1,"fils": 2, "frameWidth": 112, "frameHeight": 43},
+
+  	{"w": 167, "h": 43, "x":940, "y": 430, "animated":true, 
+  		"frames": [1, 1, 0, 0],
+  	"loop": true, "vel": 200, "numText": 173, "cols": 1,"fils": 2, "frameWidth": 167, "frameHeight": 43},
+
+  	{"x":0, "y": 0,"alpha":100, "numText": 129},
+
+  	{"x":0, "y": 0, "numText": 144}
+
+  ]
+}

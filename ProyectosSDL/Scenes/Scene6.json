@@ -1,0 +1,86 @@
+{
+
+    "Texture": 63,
+    "h": 720.0,
+    "w": 1280.0,
+    "x": 0.0,
+    "y": 0.0,
+    
+    "Music": [ 
+        6
+    ],
+
+    "volumenes": [
+        3
+    ],
+
+    "GOTransiciones": [
+        { "x": 1200, "y": 600, "w": 60, "h": 60, "Texture": 29, "scneNum": 5 },
+        { "x": 20, "y": 600, "w": 60, "h": 60, "Texture": 29, "scneNum": 7, "rotation": 180 }
+    ],
+
+    "Decorado": [
+    	{ "x": 350, "y": 82, "w": 605, "h": 199, "Texture": 128,
+            "animation": true, "numFilsFrame": 5, "numColsFrame": 2,
+            "widthFrame": 605, "heightFrame": 199, "vel": 200, "loop": true,
+            "Anims": [ [0,0,0,1,1,1,2,2,2,3,3,3,4,4,4,5,5,5,6,6,6,7,7,7,8,8,8,9,9,9,10,10,10,11,11,11,12,12,12,13,13,13,14,14,14] ] 
+        }
+    ],
+
+    "CollisionableObject": [
+        { "x": 251, "y": 340, "w": 80, "h": 90, "Texture": 60 },
+
+        { "x": 0, "y": 270, "w": 250, "h": 180, "Texture": 61,
+        	"animation": true, "numFilsFrame": 2, "numColsFrame": 1,
+            "widthFrame": 330, "heightFrame": 259, "vel": 200, "loop": true,
+            "Anims": [ [0,0,1,1] ] },
+
+        { "x": 950, "y": 270, "w": 250, "h": 180, "Texture": 69,
+        	"animation": true, "numFilsFrame": 2, "numColsFrame": 1,
+            "widthFrame": 330, "heightFrame": 259, "vel": 200, "loop": true,
+            "Anims": [ [0,0,1,1] ]  },
+
+        { "x": 480, "y": 270, "w": 250, "h": 180, "Texture": 70,
+        	"animation": true, "numFilsFrame": 2, "numColsFrame": 1,
+            "widthFrame": 330, "heightFrame": 259, "vel": 200, "loop": true,
+            "Anims": [ [0,0, 1,1] ]  },
+
+        { "x": 810, "y": 285, "w": 45, "h": 155, "Texture": 62,
+            "animation": true, "numFilsFrame": 2, "numColsFrame": 5,
+            "widthFrame": 65, "heightFrame": 195, "vel": 200, "loop": true,
+            "Anims": [ [0, 1, 2, 3] ]
+        }
+    ],
+
+    "NPC":[
+        { "x": 415, "y": 505, "w": 67, "h": 212, "Texture": 67,
+            "animation": true, "numFilsFrame": 5, "numColsFrame": 2,
+            "widthFrame": 40, "heightFrame": 140, "vel": 250, "loop": true,
+            "Anims": [ [0,3,4,5,4,5,2,1,0] ], "dialogo": "caso1_acto1_Comp3"
+        },
+
+        { "x": 450, "y": 470, "w": 67, "h": 212, "Texture": 65,
+            "animation": true, "numFilsFrame": 3, "numColsFrame": 2,
+            "widthFrame": 43, "heightFrame": 138, "vel": 350, "loop": true,
+            "Anims": [ [0,1,0,1,0,2,5,4,3] ], "dialogo": "caso1_acto1_Comp1" 
+        },
+
+        { "x": 560, "y": 495, "w": 57, "h": 192, "Texture": 68,
+            "animation": true, "numFilsFrame": 3, "numColsFrame": 4,
+            "widthFrame": 36, "heightFrame": 129, "vel": 300, "loop": true,
+            "Anims": [ [3,6,7,11,10,11,9,11,9,11,9,11,9,11,9,11,9,
+                    8,5,4,0,2,1,2,1,2,0,2,0,2,0,2,0,2,0,2] ], "dialogo": "caso1_acto1_CompNina" 
+        },
+
+        { "x": 960, "y": 495, "w": 62, "h": 194, "Texture": 66,
+            "animation": true, "numFilsFrame": 8, "numColsFrame": 2,
+            "widthFrame": 42, "heightFrame": 138, "vel": 200, "loop": true,
+            "Anims": [ [0,3,4,7,8,11,12,14] ], "dialogo": "caso1_acto1_Comp2" 
+        }
+    ],
+
+    "PlayerPos": {
+        "x": 1180,
+        "y": 500
+    }
+}

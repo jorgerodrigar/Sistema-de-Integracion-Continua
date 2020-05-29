@@ -1,0 +1,861 @@
+{
+	"NumNodos": 54,
+
+	"Nodo": [
+		{
+			"numNodo": 0,
+      		"nodoSig": 1,
+      		"numLineas": 3,
+
+      		"lineas": [ 
+      		{"texto": "Buenas tardes señores, somos de la LOD, venimos a haceros"}, 
+      		{"texto": "unas pocas preguntas relacionadas con un compañero vuestro."},
+      		{"texto": "¿Quién de vosotros conocía a Dimitri?" } 
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 0 
+		},
+
+		{
+			"numNodo": 1,
+      		"nodoSig": 2,
+      		"numLineas": 3,
+
+      		"lineas": [ 
+      		{"texto": "Buenas señorita, nosotros conocíamos a Dimitri, pero no vamos"},
+      		{"texto": "a decir nada tan fácilmente. Pero sí que aceptamos pagos"},
+      		{"texto": "especiales, no sé si me entiende."}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 263,
+      		"emo": 5 
+		},
+
+		{
+			"numNodo": 2,
+      		"nodoSig":50,
+      		"numLineas": 4,
+
+      		"lineas": [ 
+      		{"texto": "Me parece muy bien que acepten pagos especiales, pero el mío en concreto"},
+      		{"texto": "puede ser un puñetazo en tu cara o, si de verdad quieres que estimule tu"},
+      		{"texto": "entrepierna, conozco una técnica de artes marciales especial para dejar"},
+      		{"texto": "eunuco a cualquiera. ¿Cuál prefiere probar?"}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 3 
+		},
+
+		{
+			"numNodo": 3,
+      		"nodoSig": 4,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+      		{"texto": "Erm sí, claro, claro. Disculpe las molestias que le hayamos"},
+      		{"texto": "podido causar señora… "}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 263,
+      		"emo": 2 
+		},
+
+		{
+			"numNodo": 4,
+      		"nodoSig": 5,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "Señora Detective. No necesitas saber mi nombre."}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 1 
+		},
+
+		{
+			"numNodo": 5,
+      		"nodoSig": 6,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+      		{"texto": "Ahm sí claro, no necesito saber su nombre. ¿En qué"},
+      		{"texto": "podemos ayudarla?"}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 263,
+      		"emo": 2 
+		},
+
+		{
+			"numNodo": 6,
+      		"nodoSig": 7,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "¿Quién de vosotros era amigo de Dimitri?"}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 1 
+		},
+
+		{
+			"numNodo": 7,
+      		"nodoSig": 8,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "Yo mismo, iba con él de vez en cuando a tomar una copa."}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 263,
+      		"emo": 0 
+		},
+
+		{
+			"numNodo": 8,
+      		"nodoSig": 9,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+      		{"texto": "Bien, no creo que tus compañeros necesiten estar"},
+      		{"texto": "presentes en esta charla."}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 90,
+      		"emo": 1 
+		},
+
+		{
+			"numNodo": 9,
+      		"nodoSig": 10,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+      		{"texto": "Bien, entonces ya podemos empezar."},
+      		{"texto": "¿Toma drogas?"}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 0 
+		},
+
+		{
+			"numNodo": 10,
+      		"nodoSig": 11,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "¿Eso a qué viene ahora?"}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 263,
+      		"emo": 0 
+		},
+
+		{
+			"numNodo": 11,
+      		"nodoSig": 12,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+      		{"texto": "A que es probable que tu amiguito Dimitri haya muerto por sobredosis"},
+      		{"texto": "así que puedes decirme si toma de vez en cuando o todos los días."}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 3 
+		},
+
+		{
+			"numNodo": 12,
+      		"nodoSig": 13,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "Esto… Bueno, algo sí que he consumido. Pero nada lejos de la maría."}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 263,
+      		"emo": 4 
+		},
+
+		{
+      		"numNodo": 13,
+      		"nodoSig": 0,
+      		"numLineas": 0,
+
+      		"numOpciones": 2,
+      		"opciones": [
+        	{
+          		"nodoApuntado": 14,
+         		"textoOpcion": "¿Seguro?"
+        	},
+        	{
+         		"nodoApuntado": 17,
+          		"textoOpcion": "Pero nos gustaría saber qué tipo de drogas consume y quién se las facilitaba."
+        	}
+      		],
+
+      		"pj": 89,
+      		"emo": 0
+    	},
+
+    	{
+			"numNodo": 14,
+      		"nodoSig": 15,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+      		{"texto": "Creo que la maría no pone la piel amarilla y rasgada como un papiro,"},
+      		{"texto": " es el mismo tono de piel que tenía Dimitri. ¿Qué droga consume?"}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 0 
+		},
+
+		{
+			"numNodo": 15,
+      		"nodoSig": 16,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "Ahm, esto, no le puedo decir el nombre. No sé exactamente qué es."}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 263,
+      		"emo": 4 
+		},
+
+		{ 
+      		"numNodo": 16,
+      		"nodoSig": 0,
+      		"numLineas": 0,
+
+      		"numOpciones": 2,
+      		"opciones": [
+        	{
+          		"nodoApuntado": 19,
+         		"textoOpcion": "¿Consume algo que no sabe qué es?"
+        	},
+        	{
+         		"nodoApuntado": 23,
+          		"textoOpcion": "¿Se parece a la cocaína?"
+        	}
+      		],
+
+      		"pj": 89,
+      		"emo": 0
+		}, 
+		
+    	{
+			"numNodo": 17,
+      		"nodoSig": 18,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "No les pienso facilitar el número de mi camello."}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 263,
+      		"emo": 3 
+		},
+
+		{ 
+      		"numNodo": 18,
+      		"nodoSig": 0,
+      		"numLineas": 0,
+
+      		"numOpciones": 2,
+      		"opciones": [
+        	{
+          		"nodoApuntado": 39,
+         		"textoOpcion": "¿Seguro que no? (Darle 10 terranos.)"
+        	},
+        	{
+         		"nodoApuntado": 41,
+          		"textoOpcion": "Nosostros tenemos toda la tarde, usted imagino que no."
+        	}
+      		],
+
+      		"pj": 89,
+      		"emo": 0
+		}, 
+
+		{
+			"numNodo": 19,
+      		"nodoSig": 20,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+			  {"texto": "A ver, no del todo, pero que no tiene nombre, o al menos a mi"},
+			  {"texto": "no me han dicho como se llama la droga en concreto."}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 263,
+      		"emo": 4 
+		},
+
+		{ 
+			"numNodo": 20,
+			"nodoSig": 0,
+			"numLineas": 0,
+
+			"numOpciones": 2,
+			"opciones": [
+		  {
+				"nodoApuntado": 21,
+			   "textoOpcion": "O sea, que consume algo que no tiene ni idea de qué es."
+		  },
+		  {
+			   "nodoApuntado": 23,
+				"textoOpcion": "¿Dónde la consigue?"
+		  }
+			],
+
+			"pj": 89,
+			"emo": 0
+		},
+		  
+		{
+			"numNodo": 21,
+      		"nodoSig": 22,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+			  {"texto": "A ver... no parecía mala... no sé..."}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 263,
+      		"emo": 4 
+		},
+
+		{
+			"numNodo": 22,
+      		"nodoSig": 23,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+			  {"texto": "En fin, esperemos que no sea lo que le ha matado."}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 1 
+		},	
+		
+		{ 
+			"numNodo": 23,
+			"nodoSig": 0,
+			"numLineas": 0,
+
+			"numOpciones": 1,
+			"opciones": [
+		  {
+				"nodoApuntado": 24,
+			   "textoOpcion": "¿Dónde la consigue?"
+		  }
+			],
+
+			"pj": 89,
+			"emo": 0
+		},
+
+		{
+			"numNodo": 24,
+      		"nodoSig": 25,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+			  {"texto": "Esto… Bueno… No se lo puedo decir, lo siento. "}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 263,
+      		"emo": 4 
+		},
+
+		{ 
+			"numNodo": 25,
+			"nodoSig": 0,
+			"numLineas": 0,
+
+			"numOpciones": 1,
+			"opciones": [
+		  {
+				"nodoApuntado": 26,
+			   "textoOpcion": "Bueno, pero seguro que reconoce esta llave."
+		  }
+			],
+
+			"pj": 89,
+			"emo": 0
+		},
+
+		{
+			"numNodo": 26,
+      		"nodoSig": 27,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+			  {"texto": "¿Cómo la han conseguido? Sólo hay tres en esta ciudad,"},
+			  {"texto": "no es posible."}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 263,
+      		"emo": 2 
+		},
+
+		{ 
+			"numNodo": 27,
+			"nodoSig": 0,
+			"numLineas": 0,
+
+			"numOpciones": 2,
+			"opciones": [
+		  {
+				"nodoApuntado": 31,
+			   "textoOpcion": "Eso no le incumbe. ¿Dónde está lo que abre esta llave?"
+		  },
+		  {
+			   "nodoApuntado": 28,
+				"textoOpcion": "Estaba en casa de Dimitri."
+		  }
+			],
+
+			"pj": 89,
+			"emo": 0
+		},
+
+		{
+			"numNodo": 28,
+      		"nodoSig": 29,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+			  {"texto": "Nos pareció interesante y queríamos saber si está relacionada "},
+			  {"texto": "con esa droga que consume usted."}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 0 
+		},
+
+
+		{
+			"numNodo": 29,
+      		"nodoSig": 30,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+			  {"texto": "No se lo puedo decir. A menos que mi nombre no se revele a nadie."}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 263,
+      		"emo": 4 
+		},
+
+		{ 
+			"numNodo": 30,
+			"nodoSig": 0,
+			"numLineas": 0,
+
+			"numOpciones": 1,
+			"opciones": [
+		  {
+				"nodoApuntado": 26,
+			   "textoOpcion": "Bueno, mantendremos en secreto su identidad."
+		  }
+			],
+
+			"pj": 89,
+			"emo": 0
+		},
+
+		{
+			"numNodo": 31,
+      		"nodoSig": 32,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+			  {"texto": " No les puedo revelar dónde está el piso. "}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 263,
+      		"emo": 4 
+		},
+
+		{
+			"numNodo": 32,
+      		"nodoSig": 33,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+			  {"texto": "Bueno, al menos ya sabemos que es un piso."}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 90,
+      		"emo": 5 
+		},
+
+		{ 
+			"numNodo": 33,
+			"nodoSig": 0,
+			"numLineas": 0,
+
+			"numOpciones": 1,
+			"opciones": [
+		  {
+				"nodoApuntado": 34,
+			   "textoOpcion": "Ya sabemos más o menos donde está. Pero, ¿dónde exactamente?"
+		  }
+			],
+
+			"pj": 89,
+			"emo": 1
+		},
+
+		{
+			"numNodo": 34,
+      		"nodoSig": 35,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+			  {"texto": "No se lo puedo decir. A menos que mi nombre no se revele a nadie."}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 263,
+      		"emo": 0 
+		},
+
+		{ 
+			"numNodo": 35,
+			"nodoSig": 0,
+			"numLineas": 0,
+
+			"numOpciones": 1,
+			"opciones": [
+		  {
+				"nodoApuntado": 36,
+			   "textoOpcion": "Bueno, mantendremos en secreto su identidad."
+		  }
+			],
+
+			"pj": 89,
+			"emo": 0
+		},
+
+		{
+			"numNodo": 36,
+      		"nodoSig": 37,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+			  {"texto": "La calle es Viktoriya 100. Y ahora déjenme tranquilo."}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 263,
+      		"emo": 3 
+		},
+
+		{ 
+			"numNodo": 37,
+			"nodoSig": 38,
+			"numLineas": 1,
+
+			"lineas": [
+				{"texto": "Bien, muchas gracias por colaborar, Maksim."}
+			],
+
+			"numOpciones": 0,
+			"pj": 89,
+			"emo": 5
+		},
+
+		{
+			"numNodo": 38,
+      		"nodoSig": 39,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+			  {"texto": "Cuídese, que no tiene un aspecto muy saludable."}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 5 
+		},
+
+		{
+			"numNodo": 39,
+      		"nodoSig": -1,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+			  {"texto": " Largo de aquí, me importa un bledo mi salud."}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 263,
+      		"emo": 3 
+		},
+
+		{
+			"numNodo": 40,
+      		"nodoSig": 41,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+			  {"texto": "¿Sólo 10 terranos? Qué forma más triste de sobornar a una persona."}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 263,
+      		"emo": 3 
+		},
+
+		{ 
+			"numNodo": 41,
+			"nodoSig": 0,
+			"numLineas": 0,
+
+			"numOpciones": 2,
+			"opciones": [
+		  {
+				"nodoApuntado": 46,
+			   "textoOpcion": "Es un décimo de lo que cobras por trabajar en esa fábrica."
+		  },
+		  {
+			   "nodoApuntado": 42,
+				"textoOpcion": "Nosostros tenemos toda la tarde, usted imagino que no."
+		  }
+			],
+
+			"pj": 89,
+			"emo": 0
+		},
+
+		{
+			"numNodo": 42,
+			"nodoSig": 43, 
+			"numLineas": 2,
+
+			"lineas":[
+				{"texto": "Pues sí, tengo que irme a casa. Así que si no tienen"},
+				{"texto": "nada más que preguntar lárguense."}	
+			],
+
+			"numOpciones": 0,
+			"pj": 263,
+			"emo": 3
+		},
+
+		{ 
+			"numNodo": 43,
+			"nodoSig": 0,
+			"numLineas": 0,
+
+			"numOpciones": 2,
+			"opciones": [
+		  {
+				"nodoApuntado": 40,
+			   "textoOpcion": "¿Seguro que no? (Darle 10 terranos.)"
+		  },
+		  {
+			   "nodoApuntado": 44,
+				"textoOpcion": "Le podemos detener perfectamente por obstrucción a la justicia..."
+		  }
+			],
+
+			"pj": 89,
+			"emo": 0
+		},
+
+		{
+			"numNodo": 44,
+			"nodoSig": 45, 
+			"numLineas": 3,
+
+			"lineas":[
+				{"texto": "Me da igual, ahora mismo no tengo familia ni nada."},
+				{"texto": "Les perdí hace tiempo por mi estupidez, así que me"},
+				{"texto": "pueden detener si quieren, que no les diré nada."}	
+			],
+
+			"numOpciones": 0,
+			"pj": 263,
+			"emo": 3
+		},
+
+		{ 
+			"numNodo": 45,
+			"nodoSig": 0,
+			"numLineas": 0,
+
+			"numOpciones": 1,
+			"opciones": [
+		  {
+				"nodoApuntado": 40,
+			   "textoOpcion": "¿Seguro que no? (Darle 10 terranos.)"
+		  }
+			],
+
+			"pj": 89,
+			"emo": 1
+		},
+
+		{
+			"numNodo": 46,
+      		"nodoSig": 47,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+			  {"texto": "Por eso mismo es bastante triste. Me darían más mis compañeros."}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 263,
+      		"emo": 3 
+		},
+
+		{
+			"numNodo": 47,
+      		"nodoSig": 48,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+			  {"texto": "Bien, aquí tiene cincuenta terranos. El número de su camello."}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 1 
+		},
+
+		{
+			"numNodo": 48,
+      		"nodoSig": 49,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+			  {"texto": "Aquí tienen el número, pero ni una palabra sobre mí a ese tío,"},
+			  {"texto": "es un asesino en serie."}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 263,
+      		"emo": 3 
+		},
+
+		{ 
+			"numNodo": 49,
+			"nodoSig": 0,
+			"numLineas": 0,
+
+			"numOpciones": 2,
+			"opciones": [
+		  {
+				"nodoApuntado": 50,
+			   "textoOpcion": "Vaya, eso puede estar bien saberlo. "
+		  },
+		  {
+			   "nodoApuntado": 37,
+				"textoOpcion": "Bien, muchas gracias por colaborar, Maksim."
+		  }
+			],
+
+			"pj": 89,
+			"emo": 0
+		},
+
+		{
+			"numNodo": 50,
+      		"nodoSig": 37,
+      		"numLineas": 4,
+
+      		"lineas": [ 
+			  {"texto": "Eh, he dicho que es un asesino en serie, pero no ha matado a nadie."},
+			  {"texto": "Al menos no que yo sepa. Pero sí que es capaz de matar a cualquiera"},
+			  {"texto": "si con eso consigue algo en concreto."},
+			  {"texto": "Suele pasarme la maría en la plaza Drzewo."}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 263,
+      		"emo": 3 
+		},
+
+		{
+			"numNodo": 51,
+      		"nodoSig": 52,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+			  {"texto": "Bah, no te fíes Maks, seguro que es incapaz de matar a una mosca."}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 266,
+      		"emo": 5 
+		},
+
+		{
+			"numNodo": 52,
+      		"nodoSig": 53,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+			  {"texto": "¡¡¡Ahhhg!!!"}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 266,
+      		"emo": 1 
+		},
+
+		{
+			"numNodo": 53,
+      		"nodoSig": 3,
+      		"numLineas": 3,
+
+      		"lineas": [ 
+			  {"texto": "Bien, Maks, parece que tu compañero no entendió bien mi mensaje."},
+			  {"texto": "Ahora me gustaría sacar algo de información sobre vuestro"},
+			  {"texto": "compañero de trabajo recién fallecido, si no os importa."}
+      		 ],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 5 
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+
+	"NumNodos": 1,
+
+	"Nodo": [
+
+	{"numNodo":0, "nodoSig":-1, "numLineas": 1, "lineas":[
+        { "texto": "¡Vaya! Parece que tienen muchas ofertas de alcohol..." }
+	 ],
+	"numOpciones":0, "pj": 90, "emo": 1
+	}
+
+	]
+
+}

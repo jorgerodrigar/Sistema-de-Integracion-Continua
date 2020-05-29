@@ -1,0 +1,700 @@
+{
+    "NumNodos": 43,
+    "msg": 0,
+    "numScene": 34,
+
+    "Nodo": [
+        {
+			"numNodo": 0,
+      		"nodoSig": 1,
+            "numLineas": 3,
+
+      		"lineas": [ 
+      		{"texto": "Vaya, sí que llegáis pronto. Espero que estéis preparados"}, 
+      		{"texto": "anímicamente, porque lo que vais a ver es duro, incluso"},
+      		{"texto": "para alguien como tú Alena. " } 
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 264,
+      		"emo": 5
+        },
+        
+        {
+			"numNodo": 1,
+      		"nodoSig": 2,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "Nah, siempre se está preparado para estas cosas. "}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 0
+		},
+
+        {
+			"numNodo": 2,
+      		"nodoSig": 3,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "Bueno, entonces vamos al lío."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 264,
+      		"emo": 0
+		},
+
+		{
+			"numNodo": 3,
+      		"nodoSig": 4,
+      		"numLineas": 4,
+
+      		"lineas": [ 
+			  {"texto": "Bueno, he podido detectar varias causas para la muerte de"},
+			  {"texto": "este pobre diablo. Una de ellas es un paro cardíaco. No sé"},
+			  {"texto": "muy bien por qué, pero el café y la cocaína todavía estaban"},
+			  {"texto": "en su sangre y en su cuerpo en general."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 264,
+      		"emo": 0
+		},
+
+		{
+			"numNodo": 4,
+      		"nodoSig": 5,
+      		"numLineas": 4,
+
+      		"lineas": [ 
+			  {"texto": "Sobre todo tenía mucho café en el estómago y en los intestinos."},
+			  {"texto": "Algo raro, porque todos los muertos suelen evacuar en el momento"},
+			  {"texto": "de la muerte. Pero todo el tracto digestivo de este hombre estaba"},
+			  {"texto": "completamente contraído. No ha sido un examen agradable."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 264,
+      		"emo": 0
+		},
+
+		{
+			"numNodo": 5,
+      		"nodoSig": 6,
+      		"numLineas": 4,
+
+      		"lineas": [ 
+			  {"texto": "Sobre todo tenía mucho café en el estómago y en los intestinos."},
+			  {"texto": "Algo raro, porque todos los muertos suelen evacuar en el momento"},
+			  {"texto": "de la muerte. Pero todo el tracto digestivo de este hombre estaba"},
+			  {"texto": "completamente contraído. No ha sido un examen agradable."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 264,
+      		"emo": 0
+		},
+
+		{
+			"numNodo": 6,
+      		"nodoSig": 7,
+      		"numLineas": 4,
+
+      		"lineas": [ 
+			  {"texto": "La otra causa y la que más me preocupa, es una necrosis en los"},
+			  {"texto": "pulmones y la tráquea. La tráquea estaba completamente necrosada"},
+			  {"texto": "y por eso tenía sangre en la barbilla cuando ha muerto. Después"},
+			  {"texto": "los pulmones estaban también necrosados, pero no al 100%."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 264,
+      		"emo": 0
+		},
+
+		{
+			"numNodo": 7,
+      		"nodoSig": 8,
+      		"numLineas": 4,
+
+      		"lineas": [ 
+			  {"texto": "Y por último, la otra posible causa de la muerte es un coma etílico,"},
+			  {"texto": "ya que la cantidad de alcohol que he encontrado en su cuerpo ha sido"},
+			  {"texto": "altamente preocupante. Si os soy sincero, creo que ha muerto de todo"},
+			  {"texto": "a la vez, pero nunca se sabe si es sólo una la causa o todas."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 264,
+      		"emo": 0
+		},
+
+		{
+			"numNodo": 8,
+			"nodoSig": 0,
+			"numLineas": 0,
+
+			"numOpciones": 2,
+			"opciones": [
+		  {
+				"nodoApuntado": 9,
+			   "textoOpcion": "El chip que se instala en todos inhibe la cocaína. ¿Por qué le afectaba?"
+		  },
+		  {
+			   "nodoApuntado": 33,
+				"textoOpcion": "¿Cree que la necrosis es algo normal de una enfermedad señor Grigori?"
+		  }
+			],
+
+			"pj": 89,
+			"emo": 0
+		},
+		  
+		{
+			"numNodo": 9,
+      		"nodoSig": 10,
+      		"numLineas": 4,
+
+      		"lineas": [ 
+			  {"texto": "Ah cierto, me olvidaba. Su chip no está. No sé exactamente cuándo se"},
+			  {"texto": "lo extirparon, la herida no está bien cerrada y hay abrasiones. Se"},
+			  {"texto": "nota que no lo hizo un médico experto en cirugía. Por eso decía que"},
+			  {"texto": "existía la posibilidad del paro cardiaco por eso."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 264,
+      		"emo": 2
+		},
+
+		{
+			"numNodo": 10,
+      		"nodoSig": 11,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "Vaya, entonces puede que haya más gente que lo haga y no es muy seguro."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 1
+		},
+
+		{
+			"numNodo": 11,
+      		"nodoSig": 12,
+      		"numLineas": 3,
+
+      		"lineas": [ 
+
+      		{"texto": "No, se pone en riesgo la integridad física del paciente y su salud."}, 
+      		{"texto": "Teniendo en cuenta que es un chip que va conectado al cerebro, se"},
+      		{"texto": "necesita mucha higiene y unas manos expertas." } 
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 264,
+      		"emo": 5
+		},
+		
+		{
+			"numNodo": 12,
+			"nodoSig": 0,
+			"numLineas": 0,
+
+			"numOpciones": 2,
+			"opciones": [
+		  {
+				"nodoApuntado": 13,
+			   "textoOpcion": "¿Se ha dado el caso de que se tuviera que retirar el chip por motivos médicos?"
+		  },
+		  {
+			   "nodoApuntado": 17,
+				"textoOpcion": "Supongo que esta gente no se lo podría permitir."
+		  }
+			],
+
+			"pj": 89,
+			"emo": 0
+		},
+
+		{
+			"numNodo": 13,
+      		"nodoSig": 14,
+      		"numLineas": 4,
+
+      		"lineas": [
+      		{"texto": "Sí, ya ha habido varios casos, pero no es común. Además se necesita"}, 
+      		{"texto": "una aprobación del gobierno del país para ello y tiene que ser una"},
+			{"texto": "situación de vida o muerte, es decir, que el conector del chip se"},
+			{"texto": "infecte o algo por el estilo."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 264,
+      		"emo": 0
+		},
+
+		{
+			"numNodo": 14,
+      		"nodoSig": 15,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "¿Cómo actúa una persona si le quitan el chip?"}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 0
+		},
+
+		{
+			"numNodo": 15,
+      		"nodoSig": 16,
+      		"numLineas": 4,
+
+      		"lineas": [  
+      		{"texto": "Durante unos días estará un poco ausente y después empezara a caer en"}, 
+      		{"texto": "una pequeña depresión que si no se controla puede llegar a convertirse"},
+			{"texto": "en algo crónico. Es difícil de manejar un paciente al que le han quitado"},
+			{"texto": "el chip. Normalmente se vuelven personas bastante violentas."} 
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 264,
+      		"emo": 0
+		},
+
+		{
+			"numNodo": 16,
+      		"nodoSig": 18,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "¿Cree que eso puede conducir a que el beba alcohol de forma continuada?"}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 2
+		},
+
+		{
+			"numNodo": 17,
+      		"nodoSig": 15,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+      		{"texto": "Eso está claro, son operaciones caras y necesitan mucho papeleo y"}, 
+      		{"texto": "pasar por muchas pruebas."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 264,
+      		"emo": 0
+		},
+
+		{
+			"numNodo": 18,
+      		"nodoSig": 19,
+      		"numLineas": 4,
+
+      		"lineas": [
+      		{"texto": "Sí, por supuesto. El alcohol sigue siendo algo muy presente en nuestra"}, 
+      		{"texto": "sociedad y hay mucha gente alcohólica. Pero la falta del chip es algo"},
+			{"texto": "complejo, ya que si se sigue el tratamiento se puede arreglar todo"},
+			{"texto": "bastante bien. Sin embargo puede desembocar en problemas graves."} 
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 264,
+      		"emo": 0
+		},
+
+		{
+			"numNodo": 19,
+			"nodoSig": 0,
+			"numLineas": 0,
+
+			"numOpciones": 2,
+			"opciones": [
+		  {
+				"nodoApuntado": 20,
+			   "textoOpcion": "O sea que si no se trata el paciente se  puede llegar a suicidar, ¿no?"
+		  },
+		  {
+			   "nodoApuntado": 23,
+				"textoOpcion": "¿Conoce alguna droga que tenga estos efectos?"
+		  }
+			],
+
+			"pj": 89,
+			"emo": 0
+		},
+
+		{
+			"numNodo": 20,
+      		"nodoSig": 21,
+      		"numLineas": 3,
+
+      		"lineas": [
+      		{"texto": "No, eso exactamente no. Pero sí que puede caer en una locura grave."}, 
+      		{"texto": "Algunos pacientes que dejaron el tratamiento tuvieron que ser"},
+			{"texto": "ingresados en los psiquiátricos de Marte."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 264,
+      		"emo": 0
+		},
+
+		{
+			"numNodo": 21,
+      		"nodoSig": 22,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+			  {"texto": "Vaya, para que manden a un loco hasta uno de esos psiquiátricos"},
+			  {"texto": "tiene que ser un caso bastante serio"}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 2
+		},
+
+		{
+			"numNodo": 22,
+      		"nodoSig": 23,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+      		{"texto": "Exacto, por eso mismo le digo que es normal que nuestro paciente"}, 
+      		{"texto": "se dedicara a la bebida y a algunas drogas."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 264,
+      		"emo": 0
+		},
+
+		{
+			"numNodo": 23,
+      		"nodoSig": 24,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+			  {"texto": "Sabemos que consumía cocaína, pero no creemos que sea eso lo"},
+			  {"texto": "que lo ha matado, había más bolsas en el piso."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 2
+		},
+
+		{
+			"numNodo": 24,
+      		"nodoSig": 25,
+      		"numLineas": 4,
+
+      		"lineas": [  
+      		{"texto": "Bueno, la única que he visto con efectos similares es una droga que"}, 
+      		{"texto": "fue famosa en 2009 o por ahí, que grangrenaba algunos de los tejidos"},
+			{"texto": "de los consumidores. Fue bastante famosa en Rusia concretamente. Pero"},
+			{"texto": "no llegaba a ser tan agresiva como la que sea que haya producido esto."} 
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 264,
+      		"emo": 4
+		},
+
+		{
+			"numNodo": 25,
+			"nodoSig": 0,
+			"numLineas": 0,
+
+			"numOpciones": 2,
+			"opciones": [
+		  {
+				"nodoApuntado": 26,
+			   "textoOpcion": "¿Pero cree que puede haber sido esa?"
+		  },
+		  {
+			   "nodoApuntado": 27,
+				"textoOpcion": "Vaya, entonces tendremos que seguir investigando."
+		  }
+			],
+
+			"pj": 89,
+			"emo": 0
+		},
+
+		{
+			"numNodo": 26,
+      		"nodoSig": 27,
+      		"numLineas": 4,
+
+      		"lineas": [ 
+      		{"texto": "Le podemos hacer un análisis de los productos químicos de su sangre y"}, 
+      		{"texto": "ver qué conclusiones podemos sacarm pero no creo que sea esa droga."},
+			{"texto": "La necrosis está localizada en el aparato respiratorio y la otra"},
+			{"texto": "gangrenaba las extremidades, no creo que sea esa la verdad."} 
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 264,
+      		"emo": 0
+		},
+
+		{
+			"numNodo": 27,
+      		"nodoSig": 28,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+			  {"texto": "Vaya, entonces tendremos que seguir investigando."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 4
+		},
+
+		{
+			"numNodo": 28,
+      		"nodoSig": 29,
+      		"numLineas": 2,
+
+      		"lineas": [
+      		{"texto": "Sí, igual en el lugar de trabajo de este hombre nos pueden decir qué"}, 
+      		{"texto": "clase de sustancias tomaba o quién se las podía haber dado."} 
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 90,
+      		"emo": 1
+		},
+
+		{
+			"numNodo": 29,
+      		"nodoSig": 30,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+			  {"texto": "Cierto. Deberíamos ir para allá."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 0
+		},
+
+		{
+			"numNodo": 30,
+      		"nodoSig": 31,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+      		{"texto": "Que os vaya bien entonces, os pasaré los datos de los análisis para"}, 
+      		{"texto": "saber si consumía krokodil o no. Pero ya os digo que no lo creo."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 264,
+      		"emo": 5
+		},
+
+		{
+			"numNodo": 31,
+      		"nodoSig": 32,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+			  {"texto": "Muy bien, muchas gracias señor Grigori, que pase una buena tarde."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 0
+		},
+
+		{
+			"numNodo": 32,
+      		"nodoSig": -1,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "Meh, ojalá fuera todo tan fácil. En fin, hasta la próxima. "}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 264,
+      		"emo": 4
+		},
+
+		{
+			"numNodo": 33,
+      		"nodoSig": 34,
+      		"numLineas": 4,
+
+      		"lineas": [  
+      		{"texto": "No, no conozco muchas enfermedades que provoquen eso, lo más que he"}, 
+      		{"texto": "podido leer sobre ese tema es necrosis por ingerir un ácido, pero"},
+			{"texto": "no sé si se puede relacionar porque afectaba a las extremidades"},
+			{"texto": "de los drogadictos y en algunos tejidos más vulnerables."} 
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 264,
+      		"emo": 4
+		},
+
+		{
+			"numNodo": 34,
+			"nodoSig": 0,
+			"numLineas": 0,
+
+			"numOpciones": 2,
+			"opciones": [
+		  {
+				"nodoApuntado": 35,
+			   "textoOpcion": "¿Ni siquiera un cáncer o algo por el estilo?"
+		  },
+		  {
+			   "nodoApuntado": 36,
+				"textoOpcion": "Entonces podría ser una droga nueva, ¿no?"
+		  }
+			],
+
+			"pj": 89,
+			"emo": 0
+		},
+
+		{
+			"numNodo": 35,
+      		"nodoSig": 36,
+      		"numLineas": 3,
+
+      		"lineas": [ 
+      		{"texto": "Podría ser, pero no vi ningún tumor en la tráquea de nuestro amiguito."}, 
+      		{"texto": "además parecía que la necrosis había empezado desde fuera,"},
+			{"texto": "no desde un tumor interno."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 264,
+      		"emo": 4
+		},
+
+		{
+			"numNodo": 36,
+      		"nodoSig": 37,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+			  {"texto": "Entonces podría ser una droga nueva, ¿no?"}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 0
+		},
+
+		{
+			"numNodo": 37,
+      		"nodoSig": 38,
+      		"numLineas": 3,
+
+      		"lineas": [ 
+      		{"texto": "Bueno, existe esa posibilidad. Pero actualmente hay pocas"}, 
+      		{"texto": "drogas que afecten al cuerpo humano gracias al chip inhibidor"},
+			{"texto": "de sustancias estupefacientes que tenemos todos."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 264,
+      		"emo": 4
+		},
+		
+		{
+			"numNodo": 38,
+      		"nodoSig": 39,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+			  {"texto": "Sí, eso ya lo sé, pero quizá hayan inventado la droga que es"},
+			  {"texto": "capaz de hacerlo y provocar estas cosas en sus consumidores."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 0
+		},
+
+		{
+			"numNodo": 39,
+      		"nodoSig": 40,
+      		"numLineas": 3,
+
+      		"lineas": [ 
+			  {"texto": "Es posible. Hmm investigaré a ver qué conclusiones puedo sacar"},
+			  {"texto": "pero no sé muy bien cómo lo voy a hacer. En fin, sí encontráis "},
+			  {"texto": "información sobre esto avisadme para otros casos similares."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 264,
+      		"emo": 4
+		},
+
+		{
+			"numNodo": 40,
+      		"nodoSig": 41,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+			  {"texto": "Pues... lo único que nos queda es su teléfono móvil."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 90,
+      		"emo": 4
+		},
+
+		{
+			"numNodo": 41,
+      		"nodoSig": 42,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+			  {"texto": "Tocará desencriptarlo entonces, ¿no?"}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 90,
+      		"emo": 4
+		},
+
+		{
+			"numNodo": 42,
+      		"nodoSig": 31,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+			  {"texto": "Podéis usar mi ordenador. No es muy potente, pero al menos funciona."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 264,
+      		"emo": 5
+		}
+    ]
+}

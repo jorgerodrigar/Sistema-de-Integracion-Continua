@@ -1,0 +1,15 @@
+{
+
+	"NumNodos": 1,
+
+	"Nodo": [
+
+	{"numNodo":0, "nodoSig":-1, "numLineas": 2, "lineas":[ 
+		{ "texto": "Cuando hablemos con los propietarios del bazar y la novia de la víctima," },
+        {"texto": "deberíamos coger el coche para ir a nuestro siguiente destino."}],
+	"numOpciones":0, "pj": 90, "emo": 1
+	}
+
+	]
+
+}

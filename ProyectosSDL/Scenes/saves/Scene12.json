@@ -1,0 +1,160 @@
+{
+   "AlenaActiva": true,
+   "CambioActo": false,
+   "CollisionableObject": [
+      {
+         "Texture": 276,
+         "h": 206.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 400.0,
+         "y": 500.0
+      },
+      {
+         "Texture": 43,
+         "h": 750.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 302.0,
+         "x": 0.0,
+         "y": 0.0
+      },
+      {
+         "Texture": 43,
+         "h": 750.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 302.0,
+         "x": 972.0,
+         "y": 0.0
+      },
+      {
+         "Texture": 43,
+         "h": 350.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 1280.0,
+         "x": 0.0,
+         "y": 0.0
+      },
+      {
+         "Texture": 43,
+         "h": 295.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 192.0,
+         "x": 289.0,
+         "y": 176.0
+      }
+   ],
+   "GODoors": [
+      {
+         "Texture": 88,
+         "UnlockId": 1,
+         "h": 173.0,
+         "rotGOTr": -90.0,
+         "rotat": 0.0,
+         "rotation": 0.0,
+         "scneNum": 0,
+         "soundEffect": 8,
+         "tag": "-",
+         "w": 96.0,
+         "x": 337.0,
+         "y": 287.0
+      }
+   ],
+   "GOTransiciones": [
+      {
+         "Texture": 29,
+         "h": 60.0,
+         "rotat": 0.0,
+         "rotation": 0.0,
+         "scneNum": 11,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 870.0,
+         "y": 640.0
+      }
+   ],
+   "HeaderActo": "",
+   "ItemInventario": [
+      {
+         "Anims": [
+            [
+               0
+            ],
+            [
+               1
+            ]
+         ],
+         "Texture": 21,
+         "animation": true,
+         "descripcion": "Un ticket de compra medio borrado. Se puede   leer Sra.   -TEV-NS. Mmm...",
+         "h": 40.0,
+         "heightFrame": 40,
+         "loop": true,
+         "numColsFrame": 1,
+         "numFilsFrame": 2,
+         "rotation": -45.0,
+         "soundEffect": 1,
+         "tag": "",
+         "vel": 200.0,
+         "w": 40.0,
+         "widthFrame": 40,
+         "x": 710.0,
+         "y": 490.0
+      }
+   ],
+   "MusicVolume": [
+      0
+   ],
+   "NPC": [
+      {
+         "Anims": [
+            [
+               0,
+               1,
+               2,
+               3
+            ]
+         ],
+         "Texture": 124,
+         "animation": true,
+         "dialogo": "Ander4",
+         "done": false,
+         "h": 206.0,
+         "heightFrame": 149,
+         "loop": true,
+         "numColsFrame": 2,
+         "numFilsFrame": 4,
+         "repeatDialog": true,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 60.0,
+         "widthFrame": 41,
+         "x": 400.0,
+         "y": 500.0
+      }
+   ],
+   "PlayerPos": {
+      "x": 850.0,
+      "y": 500.0
+   },
+   "PlayerTam": {
+      "h": 201.6,
+      "w": 84.0
+   },
+   "StopActualMusic": [
+      false
+   ],
+   "Texture": 87,
+   "actNumber": -1,
+   "h": 720.0,
+   "rotation": 0.0,
+   "soundEffect": 1,
+   "w": 1280.0,
+   "x": 0.0,
+   "y": 0.0
+}

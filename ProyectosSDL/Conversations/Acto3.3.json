@@ -1,0 +1,1108 @@
+{
+  "NumNodos": 66,
+
+  "msg": 0,
+  "numScene": 28,
+
+  "Nodo": [
+
+    {
+      "numNodo": 0,
+      "nodoSig": 1,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "¿Quién es?" }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 0
+    },
+
+
+    {
+      "numNodo": 1,
+      "nodoSig": 0,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 2,
+          "textoOpcion": "Soy la agente Alena de la LOD, vengo con mi compañero Ander"
+        },
+        {
+          "nodoApuntado": 5,
+          "textoOpcion": "Somos de la LOD, venimos a hacerle unas preguntas."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 2,
+      "nodoSig": 3,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Su vecino ha muerto y creemos que usted nos puede proporcionar" },
+        { "texto": "la información con la que aclarar la muerte de Dimitri." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 3,
+      "nodoSig": 4,
+      "numLineas": 3,
+
+      "lineas": [
+        { "texto": "¿Ha muerto? " },
+        { "texto": "Joder, pensaba que se estaba tomando las medicinas también." },
+        { "texto": "Pero bueno, no se queden ahí, pasen pasen. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 4,
+      "nodoSig": 3,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 6,
+          "textoOpcion": "Muchas gracias. ¿Qué decía de unas medicinas?"
+        },
+        {
+          "nodoApuntado": 8,
+          "textoOpcion": "Muchas gracias."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 5,
+      "nodoSig": 2,
+      "numLineas": 3,
+
+      "lineas": [
+        { "texto": "Vaya, hoy me venía un poco mal, pero bueno," },
+        { "texto": "supongo que puedo dedicarles algo de tiempo." },
+        { "texto": "¿Quienes son y qué quieren?" }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 1
+    },
+
+    {
+      "numNodo": 6,
+      "nodoSig": 7,
+      "numLineas": 3,
+
+      "lineas": [
+        { "texto": "Bueno, primero sientense. ¿Quieren algo de comer? " },
+        { "texto": "O de fumar incluso, tengo una hierba bastante buena ahí en el balcón. " },
+        { "texto": "Si no, tengo algo de café recién hecho." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 5
+    },
+
+    {
+        "numNodo": 7,
+        "nodoSig": 6,
+        "numLineas": 0,
+
+        "numOpciones": 2,
+        "opciones": [
+            {
+                "nodoApuntado": 10,
+                "textoOpcion": "Café no es que apetezca mucho, la verdad."
+            },
+            {
+                "nodoApuntado": 12,
+                "textoOpcion": "¿Tiene una planta de marihuana en casa?"
+            }
+        ],
+
+        "pj": 89,
+        "emo": 0
+    },
+
+    {
+        "numNodo": 8,
+        "nodoSig": 9,
+        "numLineas": 3,
+
+        "lineas": [
+            { "texto": "Bueno, primero sientense. ¿Quieren algo de comer? " },
+            { "texto": "O de fumar incluso, tengo una hierba bastante buena ahí en el balcón. " },
+            { "texto": "Si no, tengo algo de café recién hecho." }
+        ],
+
+        "numOpciones": 0,
+        "pj": 262,
+        "emo": 5
+    },
+
+        {
+        "numNodo": 9,
+        "nodoSig": 8,
+        "numLineas": 0,
+
+        "numOpciones": 2,
+        "opciones": [
+            {
+                "nodoApuntado": 10,
+                "textoOpcion": "Café no es que apetezca mucho, la verdad."
+            },
+            {
+                "nodoApuntado": 12,
+                "textoOpcion": "¿Tiene una planta de marihuana en casa?"
+            }
+        ],
+
+        "pj": 89,
+        "emo": 0
+    },
+
+    {
+      "numNodo": 10,
+      "nodoSig": 11,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Bueno, pues entonces algo para fumar, ¿no?" }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 2
+    },
+
+    {
+      "numNodo": 11,
+      "nodoSig": 10,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 12,
+          "textoOpcion": "¿Tiene una planta de marihuana en casa?"
+        },
+        {
+          "nodoApuntado": 18,
+          "textoOpcion": "¿Cómo se llama?"
+        }
+      ],
+
+      "pj": 89,
+      "emo": 0
+    },
+
+    {
+        "numNodo": 12,
+        "nodoSig": 13,
+        "numLineas": 2,
+
+        "lineas": [
+            { "texto": "Sí, es para consumo propio y además es por razones medicinales," },
+            { "texto": "Si se la ofrezco no les voy cobrar nada así que tampoco es ilegal." }
+
+        ],
+
+        "numOpciones": 0,
+        "pj": 262,
+        "emo": 2
+    },
+
+        {
+      "numNodo": 13,
+      "nodoSig": 14,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Bien, ¿de qué quieren que hablemos?" }
+
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 14,
+      "nodoSig": 0,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 15,
+          "textoOpcion": "¿Qué sabe sobre las drogas que tomaba Dimitri?"
+        },
+        {
+          "nodoApuntado": 18,
+          "textoOpcion": "¿Cómo se llama?"
+        }
+      ],
+
+      "pj": 89,
+      "emo": 0
+    },
+
+    {
+        "numNodo": 15,
+        "nodoSig": 16,
+        "numLineas": 3,
+
+        "lineas": [
+            { "texto": "Bueno, lo justo, ¿no? Era un poco necio," },
+            { "texto": "le gustaba demasiado experimentar con los límites humanos." },
+            { "texto": "Sin embargo era buen tipo." }
+        ],
+
+        "numOpciones": 0,
+        "pj": 262,
+        "emo": 0
+    },
+
+    {
+        "numNodo": 16,
+        "nodoSig": 17,
+        "numLineas": 3,
+
+        "lineas": [
+            { "texto": "Al principio empezó como todos, con marihuana." },
+            { "texto": "Yo le dejaba venir a casa a probarla cuando no estaba su pareja," },
+            { "texto": "que mujer más pesada por cierto.  Pero el hombre quería probar algo más,"}
+        ],
+
+        "numOpciones": 0,
+        "pj": 262,
+        "emo": 1
+    },
+
+    {
+        "numNodo": 17,
+        "nodoSig": 19,
+        "numLineas": 3,
+
+        "lineas": [
+            { "texto": "Pero el hombre quería probar algo más," },
+            { "texto": "no se contentaba sólo con la hierba, no," },
+            { "texto": "y eso que la que yo tengo aquí es de calidad." }
+        ],
+
+        "numOpciones": 0,
+        "pj": 262,
+        "emo": 3
+    },
+
+    {
+        "numNodo": 18,
+        "nodoSig": 15,
+        "numLineas": 3,
+
+        "lineas": [
+            { "texto": "Si les voy a ayudar prefiero mantenerme en el anonimato," },
+            { "texto": "ya sabe." },
+            { "texto": "Así que no le pienso decir mi nombre por mucho que me lo pida." }
+        ],
+
+        "numOpciones": 0,
+        "pj": 262,
+        "emo": 4
+    },
+
+
+    {
+        "numNodo": 19,
+        "nodoSig": 20,
+        "numLineas": 2,
+
+        "lineas": [
+            { "texto": "¿Yo? Que va." },
+            { "texto": "Dejé de pasarle cuando empezó a ser algo demasiado continuo." }
+        ],
+
+        "numOpciones": 0,
+        "pj": 262,
+        "emo": 0
+    },
+        
+        {
+      "numNodo": 20,
+      "nodoSig": 21,
+      "numLineas": 3,
+
+      "lineas": [
+        { "texto": "Todos los días venía a por al menos cinco o seis gramos" },
+        { "texto": "y eso al final no se hace sostenible si no ganas dinero con ello," },
+        { "texto": "así que tuvo que empezar a comprarla en otro lado." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 21,
+      "nodoSig": 20,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 22,
+          "textoOpcion": "¿Sabe quién se la podría pasar?"
+        },
+        {
+          "nodoApuntado": 24,
+          "textoOpcion": "Bueno, igual puede hablarnos sobre esta llave en concreto. ¿No?"
+        }
+      ],
+
+      "pj": 89,
+      "emo": 0
+    },
+
+    {
+        "numNodo": 22,
+        "nodoSig": 23,
+        "numLineas": 1,
+
+        "lineas": [
+            { "texto": "Nah, no creo, soy bastante olvidadizo." }
+        ],
+
+        "numOpciones": 0,
+        "pj": 262,
+        "emo": 4
+    },
+
+    {
+        "numNodo": 23,
+        "nodoSig": 22,
+        "numLineas": 0,
+
+        "numOpciones": 2,
+        "opciones": [
+            {
+                "nodoApuntado": 27,
+                "textoOpcion": "Venga hombre, no puede olvidarse de algo así."
+            },
+            {
+                "nodoApuntado": 28,
+                "textoOpcion": "Bueno, pero aun así. ¿Qué clase de drogas consumía?"
+            }
+        ],
+
+        "pj": 89,
+        "emo": 0
+    },
+
+    {
+        "numNodo": 24,
+        "nodoSig": 25,
+        "numLineas": 3,
+
+        "lineas": [
+            { "texto": "Pues la verdad es que me suena un poco," },
+            { "texto": "creo que es la misma que lleva mi camello" },
+            { "texto": "colgada del llavero al lado de la de su casa. " }
+        ],
+
+        "numOpciones": 0,
+        "pj": 262,
+        "emo": 2
+    },
+            {
+        "numNodo": 25,
+        "nodoSig": 26,
+        "numLineas": 3,
+
+        "lineas": [
+            { "texto": "Sí, se parece mucho. Pero es más por el número de serie," },
+            { "texto": "He visto este número en otra parte," },
+            { "texto": "puede que fuera en esa llave en concreto." }
+        ],
+
+        "numOpciones": 0,
+        "pj": 262,
+        "emo": 0
+    },
+
+    {
+      "numNodo": 26,
+      "nodoSig": 25,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 30,
+          "textoOpcion": "¿Sabe de dónde puede ser?"
+        },
+        {
+          "nodoApuntado": 62,
+          "textoOpcion": "Bueno, entonces no sigamos por ahí."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 27,
+      "nodoSig": 65,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "A ver, tampoco es que me fijara mucho en lo que hacía él. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 28,
+      "nodoSig": 65,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 31,
+          "textoOpcion": "¿Usted la consumía con él?"
+        },
+        {
+          "nodoApuntado": 29,
+          "textoOpcion": "Esas drogas no producen los efectos que vimos."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 0
+    },
+
+    {
+        "numNodo": 29,
+        "nodoSig": 63,
+        "numLineas": 3,
+
+        "lineas": [
+            { "texto": "Ya bueno, pero es que también consumía otra" },
+            { "texto": "que he consumido yo alguna que otra vez." },
+            { "texto": "Es una especial." }
+        ],
+
+        "numOpciones": 0,
+        "pj": 262,
+        "emo": 1
+    },
+
+    {
+        "numNodo": 30,
+        "nodoSig": 62,
+        "numLineas": 3,
+
+        "lineas": [
+            { "texto": "Ya bueno, poero es que también consumía otra" },
+            { "texto": "que he consumido yo alguna que otra vez." },
+            { "texto": " Es una especial." }
+        ],
+
+        "numOpciones": 0,
+        "pj": 262,
+        "emo": 1
+    },
+
+    {
+      "numNodo": 31,
+      "nodoSig": 32,
+      "numLineas": 3,
+
+      "lineas": [
+        { "texto": " Bueno, algo sí que he llegado a compartir con él," },
+        { "texto": "más que nada porque me lo debía de toda la que le estuve pasando." },
+        { "texto": "Pero yo no me salgo de mis costumbres, mi marihuana y la otra especial." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 32,
+      "nodoSig": 31,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 63,
+          "textoOpcion": "¿Cuál es esa especial?"
+        },
+        {
+          "nodoApuntado": 33,
+          "textoOpcion": "¿Entonces ha llegado a consumir cocaína?"
+        }
+      ],
+
+      "pj": 89,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 33,
+      "nodoSig": 34,
+      "numLineas": 3,
+
+      "lineas": [
+        { "texto": "Sí, un poco, pero tampoco es que sea algo que me guste mucho," },
+        { "texto": " el chute que da es interesante pero nada más." },
+        { "texto": "se algo que me guste mucho, el chute que da es interesante pero nada más." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 5
+    },
+
+        {
+      "numNodo": 34,
+      "nodoSig": 31,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 63,
+          "textoOpcion": "¿Cuál es esa especial?"
+        },
+        {
+          "nodoApuntado": 35,
+          "textoOpcion": "Pero esos efectos se anulan con el chip."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 0
+    },
+
+    {
+        "numNodo": 35,
+        "nodoSig": 36,
+        "numLineas": 3,
+
+        "lineas": [
+            { "texto": "Ese que se coloca a todo el mundo desde que nacen" },
+            { "texto": "para evitar las enormes sobredosis que ocurrieron hace tiempo," },
+            { "texto": "cuando se implantó el Estado Europeo." }
+        ],
+
+        "numOpciones": 0,
+        "pj": 262,
+        "emo": 0
+    },
+
+    {
+        "numNodo": 36,
+        "nodoSig": 37,
+        "numLineas": 3,
+
+        "lineas": [
+            { "texto": "Claro, pero hay formas de evitar eso, por supuesto." },
+            { "texto": "Si hablas con el médico adecuado puedes conseguir que te" },
+            { "texto": "lo quiten y así conseguir que la cocaína te afecte." }
+        ],
+
+        "numOpciones": 0,
+        "pj": 262,
+        "emo": 2
+    },
+
+    {
+      "numNodo": 37,
+      "nodoSig": 38,
+      "numLineas": 3,
+
+      "lineas": [
+        { "texto": "O simplemente tomas una dosis mucho más grande." },
+        { "texto": "para que así consigas obtener los efectos," },
+        { "texto": "Se redujeron el número de sobredosis, pero se sigue consumiendo." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 38,
+      "nodoSig": 44,
+      "numLineas": 3,
+
+      "lineas": [
+        { "texto": "No, no consumo esa droga." },
+        { "texto": "Así que no necesito que me lo extirpen, sin embargo." },
+        { "texto": "Creo que mi vecino sí que se sometió a una operación así. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 3
+    },
+
+    {
+      "numNodo": 39,
+      "nodoSig": 40,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Claro, he hecho café hace nada, es normal que huela a café. " },
+        { "texto": " es normal que huela a café. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 40,
+      "nodoSig": 41,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "No me refiero a eso, todo huele a café." },
+        { "texto": "Este asiento huele bastante y usted también a mucho a café." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    
+    {
+      "numNodo": 41,
+      "nodoSig": 46,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Me gusta mucho el café, lo bebo día sí y día también." },
+        { "texto": "Digamos que es como mi tabaco, necesito beberlo a diario." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 1
+    },    
+    {
+      "numNodo": 42,
+      "nodoSig": 43,
+      "numLineas": 3,
+
+      "lineas": [
+        { "texto": "Por supuesto que no, le pregunté al mío si conocía a otro" },
+        { "texto": "que le pudiera proporcionar a este hombre las locuras que pedía." },
+        { "texto": "Empezó a probar demasiado y descubrió los efectos de la especial," }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 0
+    },   
+    {
+      "numNodo": 43,
+      "nodoSig": 48,
+      "numLineas": 3,
+
+      "lineas": [
+        { "texto": "y ya en ese momento se le fue de las manos." },
+        { "texto": "Sin embargo, el camello no le pasaba nada de mala calidad" },
+        { "texto": "así que todo dependía de su ansia por consumir." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 0
+    },   
+    {
+      "numNodo": 44,
+      "nodoSig": 45,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "No mucho, pero sé que las hacen rápidamente y de forma clandestina." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 45,
+      "nodoSig": 44,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 50,
+          "textoOpcion": "Mucho café y alcohol en el piso de Dimitri, ¿sabe a qué se debe eso?"
+        },
+        {
+          "nodoApuntado": 63,
+          "textoOpcion": "¿Cuál es esa especial?"
+        }
+      ],
+
+      "pj": 89,
+      "emo": 0
+    },
+           
+    {
+      "numNodo": 46,
+      "nodoSig": 47,
+      "numLineas": 3,
+
+      "lineas": [
+        { "texto": "No, lo siento. Yo sólo bebo café para ayudar a mi digestión" },
+        { "texto": "y para despertarme cuando me entra el sopor." },
+        { "texto": "Pero no sé si se aplica a alguna droga." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 1
+    },
+
+    {
+      "numNodo": 47,
+      "nodoSig": 46,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 63,
+          "textoOpcion": "¿Cuál es esa especial?"
+        },
+        {
+          "nodoApuntado": 52,
+          "textoOpcion": "¿De qué trabaja? Porque no sé de donde puede sacar el dinero."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 0
+    },
+               
+    {
+      "numNodo": 48,
+      "nodoSig": 58,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "No creo, ya les he dicho que soy muy olvidadizo. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 49,
+      "nodoSig": 57,
+      "numLineas": 3,
+
+      "lineas": [
+        { "texto": "No estoy a la defensiva." },
+        { "texto": "Sólo pretendo que sepan que no soy estúpido." },
+        { "texto": "Ese hombre no hacía más que buscarse problemas con los camellos." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 3
+    },
+    {
+      "numNodo": 50,
+      "nodoSig": 51,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "No sé a qué se refiere, la verdad." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 51,
+      "nodoSig": 50,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 63,
+          "textoOpcion": "¿Cuál es esa especial?"
+        },
+        {
+          "nodoApuntado": 39,
+          "textoOpcion": "Aquí huele mucho a café, ¿seguro que no sabe a qué nos referimos?"
+        }
+      ],
+
+      "pj": 89,
+      "emo": 0
+    },
+    
+    {
+      "numNodo": 52,
+      "nodoSig": 53,
+      "numLineas": 3,
+
+      "lineas": [
+        { "texto": "Soy informático, programo páginas webs desde casa," },
+        { "texto": "me da dinero suficiente para vivir aquí holgadamente." },
+        { "texto": "¿Es de interés acaso para resolver la muerte de mi vecino?" }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 3
+    },
+    {
+      "numNodo": 53,
+      "nodoSig": 54,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "No, lo siento mucho señor si le he ofendido." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+    {
+      "numNodo": 54,
+      "nodoSig": 55,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": " Nada nada, pero igual deberían centrarse más en la causa de su muerte" },
+        { "texto": " en cómo estaba el cuerpo." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 0
+    },
+    {
+      "numNodo": 55,
+      "nodoSig": 56,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Sé cómo hacer mi trabajo, muchas gracias." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+    {
+      "numNodo": 56,
+      "nodoSig": 61,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Vale, vale, tranquilícese." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 1
+    },
+ 
+    {
+      "numNodo": 57,
+      "nodoSig": 48,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Si, bueno, yo le pedí a mi camello que me pasara" },
+        { "texto": "el contacto de otro que pudiera suplir las locuras de este hombre." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 0
+    },
+  
+    {
+      "numNodo": 58,
+      "nodoSig": 59,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Buf, algo así requerirá mucho más esfuerzo que ese simple truco. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 0
+    },
+   
+    {
+      "numNodo": 59,
+      "nodoSig": 60,
+      "numLineas": 3,
+
+      "lineas": [
+        { "texto": "Empiezo a recordar parte del número: 6….. 3…… 5……." },
+        { "texto": "Ahg, que difícil es recordar hoy," },
+        { "texto": "¿no les pasa a ustedes también?" }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 5
+    },
+       
+    {
+      "numNodo": 60,
+      "nodoSig": 61,
+      "numLineas": 3,
+
+      "lineas": [
+        { "texto": "Mucho mejor. Creo que ya recuerdo el número al completo," },
+        { "texto": "pero lo tengo por aquí apuntado, " },
+        { "texto": "así que si quieren pueden llamarlo." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 5
+    },
+
+    {
+      "numNodo": 61,
+      "nodoSig": -1,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "No hay de qué," },
+        { "texto": "pero ya saben que yo no les he dicho nada de nada." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 0
+    },
+    {
+      "numNodo": 62,
+      "nodoSig": 61,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "No hay de qué," },
+        { "texto": "pero ya saben que yo no les he dicho nada de nada." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 63,
+      "nodoSig": 64,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Sí, en la fábrica de robots que hay aquí en la ciudad," },
+        { "texto": "quizá deberían ir allí, puede que" },
+        { "texto": "saquen más información que de la que me pueden sacar a mí. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 262,
+      "emo": 0
+    },
+
+    
+    {
+      "numNodo": 64,
+      "nodoSig": 63,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 42,
+          "textoOpcion": "Bueno, pero conocería a su camello. ¿Eran el mismo?"
+        },
+        {
+          "nodoApuntado": 46,
+          "textoOpcion": "No se preocupe, no hace falta ponerse a la defensiva."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 0
+    },
+    
+    {
+        "numNodo": 65,
+        "nodoSig": 28,
+        "numLineas": 3,
+
+        "lineas": [
+            { "texto": "Pues cocaína, algo de heroína creo que también probó," },
+            { "texto": "marihuana, chocolate, cristal y ese tipo de cosas." },
+            { "texto": "Dependía un poco de lo que le pasara su camello esa semana. " }
+        ],
+
+        "numOpciones": 0,
+        "pj": 262,
+        "emo": 0
+    }
+
+  ]
+}

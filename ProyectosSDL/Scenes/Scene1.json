@@ -1,0 +1,26 @@
+{
+    "ItemInventario": [ ],
+
+    "GOTransiciones": [
+        { "x": 400, "y": 380, "w": 60, "h": 60, "Texture": 29, "scneNum": 0, "rotation": 180 }
+    ],
+
+    "CollisionableObject": [
+        { "x": 560, "y": 180, "w": 330, "h": 260, "Texture": 23 },
+        { "x": 804, "y": 470, "w": 86, "h": 150, "Texture": 22 }
+    ],
+    
+    "Music": [ 
+        2
+    ],
+    "Texture": 24,
+    "h": 500.0,
+    "w": 500.0,
+    "x": 390.0,
+    "y": 110.0,
+
+    "PlayerPos": {
+        "x": 400,
+        "y": 380
+    }
+}

@@ -1,0 +1,15 @@
+{
+
+	"NumNodos": 1,
+
+	"Nodo": [
+
+	{"numNodo":0, "nodoSig":-1, "numLineas": 2, "lineas":[ 
+		{"texto": "Quería aire fresco pero aquí al lado de la fábrica..."},
+		{"texto": "Ahora vuelvo a la cafe con los demás."}],
+	"numOpciones":0, "pj": 273, "emo": 1
+	}
+
+	]
+
+}

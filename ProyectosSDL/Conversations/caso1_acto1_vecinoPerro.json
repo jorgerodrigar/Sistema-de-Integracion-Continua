@@ -1,0 +1,14 @@
+{
+
+	"NumNodos": 1,
+
+	"Nodo": [
+
+	{"numNodo":0, "nodoSig":-1, "numLineas": 1, "lineas":[ 
+		{"texto": "B-B-Buenas..."}],
+	"numOpciones":0, "pj": 218, "emo": 1
+	}
+
+	]
+
+}

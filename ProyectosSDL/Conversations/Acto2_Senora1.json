@@ -1,0 +1,245 @@
+{
+  "NumNodos": 15,
+
+  "Nodo": [
+
+    {
+      "numNodo": 0,
+      "nodoSig": 1,
+      "numLineas": 1,
+
+      "lineas": [ { "texto": "¿Sí?¿Quienes sois vosotros y por qué sabíais la contraseña?" } ],
+
+      "numOpciones": 0,
+      "pj": 256,
+      "emo": 3
+    },
+
+
+    {
+      "numNodo": 1,
+      "nodoSig": 0,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 2,
+          "textoOpcion": "Simple intuición, somos de la LOD."
+        },
+        {
+          "nodoApuntado": 3,
+          "textoOpcion": "Eso no es importante ahora."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 2,
+      "nodoSig": 3,
+      "numLineas": 1,
+
+      "lineas": [ { "texto": "Ahm, pues que majos son ustedes, ¿no? ¿Qué buscan aquí?" } ],
+
+      "numOpciones": 0,
+      "pj": 256,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 3,
+      "nodoSig": 4,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Somos investigadores de la LOD." },
+        { "texto": "Venimos para investigar el caso del joven que vive en el cuarto piso." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 89,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 4,
+      "nodoSig": 5,
+      "numLineas": 3,
+
+      "lineas": [
+        { "texto": "Ah, ya tardabais en llegar. Al final no vamos a poder salir de " },
+        { "texto": "este maldito edificio en todo el día por esos periodistas. ¿Por" },
+        { "texto": " qué no entráis por la puerta principal como todo el mundo?" }
+      ],
+
+      "numOpciones": 0,
+      "pj": 256,
+      "emo": 3
+    },
+
+    {
+      "numNodo": 5,
+      "nodoSig": 4,
+      "numLineas": 0,
+
+      "numOpciones": 3,
+      "opciones": [
+        {
+          "nodoApuntado": 6,
+          "textoOpcion": "¿Por qué tiene una puerta trasera hacia su cocina con una contraseña?"
+        },
+        {
+          "nodoApuntado": 10,
+          "textoOpcion": "Para evitar preguntas incómodas."
+        },
+        {
+          "nodoApuntado": 8,
+          "textoOpcion": "¿Cómo que nadie va a poder salir de este edifico?"
+        }
+      ],
+
+      "pj": 89,
+      "emo": 0
+    },
+
+
+    {
+      "numNodo": 6,
+      "nodoSig": 7,
+      "numLineas": 1,
+
+      "lineas": [ { "texto": "Eso no es asunto suyo." } ],
+
+      "numOpciones": 0,
+      "pj":256,
+      "emo": 3
+    },
+
+    {
+      "numNodo": 7,
+      "nodoSig": 12,
+      "numLineas": 1,
+
+      "lineas": [ { "texto": "Ya lo creo que lo es, pero ahora no es importante." } ],
+
+      "numOpciones": 0,
+      "pj": 89,
+      "emo": 1
+    },
+
+    {
+      "numNodo": 8,
+      "nodoSig": 9,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Porque no todos los vecinos la conocen, solo unos pocos afortunados." },
+        { "texto": "Pero tampoco es asunto tuyo" }
+      ],
+
+      "numOpciones": 0,
+      "pj": 256,
+      "emo": 5
+    },
+
+    {
+      "numNodo": 9,
+      "nodoSig": 8,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 12,
+          "textoOpcion": "Ya lo creo que lo es, pero ahora no es importante"
+        },
+        {
+          "nodoApuntado": 14,
+          "textoOpcion": "Eso ya lo veremos."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 10,
+      "nodoSig": 11,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Vaya, entonces supongo que tampoco harán preguntas incómodas ustedes." },
+        { "texto": "¿Me equivoco?" }
+      ],
+
+      "numOpciones": 0,
+      "pj": 256,
+      "emo": 5
+    },
+
+    {
+      "numNodo": 11,
+      "nodoSig": 10,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 12,
+          "textoOpcion": "No se preocupe, solo queremos pasar."
+        },
+        {
+          "nodoApuntado": 14,
+          "textoOpcion": "Eso ya lo veremos."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 12,
+      "nodoSig": 13,
+      "numLineas": 1,
+
+      "lineas": [ { "texto": "Bueno, pues si quieren entrar mejor que lo hagan ya." } ],
+
+      "numOpciones": 0,
+      "pj": 256,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 13,
+      "nodoSig": -1,
+      "numLineas": 1,
+
+      "lineas": [ { "texto": "Pasaré a la cocina." } ],
+
+      "numOpciones": 0,
+      "pj": 89,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 14,
+      "nodoSig": -1,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Oh no, ya lo creo que no. Si quieren pasar pasen," },
+        { "texto": "pero no pienso responder ninguna pregunta de ese estilo." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 256,
+      "emo": 3
+    }
+
+  ]
+}

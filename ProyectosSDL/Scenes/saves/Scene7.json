@@ -1,0 +1,206 @@
+{
+   "AlenaActiva": true,
+   "CambioActo": false,
+   "CollisionableObject": [
+      {
+         "Anims": [
+            [
+               0,
+               0,
+               1,
+               1
+            ]
+         ],
+         "Texture": 76,
+         "animation": true,
+         "h": 225.0,
+         "heightFrame": 320,
+         "loop": true,
+         "numColsFrame": 2,
+         "numFilsFrame": 1,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 155.0,
+         "widthFrame": 206,
+         "x": 215.0,
+         "y": 175.0
+      },
+      {
+         "Anims": [
+            [
+               0,
+               0,
+               1,
+               1
+            ]
+         ],
+         "Texture": 75,
+         "animation": true,
+         "h": 225.0,
+         "heightFrame": 320,
+         "loop": true,
+         "numColsFrame": 2,
+         "numFilsFrame": 1,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 155.0,
+         "widthFrame": 207,
+         "x": 450.0,
+         "y": 175.0
+      },
+      {
+         "Texture": 74,
+         "h": 98.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 105.0,
+         "x": 640.0,
+         "y": 295.0
+      }
+   ],
+   "Decorado": [
+      {
+         "Anims": [
+            [
+               0,
+               1,
+               2,
+               3,
+               4,
+               5,
+               6,
+               7,
+               8,
+               9,
+               10,
+               11,
+               12,
+               13,
+               14
+            ]
+         ],
+         "Texture": 135,
+         "animation": true,
+         "h": 150.0,
+         "heightFrame": 150,
+         "loop": true,
+         "numColsFrame": 4,
+         "numFilsFrame": 4,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 166.0,
+         "widthFrame": 166,
+         "x": 965.0,
+         "y": 115.0
+      }
+   ],
+   "GOCofres": [
+      {
+         "Anims": [
+            [
+               0
+            ],
+            [
+               5
+            ]
+         ],
+         "Texture": 219,
+         "UnlockId": 1,
+         "animation": true,
+         "descripcionItem": "Necesario para entrar en el despacho de Jeffa",
+         "generaState": false,
+         "h": 40.0,
+         "hItem": 18,
+         "heightFrame": 60,
+         "loop": true,
+         "numColsFrame": 2,
+         "numFilsFrame": 3,
+         "numTextItem": 271,
+         "open": false,
+         "permanenteItem": false,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "tag": "cajaFuerte",
+         "tagItem": "id",
+         "vel": 200.0,
+         "w": 44.0,
+         "wItem": 18,
+         "widthFrame": 60,
+         "x": 505.0,
+         "xItem": 514,
+         "y": 305.0,
+         "yItem": 324
+      }
+   ],
+   "GODoors": [
+      {
+         "Texture": 274,
+         "h": 207.0,
+         "rotGOTr": -90.0,
+         "rotat": 0.0,
+         "rotation": 0.0,
+         "scneNum": 8,
+         "soundEffect": 23,
+         "tag": "id",
+         "w": 110.0,
+         "x": 41.0,
+         "y": 155.0
+      }
+   ],
+   "GOState": [
+      {
+         "TexturaFondo": 177,
+         "Texture": 29,
+         "UnlockId": 1,
+         "h": 30.0,
+         "password": "gackari",
+         "posFontX": 417,
+         "posFontY": 436,
+         "rotation": -45,
+         "soundEffect": 1,
+         "type": 2,
+         "w": 30.0,
+         "x": 500.0,
+         "y": 317.0
+      }
+   ],
+   "GOTransiciones": [
+      {
+         "Texture": 29,
+         "h": 60.0,
+         "rotat": -90.0,
+         "rotation": -90.0,
+         "scneNum": 6,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 900.0,
+         "y": 365.0
+      }
+   ],
+   "HeaderActo": "",
+   "MusicVolume": [
+      0
+   ],
+   "PlayerPos": {
+      "x": 900.0,
+      "y": 335.0
+   },
+   "PlayerTam": {
+      "h": 201.6,
+      "w": 84.0
+   },
+   "StopActualMusic": [
+      false
+   ],
+   "Texture": 73,
+   "actNumber": -1,
+   "h": 720.0,
+   "rotation": 0.0,
+   "soundEffect": 1,
+   "w": 1280.0,
+   "x": 0.0,
+   "y": 0.0
+}

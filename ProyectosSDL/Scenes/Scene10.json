@@ -1,0 +1,165 @@
+{
+
+    "Texture": 72,
+    "h": 720.0,
+    "w": 1280.0,
+    "x": 0.0,
+    "y": 0.0,
+
+    "CambioActo": true,
+    "actNumber": 2,
+    "HeaderActo": "Plaza Drzewo nº 100",
+
+    "GOTransiciones": [
+        { "x": 870, "y": 375, "w": 60, "h": 60, "Texture": 29, "scneNum": 11, "rotation": -90 }
+    ],
+    
+    "SoundEffect": [
+        18,19,10
+    ],
+    "volumenes": [
+        3,3,3
+    ],
+
+    "numRepeticionesSonidos": [
+        -1,-1,-1
+    ],
+
+    "Decorado": [
+        {
+            "x": 700,
+            "y": 355,
+            "w": 34,
+            "h": 125,
+            "Texture": 108,
+            "animation": true, "numFilsFrame": 2, "numColsFrame": 3,
+            "widthFrame": 32, "heightFrame": 141, "vel": 300, "loop": true,
+            "Anims": [ [0,5,1,3,2,0,5,2,3,0,4] ] 
+        },
+        {
+            "x": 565,
+            "y": 340,
+            "w": 65,
+            "h": 125,
+            "Texture": 107,
+            "animation": true, "numFilsFrame": 2, "numColsFrame": 4,
+            "widthFrame": 33, "heightFrame": 71, "vel": 260, "loop": true,
+            "Anims": [ [0,2,0,2,0,2,0,2,1,5,6,7,5,6,4,7,0,3] ]
+        },
+        {
+            "x": 640,
+            "y": 320,
+            "w": 35,
+            "h": 120,
+            "Texture": 99,
+            "animation": true, "numFilsFrame": 2, "numColsFrame": 3,
+            "widthFrame": 32, "heightFrame": 141, "vel": 200, "loop": true,
+            "Anims": [ [0,2,3,3,0,0,5,4,0,0,3,3,0,2,3,5,1,0,3,3] ]
+        },
+        {
+            "x": 485,
+            "y": 345,
+            "w": 43,
+            "h": 138,
+            "Texture": 97,
+            "animation": true, "numFilsFrame": 2, "numColsFrame": 2,
+            "widthFrame": 40, "heightFrame": 149, "vel": 250, "loop": true,
+            "Anims": [ [0,3,0,2,0,2,0,2,0,2,0,2,1,2,0,2,0,2,0,2,0,2] ] 
+        },
+        {
+            "x": 535,
+            "y": 345,
+            "w": 43,
+            "h": 138,
+            "Texture": 98,
+            "animation": true, "numFilsFrame": 2, "numColsFrame": 4,
+            "widthFrame": 40, "heightFrame": 149, "vel": 200, "loop": true,
+            "Anims": [ [0,0,5,6,2,3,4,6,0,2,6,4] ]
+        },
+        {
+            "x": 550,
+            "y": 300,
+            "w": 45,
+            "h": 140,
+            "Texture": 80,
+            "animation": true, "numFilsFrame": 2, "numColsFrame": 2,
+            "widthFrame": 39, "heightFrame": 146, "vel": 300, "loop": true,
+            "Anims": [ [0,2,0,3,0,2,0,2,0,2,0,2,1] ]
+        },
+        {
+            "x": 470,
+            "y": 300,
+            "w": 45,
+            "h": 140,
+            "Texture": 83,
+            "animation": true, "numFilsFrame": 2, "numColsFrame": 2,
+            "widthFrame": 39, "heightFrame": 150, "vel": 280, "loop": true,
+            "Anims": [ [0,3,0,2,0,2,0,2,0,2,1,0,2,0,2] ]
+        }
+    ],
+
+    "CollisionableObject": [
+        { "x": 0, "y": 390, "w": 1154, "h": 250, "Texture": 43 },
+        { "x": 0, "y": 540, "w": 1154, "h": 250, "Texture": 43 },
+        { "x": 0, "y": 0, "w": 775, "h": 720, "Texture": 43 }
+    ],
+
+
+
+    "PlayerPos": {
+        "x": 1150,
+        "y": 300
+    },
+
+    "NPC":[
+        { "x": 800, "y": 260, "w": 50, "h": 150, "Texture": 52,
+            "animation": true, "numFilsFrame": 6, "numColsFrame": 4,
+            "widthFrame": 68, "heightFrame": 201, "vel": 200, "loop": true,
+            "Anims": [ [14,15] ], "dialogo": "hidroquenoVerde" },
+        { "x": 100, "y": 260, "w": 50, "h": 150, "Texture": 275,
+            "animation": true, "numFilsFrame": 6, "numColsFrame": 4,
+            "widthFrame": 68, "heightFrame": 201, "vel": 200, "loop": true,
+            "Anims": [ [0,1] ], "dialogo": "hidroquenoRojo" },
+        {
+            "x": 740,
+            "y": 355,
+            "w": 38,
+            "h": 125,
+            "Texture": 110,
+            "animation": true, "numFilsFrame": 2, "numColsFrame": 2,
+            "widthFrame": 40, "heightFrame": 147, "vel": 250, "loop": true,
+            "Anims": [ [0,2,0,2,0,2,0,2,0,3,0,2,1] ], "dialogo": "caso1_acto2_Curioso4"
+        },
+        {
+            "x": 706,
+            "y": 320,
+            "w": 47,
+            "h": 127,
+            "Texture": 100,
+            "animation": true, "numFilsFrame": 2, "numColsFrame": 3,
+            "widthFrame": 47, "heightFrame": 127, "vel": 200, "loop": true,
+            "Anims": [ [0,4,1,4,2,3,0,3,1,5,0,4,2,5] ], "dialogo": "caso1_acto2_Periodista4"
+        },
+        {
+            "x": 740,
+            "y": 280,
+            "w": 33,
+            "h": 115,
+            "Texture": 109,
+            "animation": true, "numFilsFrame": 2, "numColsFrame": 2,
+            "widthFrame": 38, "heightFrame": 133, "vel": 280, "loop": true,
+            "Anims": [ [0,3,0,2,0,2,0,2,0,2,1,0,2,0,2,0,2] ], "dialogo": "caso1_acto2_Curioso3"
+        },
+
+         { "x": 1225, "y": 450, "w": 36, "h": 125, "Texture": 124,
+            "animation": true, "numFilsFrame": 4, "numColsFrame": 2,
+            "widthFrame": 41, "heightFrame": 149, "vel": 200, "loop": true,
+            "Anims": [ [4,5,6,7] ], "dialogo": "Ander1"
+        }
+    ],
+
+    "PlayerTam": {
+        "w": 50,
+        "h": 120
+    }
+}

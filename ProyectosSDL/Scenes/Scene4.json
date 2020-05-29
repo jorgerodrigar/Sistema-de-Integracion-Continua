@@ -1,0 +1,126 @@
+{
+
+    "Texture": 37,
+    "h": 720.0,
+    "w": 1280.0,
+    "x": 0.0,
+    "y": 0.0,
+
+    "CollisionableObject": [
+        { "x": 1000, "y": 450, "w": 260, "h": 79, "Texture": 38 },
+        { "x": 0, "y": 400, "w": 1280, "h": 230, "Texture": 43 }
+    ],
+    "NPC": [
+        {
+            "x": 300,
+            "y": 260,
+            "w": 50,
+            "h": 150,
+            "Texture": 52,
+            "animation": true,
+            "numFilsFrame": 6,
+            "numColsFrame": 4,
+            "widthFrame": 68,
+            "heightFrame": 201,
+            "vel": 200,
+            "loop": true,
+            "Anims": [ [ 8, 9 ] ],
+            "dialogo": "hidroquenoAzul"
+        },
+        {
+            "x": 750,
+            "y": 260,
+            "w": 50,
+            "h": 150,
+            "Texture": 52,
+            "animation": true,
+            "numFilsFrame": 6,
+            "numColsFrame": 4,
+            "widthFrame": 68,
+            "heightFrame": 201,
+            "vel": 200,
+            "loop": true,
+            "Anims": [ [ 4, 5 ] ],
+            "dialogo": "hidroquenoNaranja"
+        }
+    ],
+    "Decorado": [
+        {
+            "x": 323,
+            "y": 493,
+            "w": 56,
+            "h": 12,
+            "Texture": 132,
+            "animation": true,
+            "numFilsFrame": 2,
+            "numColsFrame": 3,
+            "widthFrame": 56,
+            "heightFrame": 12,
+            "vel": 100,
+            "loop": true,
+            "Anims": [ [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 5 ] ]
+        },
+        {
+            "x": 317,
+            "y": 18,
+            "w": 40,
+            "h": 204,
+            "Texture": 133,
+            "animation": true,
+            "numFilsFrame": 1,
+            "numColsFrame": 4,
+            "widthFrame": 40,
+            "heightFrame": 204,
+            "vel": 100,
+            "loop": true,
+            "Anims": [ [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 2, 2, 2, 2, 3, 3 ] ]
+        },
+        {
+            "x": 806,
+            "y": 130,
+            "w": 381,
+            "h": 56,
+            "Texture": 134,
+            "animation": true,
+            "numFilsFrame": 4,
+            "numColsFrame": 1,
+            "widthFrame": 381,
+            "heightFrame": 56,
+            "vel": 150,
+            "loop": true,
+            "Anims": [ [ 0, 0, 0, 0, 3, 3, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 2, 2, 2, 2, 3, 3, 0, 3 ] ]
+        }
+    ],
+
+    "StopActualMusic": [ 
+        true
+    ],
+
+    "SoundEffect": [
+        4
+    ],
+
+    "volumenes": [
+        5
+    ],
+
+    "numRepeticionesSonidos": [
+        -1
+    ],
+    "GODoors": [
+        { "x": 1000, "y": 450, "w": 260, "h": 79, "Texture": 38, "tag": "keyMoto", "scneNum": 5, "rotGOTr": 90 }
+    ],
+    "GOTransiciones": [
+        { "x": 620, "y": 290, "w": 40, "h": 40, "Texture": 29, "scneNum": 3, "rotation": -90, "soundEffect": 23 }
+    ],
+
+    "PlayerPos": {
+        "x": 620,
+        "y": 290
+    },
+
+    "PlayerTam": {
+        "w": 50,
+        "h": 120
+    }
+}

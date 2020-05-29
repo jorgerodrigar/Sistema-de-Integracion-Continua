@@ -1,0 +1,14 @@
+{
+
+	"NumNodos": 1,
+
+	"Nodo": [
+
+	{"numNodo":0, "nodoSig":-1, "numLineas": 1, "lineas":[ 
+		{"texto": "¡¡Ring, ring!! ¡¡Ring, ring!! "}],
+	"numOpciones":0, "pj": 148, "emo": 4
+	}
+
+	]
+
+}

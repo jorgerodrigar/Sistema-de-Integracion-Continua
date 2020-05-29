@@ -1,0 +1,61 @@
+{
+
+    "Texture": 235,
+    "h": 720.0,
+    "w": 1280.0,
+    "x": 0.0,
+    "y": 0.0,
+    
+     "CollisionableObject": [
+        { "x": 800, "y": 270, "w": 300, "h": 156, "Texture": 239 },
+        { "x": 840, "y": 470, "w": 252, "h": 200, "Texture": 240 }
+    ],
+
+    "Decorado": [
+        { "x": 700, "y": 305, "w": 70, "h": 81, "Texture": 238, "animation": true, "numFilsFrame": 3, "numColsFrame": 1,
+            "widthFrame": 70, "heightFrame": 81, "vel": 150, "loop": true,
+            "Anims": [ [0,1,1,0,0,0,0,1,0,1,0,0,1,1,0,0,1,0,0,1], [2] ]},
+
+        { "x": 890, "y": 470, "w": 30, "h": 30, "Texture": 209, "animation": true, "numFilsFrame": 2, "numColsFrame": 1,
+            "widthFrame": 42, "heightFrame": 42, "vel": 200, "loop": true,
+            "Anims": [ [0],[1] ] },
+
+        { "x": 1015, "y": 471, "w": 64, "h": 54, "Texture": 211, "animation": true, "numFilsFrame": 2, "numColsFrame": 1,
+            "widthFrame": 54, "heightFrame": 44, "vel": 200, "loop": true,
+            "Anims": [ [0],[1] ] },
+
+        { "x": 213, "y": 275, "w": 50, "h": 55, "Texture": 236, "animation": true, "numFilsFrame": 2, "numColsFrame": 1,
+                "widthFrame": 50, "heightFrame": 55, "vel": 20, "loop": true,
+                "Anims": [ [0], [1] ]},
+
+    
+        { "x": 917, "y": 470, "w": 80, "h": 80, "Texture": 57, "tag": "carta", "generaState": true }
+    ],
+
+    "Interruptores": [
+        { "x": 100, "y": 235, "w": 37, "h": 34, "Texture": 237, "tag": "interruptor0", "maxAlpha": 220, "minAlpha": 0, "UnlockId": 1, "off": false, "canWork": true  }
+    ],
+
+    "PlayerPos": {
+        "x": 230,
+        "y": 330
+    },
+
+    "Music": [ 
+        5
+    ],
+
+    "volumenes": [
+        3
+    ],
+
+
+    "NPC": [
+
+        { "x": 122, "y": 400, "w": 60, "h": 206, "Texture": 124,
+            "animation": true, "numFilsFrame": 4, "numColsFrame": 2,
+            "widthFrame": 41, "heightFrame": 149, "vel": 200, "loop": true,
+            "Anims": [ [0,1,2,3] ], "dialogo": "Ander29"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+
+	"NumNodos": 1,
+
+	"Nodo": [
+
+	{"numNodo":0, "nodoSig":-1, "numLineas": 1, "lineas":[ 
+		{"texto": "Preguntemos a los dueños. Seguro que saben algo."}],
+	"numOpciones":0, "pj": 90, "emo": 0
+	}
+
+	]
+
+}

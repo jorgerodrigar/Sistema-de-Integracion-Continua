@@ -1,0 +1,240 @@
+{
+   "AlenaActiva": true,
+   "CambioActo": false,
+   "CollisionableObject": [
+      {
+         "Texture": 276,
+         "h": 206.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 100.0,
+         "y": 500.0
+      },
+      {
+         "Texture": 276,
+         "h": 206.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 750.0,
+         "y": 350.0
+      },
+      {
+         "Texture": 195,
+         "h": 134.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 256.0,
+         "x": 90.0,
+         "y": 500.0
+      },
+      {
+         "Texture": 195,
+         "h": 134.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 256.0,
+         "x": 690.0,
+         "y": 490.0
+      },
+      {
+         "Texture": 196,
+         "h": 170.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 218.0,
+         "x": 50.0,
+         "y": 250.0
+      },
+      {
+         "Texture": 197,
+         "h": 170.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 218.0,
+         "x": 920.0,
+         "y": 250.0
+      }
+   ],
+   "Decorado": [
+      {
+         "Anims": [
+            [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               1,
+               2,
+               3,
+               4,
+               5,
+               5,
+               5,
+               5,
+               5,
+               5,
+               5,
+               5,
+               5,
+               5,
+               6,
+               5,
+               6,
+               5
+            ]
+         ],
+         "Texture": 233,
+         "animation": true,
+         "h": 103.0,
+         "heightFrame": 103,
+         "loop": true,
+         "numColsFrame": 2,
+         "numFilsFrame": 4,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 100.0,
+         "w": 255.0,
+         "widthFrame": 255,
+         "x": 898.0,
+         "y": 145.0
+      }
+   ],
+   "HeaderActo": "",
+   "ItemInventario": [
+      {
+         "Anims": [
+            [
+               0
+            ],
+            [
+               1
+            ]
+         ],
+         "Texture": 208,
+         "animation": true,
+         "descripcion": "Tiene el logo de Beyond. Parece una medicina bastante potente.",
+         "h": 42.0,
+         "heightFrame": 42,
+         "loop": true,
+         "numColsFrame": 1,
+         "numFilsFrame": 2,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "tag": "antidoto",
+         "vel": 200.0,
+         "w": 42.0,
+         "widthFrame": 42,
+         "x": 710.0,
+         "y": 495.0
+      }
+   ],
+   "Music": [
+      4
+   ],
+   "MusicVolume": [
+      0
+   ],
+   "NPC": [
+      {
+         "Anims": [
+            [
+               0,
+               1,
+               2,
+               3
+            ]
+         ],
+         "Texture": 124,
+         "animation": true,
+         "dialogo": "Ander30",
+         "done": false,
+         "h": 206.0,
+         "heightFrame": 149,
+         "loop": true,
+         "numColsFrame": 2,
+         "numFilsFrame": 4,
+         "repeatDialog": true,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 60.0,
+         "widthFrame": 41,
+         "x": 100.0,
+         "y": 500.0
+      },
+      {
+         "Anims": [
+            [
+               0,
+               2,
+               0,
+               2,
+               0,
+               2,
+               0,
+               2,
+               0,
+               3,
+               4,
+               5,
+               6,
+               7,
+               8,
+               9,
+               2,
+               0,
+               2,
+               0,
+               2,
+               1
+            ]
+         ],
+         "Texture": 179,
+         "animation": true,
+         "dialogo": "ForenseFinal",
+         "done": false,
+         "h": 206.0,
+         "heightFrame": 127,
+         "loop": true,
+         "numColsFrame": 2,
+         "numFilsFrame": 5,
+         "repeatDialog": true,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 60.0,
+         "widthFrame": 36,
+         "x": 750.0,
+         "y": 350.0
+      }
+   ],
+   "PlayerPos": {
+      "x": 10.0,
+      "y": 320.0
+   },
+   "PlayerTam": {
+      "h": 201.6,
+      "w": 84.0
+   },
+   "StopActualMusic": [
+      false
+   ],
+   "Texture": 194,
+   "actNumber": -1,
+   "h": 720.0,
+   "rotation": 0.0,
+   "soundEffect": 1,
+   "volumenes": [
+      4
+   ],
+   "w": 1280.0,
+   "x": 0.0,
+   "y": 0.0
+}

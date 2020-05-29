@@ -1,0 +1,17 @@
+{
+
+	"NumNodos": 1,
+	"msg": 0,
+	"numScene": 25,
+	
+	"Nodo": [
+
+	{"numNodo":0, "nodoSig":-1, "numLineas": 2, "lineas":[ 
+		{ "texto": "Nos dirigimos a la casa del vecino de la vícima. " },
+        {"texto": "Tenemos que tener cuidado, no podemos hablar más de la cuenta."}],
+	"numOpciones":0, "pj": 90, "emo": 1
+	}
+
+	]
+
+}

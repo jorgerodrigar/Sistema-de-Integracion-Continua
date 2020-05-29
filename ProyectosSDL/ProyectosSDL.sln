@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HolaSDL", "HolaSDL\HolaSDL.vcxproj", "{28A4C5CD-307A-4FE6-81E4-4CE1F1E49AB4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tracker", "Tracker\Tracker.vcxproj", "{6F40F9A5-E14F-45AC-8131-8A1E63FEC8B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28A4C5CD-307A-4FE6-81E4-4CE1F1E49AB4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{28A4C5CD-307A-4FE6-81E4-4CE1F1E49AB4}.Debug|Win32.Build.0 = Debug|Win32
+		{28A4C5CD-307A-4FE6-81E4-4CE1F1E49AB4}.Debug|x64.ActiveCfg = Debug|Win32
+		{28A4C5CD-307A-4FE6-81E4-4CE1F1E49AB4}.Release|Win32.ActiveCfg = Release|Win32
+		{28A4C5CD-307A-4FE6-81E4-4CE1F1E49AB4}.Release|Win32.Build.0 = Release|Win32
+		{28A4C5CD-307A-4FE6-81E4-4CE1F1E49AB4}.Release|x64.ActiveCfg = Release|Win32
+		{6F40F9A5-E14F-45AC-8131-8A1E63FEC8B1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6F40F9A5-E14F-45AC-8131-8A1E63FEC8B1}.Debug|Win32.Build.0 = Debug|Win32
+		{6F40F9A5-E14F-45AC-8131-8A1E63FEC8B1}.Debug|x64.ActiveCfg = Debug|x64
+		{6F40F9A5-E14F-45AC-8131-8A1E63FEC8B1}.Debug|x64.Build.0 = Debug|x64
+		{6F40F9A5-E14F-45AC-8131-8A1E63FEC8B1}.Release|Win32.ActiveCfg = Release|Win32
+		{6F40F9A5-E14F-45AC-8131-8A1E63FEC8B1}.Release|Win32.Build.0 = Release|Win32
+		{6F40F9A5-E14F-45AC-8131-8A1E63FEC8B1}.Release|x64.ActiveCfg = Release|x64
+		{6F40F9A5-E14F-45AC-8131-8A1E63FEC8B1}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9207F680-1854-470B-BA2E-90C3F8712929}
+	EndGlobalSection
+EndGlobal

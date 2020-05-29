@@ -1,0 +1,127 @@
+{
+	"NumNodos": 14,
+		"msg": 0,
+	"numScene": 45,
+
+	"Nodo": [
+
+	{"numNodo":0, "nodoSig":1, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Bueno, ya tengo los resultados de las pruebas, Alena. "},
+		{"texto": "¿Mejor si te llamo así?"}],
+	
+	"numOpciones":0, "pj": 264, "emo": 0
+	},
+
+	{"numNodo":1, "nodoSig":2, "numLineas": 1,
+
+	"lineas":[ {"texto": "Sí."}],
+	
+	"numOpciones":0, "pj": 89, "emo": 5
+	},
+
+	{"numNodo":2, "nodoSig":3, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Pues eso, que tengo los resultados y efectivamente, tiene "},
+		{"texto": "de esta sustancia... ¿cómo ha dicho que se llama? "}],
+	
+	"numOpciones":0, "pj": 264, "emo": 0
+	},
+
+	{"numNodo":3, "nodoSig":4, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Polvo Estelar.  "}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":4, "nodoSig":5, "numLineas": 4, 
+	
+	"lineas":[ {"texto": "Bien, pues tiene de ese polvo estelar en la sangre y no sé si "},
+		{"texto": "es eso lo que ha provocado la necrosis de los pulmones de "},
+		{"texto": "este hombre o no, pero se lo diré en cuanto estén los resultados "},
+		{"texto": "de la composición de esta droga."}],
+	
+	"numOpciones":0, "pj": 264, "emo": 0
+	},
+
+	{"numNodo":5, "nodoSig":6, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Vale, ¿cuándo cree que pueden estar?"}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":6, "nodoSig":7, "numLineas": 4, 
+	
+	"lineas":[ {"texto": "Bien, aquí tiene su respuesta, Alena. Deme un momento..."},
+		{"texto": "Vale, sí, contiene sustancias bastante raras, muy difíciles "},
+		{"texto": "de encontrar en la Tierra y algunas son de creación en "},
+		{"texto": "laboratorios."}],
+	
+	"numOpciones":0, "pj": 264, "emo": 0
+	},
+
+	{"numNodo":7, "nodoSig":8, "numLineas": 4, 
+
+	"lineas":[ {"texto": " Pero hay algunas que, efectivamente, son muy perjudiciales  "},
+		{"texto": "para el cuerpo humano. En concreto una que es un derivado de  "},
+		{"texto": "la lejía, de verdad no sé quién pensó que esto era una buena  "},
+		{"texto": "idea, que es el que puede causar la necrosis pulmonar."}],
+	
+	"numOpciones":0, "pj": 264, "emo": 0
+	},
+
+	{"numNodo":8, "nodoSig":9, "numLineas": 4,
+
+	"lineas":[ {"texto": "Por cierto, se me olvidó comentar que el tabique nasal que separa "},
+		{"texto": "las fosas nasales está desintegrado, no existe dentro de Dimitri. "},
+		{"texto": "Todavía quedaban algunos restos de él, pero despareció en su "},
+		{"texto": "mayor parte."}],
+	
+	"numOpciones":0, "pj": 264, "emo": 0
+	},
+
+	{"numNodo":9, "nodoSig": 10, "numLineas": 3, 
+
+	"lineas":[ {"texto": "Tenemos estas botellas que ponían los camellos que eran una especie "},
+		{"texto": "de antídoto o algo, pero es una medicina para el cáncer, no para  "},
+		{"texto": "algo necrosado."}],
+	
+	"numOpciones":0, "pj": 90, "emo": 2
+	},
+
+	{"numNodo":10, "nodoSig":11, "numLineas": 3, 
+
+	"lineas":[ {"texto": "Normalmente esa medicina tarda una semana en hacer el efecto completo   "}, 
+	{"texto": "y curar a una persona, así que podemos probar a dar a un consumidor las  "},
+	{"texto": "dosis correctas y comprobar al cabo de una semana cómo marchan las cosas. "}],
+	
+	"numOpciones":0, "pj": 264, "emo": 0
+	},
+
+	{"numNodo":11, "nodoSig":12, "numLineas": 3, 
+
+	"lineas":[ {"texto": "Hmm me parece buena idea. Después podemos ir a ver a Jeffa y darle "},
+	{"texto": "estos resultados. Aunque el caso ya está resuelto, ya sabemos qué mató"},
+	{"texto":  "a Dimitriy por qué."}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":12, "nodoSig":13, "numLineas": 2,
+
+	"lineas":[ {"texto": "Sólo falta saber quién proporciona esta droga y por qué esta droga   "},
+		{"texto": "en concreto."}],
+	
+	"numOpciones":0, "pj": 89, "emo": 1
+	},
+
+	{"numNodo":13, "nodoSig":-1, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Te dejamos trabajar. Gracias."}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	}
+	]
+}

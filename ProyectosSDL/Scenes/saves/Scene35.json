@@ -1,0 +1,109 @@
+{
+   "AlenaActiva": true,
+   "CambioActo": false,
+   "CollisionableObject": [
+      {
+         "Texture": 276,
+         "h": 125.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 36.0,
+         "x": 1100.0,
+         "y": 290.0
+      },
+      {
+         "Texture": 43,
+         "h": 230.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 1280.0,
+         "x": 0.0,
+         "y": 400.0
+      },
+      {
+         "Texture": 166,
+         "h": 95.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 380.0,
+         "x": 245.0,
+         "y": 455.0
+      }
+   ],
+   "GOTransiciones": [
+      {
+         "Texture": 29,
+         "h": 40.0,
+         "rotat": -90.0,
+         "rotation": -90.0,
+         "scneNum": 36,
+         "soundEffect": 23,
+         "w": 40.0,
+         "x": 907.0,
+         "y": 330.0
+      },
+      {
+         "Texture": 29,
+         "h": 60.0,
+         "rotat": -180.0,
+         "rotation": -180.0,
+         "scneNum": 34,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 10.0,
+         "y": 400.0
+      }
+   ],
+   "HeaderActo": "",
+   "MusicVolume": [
+      0
+   ],
+   "NPC": [
+      {
+         "Anims": [
+            [
+               4,
+               5,
+               6,
+               7
+            ]
+         ],
+         "Texture": 124,
+         "animation": true,
+         "dialogo": "Ander24",
+         "done": false,
+         "h": 125.0,
+         "heightFrame": 149,
+         "loop": true,
+         "numColsFrame": 2,
+         "numFilsFrame": 4,
+         "repeatDialog": true,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 36.0,
+         "widthFrame": 41,
+         "x": 1100.0,
+         "y": 290.0
+      }
+   ],
+   "PlayerPos": {
+      "x": 30.0,
+      "y": 360.0
+   },
+   "PlayerTam": {
+      "h": 120.0,
+      "w": 50.0
+   },
+   "StopActualMusic": [
+      true
+   ],
+   "Texture": 234,
+   "actNumber": -1,
+   "h": 720.0,
+   "rotation": 0.0,
+   "soundEffect": 1,
+   "w": 1280.0,
+   "x": 0.0,
+   "y": 0.0
+}

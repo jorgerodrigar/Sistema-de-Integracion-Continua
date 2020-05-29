@@ -1,0 +1,112 @@
+{
+   "AlenaActiva": true,
+   "CambioActo": false,
+   "CollisionableObject": [
+      {
+         "Texture": 276,
+         "h": 206.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 418.0,
+         "y": 383.0
+      }
+   ],
+   "GODoors": [
+      {
+         "Texture": 228,
+         "h": 241.0,
+         "rotGOTr": -90.0,
+         "rotat": 0.0,
+         "rotation": 0.0,
+         "scneNum": 42,
+         "soundEffect": 8,
+         "tag": "",
+         "w": 116.0,
+         "x": 852.0,
+         "y": 117.0
+      }
+   ],
+   "GOTransiciones": [
+      {
+         "Texture": 29,
+         "h": 60.0,
+         "rotat": -90.0,
+         "rotation": -90.0,
+         "scneNum": 39,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 236.0,
+         "y": 310.0
+      },
+      {
+         "Texture": 29,
+         "h": 60.0,
+         "rotat": -90.0,
+         "rotation": -90.0,
+         "scneNum": 41,
+         "soundEffect": 23,
+         "w": 60.0,
+         "x": 54.0,
+         "y": 310.0
+      }
+   ],
+   "HeaderActo": "",
+   "Music": [
+      5
+   ],
+   "MusicVolume": [
+      0
+   ],
+   "NPC": [
+      {
+         "Anims": [
+            [
+               4,
+               5,
+               6,
+               7
+            ]
+         ],
+         "Texture": 124,
+         "animation": true,
+         "dialogo": "Ander25",
+         "done": false,
+         "h": 206.0,
+         "heightFrame": 149,
+         "loop": true,
+         "numColsFrame": 2,
+         "numFilsFrame": 4,
+         "repeatDialog": true,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 60.0,
+         "widthFrame": 41,
+         "x": 418.0,
+         "y": 383.0
+      }
+   ],
+   "PlayerPos": {
+      "x": 230.0,
+      "y": 330.0
+   },
+   "PlayerTam": {
+      "h": 201.6,
+      "w": 84.0
+   },
+   "StopActualMusic": [
+      false
+   ],
+   "Texture": 225,
+   "actNumber": -1,
+   "h": 720.0,
+   "rotation": 0.0,
+   "soundEffect": 1,
+   "volumenes": [
+      3
+   ],
+   "w": 1280.0,
+   "x": 0.0,
+   "y": 0.0
+}

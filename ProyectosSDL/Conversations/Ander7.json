@@ -1,0 +1,15 @@
+{
+
+	"NumNodos": 1,
+
+	"Nodo": [
+
+	{"numNodo":0, "nodoSig":-1, "numLineas": 2, "lineas":[ 
+		{"texto": "Estamos ahora mismo en el vestíbulo. Será mejor"},
+		{"texto": "subir a investigar. "}],
+	"numOpciones":0, "pj": 90, "emo": 0
+	}
+
+	]
+
+}

@@ -1,0 +1,18 @@
+{
+    "msg": 0,
+    "numScene": 44,
+
+
+	"NumNodos": 6,
+
+	"Nodo": [
+
+	{"numNodo":0, "nodoSig":-1, "numLineas": 1, "lineas":[ 
+		{ "texto": "Con esta información deberíamos revisitar al forense. " }],
+	"numOpciones":0, "pj": 90, "emo": 1
+	}
+
+	]
+
+}
+

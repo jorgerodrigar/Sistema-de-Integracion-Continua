@@ -1,0 +1,406 @@
+{
+	"NumNodos": 48,
+	"msg": 1,
+    "textureItem": 54,
+    "tagItem": "keyCoche",
+    "descripcionItem": "Es la llave del coche  de la empresa",
+    "permanenteItem": false,
+
+	"Nodo": [
+
+	{"numNodo":0, "nodoSig":1, "numLineas": 3, 
+
+	"lineas":[ {"texto": "Por fin Alena, menos mal que no era tan urgente. si llego"}, 
+	{"texto": "a saber que vas a tardar tanto reprogramo tu despertador."},
+	{"texto": "Al lío, ¿Se te dan bien los casos de drogas?"} ],
+	
+	"numOpciones":0, "pj": 91, "emo": 0
+	},
+
+	{"numNodo":1, "nodoSig":0, "numLineas": 0,
+
+	"numOpciones":4, 
+	"opciones":[
+	{"nodoApuntado": 2, "textoOpcion": "Supongo."},
+	{"nodoApuntado": 4, "textoOpcion": "Por supuesto, es lo que mejor se me da."},
+	{"nodoApuntado": 5, "textoOpcion": "No es mi tema favorito, la verdad."},
+	{"nodoApuntado": 7, "textoOpcion": "Habrá que mejorar en ello, me imagino."}
+	],
+
+	"pj": 89,	"emo": 0
+	},
+
+	{"numNodo":2, "nodoSig":3, "numLineas": 3, 
+
+	"lineas":[ {"texto": "El día que demuestres algo más de interés serás"}, 
+	{"texto": "ascendida y reconocida como la detective que dices ser."},
+	{"texto": "Por favor, despierta."}],
+	
+	"numOpciones":0, "pj": 91, "emo": 3
+	},
+
+	{"numNodo":3, "nodoSig":18, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Pero si antes yo..."}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":4, "nodoSig":3, "numLineas": 3, 
+
+	"lineas":[ {"texto": "Bueno, eso está genial. Así tendremos que saltarnos la parte"}, 
+	{"texto": "en la que lees la guia de sustancias estupefacientes que te pasé al correo."},
+	{"texto": "Puede que incluso consigas que te ascienda de una vez..."}
+	],
+	
+	"numOpciones":0, "pj": 91, "emo": 5
+	},
+
+	{"numNodo":5, "nodoSig":6, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Bueno, pues tendrá que serlo los próximos días"}],
+	
+	"numOpciones":0, "pj": 91, "emo": 0
+	},
+
+	{"numNodo":6, "nodoSig":5, "numLineas": 0,
+
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 2, "textoOpcion": "Supongo."},
+	{"nodoApuntado": 7, "textoOpcion": "Habrá que mejorar en ello, me imagino."}
+	],
+
+	"pj": 89,	"emo": 0
+	},
+
+	{"numNodo":7, "nodoSig":8, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Pues si, ya te puedes leer la guía que te he pasado por correo"}, 
+	{"texto": "para que te enteres más o menos de que va el tema."}],
+	
+	"numOpciones":0, "pj": 91, "emo": 0
+	},
+
+	{"numNodo":8, "nodoSig":7, "numLineas": 0,
+
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 9, "textoOpcion": "Buf, ¿De verdad?"},
+	{"nodoApuntado": 10, "textoOpcion": "Bueno, que le vamos a hacer entonces."}
+	],
+
+	"pj": 89,	"emo": 0
+	},
+
+	{"numNodo":9, "nodoSig":3, "numLineas": 2, 
+
+	"lineas":[ {"texto": "De verdad, Alena, te ha tocado. Si quieres crecer en la empresa"},
+		{"texto": "de nuevo, tienes que trabajar duro."}],
+	
+	"numOpciones":0, "pj": 91, "emo": 0
+	},
+
+	{"numNodo":10, "nodoSig":3, "numLineas": 3, 
+
+	"lineas":[ {"texto": "Eso me imaginaba, vayamos al tema entonces, porque puede que"}, 
+	{"texto": "después de esto te ganes un ascenso por fin, aunque tendré que darle"},
+	{"texto": "un par de vueltas aún."}],
+	
+	"numOpciones":0, "pj": 91, "emo": 0
+	},
+
+	{"numNodo":11, "nodoSig":12, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Sí, han aparecido nuevas sustancias desde que te ocupaste de"},
+	{"texto": "algo relacionado con las drogas."}],
+	
+	"numOpciones":0, "pj": 91, "emo": 0
+	},
+
+	{"numNodo":12, "nodoSig":11, "numLineas": 0,
+
+	"numOpciones":3, 
+	"opciones":[
+	{"nodoApuntado": 13, "textoOpcion": "La verdad es que me lo imaginaba."},
+	{"nodoApuntado": 14, "textoOpcion": "No sé por qué no me sorprende, la verdad."},
+	{"nodoApuntado": 16, "textoOpcion": "Vaya fastidio."}
+	],
+
+	"pj": 89,	"emo": 0
+	},
+
+	{"numNodo":13, "nodoSig":3, "numLineas": 3, 
+
+	"lineas":[ {"texto": "Por eso mismo, Alena, ahora es más complejo seguir las pistas."},
+		{"texto": "Por eso este caso será clave para la lucha contra las drogas y puede"},
+		{"texto": "que para tu ascenso, ya sabes"}],
+	
+	"numOpciones":0, "pj": 91, "emo": 0
+	},
+
+	{"numNodo":14, "nodoSig":15, "numLineas": 3, 
+
+	"lineas":[ {"texto": "Porque la gente nunca está agusto con las que ya tienen, siempre"},
+		{"texto": "buscan más emociones, más placer. En fin"},
+		{"texto": "¿crees estar preparada?"}],
+	
+	"numOpciones":0, "pj": 91, "emo": 0
+	},
+
+	{"numNodo":15, "nodoSig":17, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Bien, le echaré un vistazo."}],
+	
+	"numOpciones":0, "pj": 91, "emo": 0
+	},
+
+	{"numNodo":16, "nodoSig":15, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Pues si, pero hay que adaptarse a ello."}],
+	
+	"numOpciones":0, "pj": 91, "emo": 0
+	},
+
+
+	{"numNodo":18, "nodoSig":3, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Bien, coge todos los datos que puedas y que no se te pase ninguna"},
+		{"texto": "posibilidad, ¿De acuerdo?"}],
+	
+	"numOpciones":0, "pj": 91, "emo": 0
+	},
+
+	{"numNodo":18, "nodoSig":19, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Nada, olvidate de lo que pasara antes, como si estabas a punto"},
+		{"texto": "de convertirte tú en la jefa."}],
+	
+	"numOpciones":0, "pj": 91, "emo": 5
+	},
+
+	{"numNodo":19, "nodoSig":20, "numLineas": 3, 
+
+	"lineas":[ {"texto": "Al grano, que la mañana es corta y tengo que terminar de repasar"},
+		{"texto": "unos papeles importantes."},
+		{"texto": "¿Conoces la empresa Moonprice?"}],
+	
+	"numOpciones":0, "pj": 91, "emo": 0
+	},
+	
+	{"numNodo":20, "nodoSig":19, "numLineas": 0,
+
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 21, "textoOpcion": "¿La farmaceutica? Si."},
+	{"nodoApuntado": 23, "textoOpcion": "No"}
+	],
+
+	"pj": 89,	"emo": 0
+	},
+
+	{"numNodo":21, "nodoSig":22, "numLineas": 4, 
+
+	"lineas":[ {"texto": "Bueno, han reportado la muerte de un hombre de veinteiséis años"}, 
+	{"texto": "en su casa. Parece que sucedió hace unos dos días. Se cree que murió por "},	
+	{"texto": "una droga que está repartiendo esta empresa, aunque no se sabe si de  "},
+	{"texto": "verdad es de ellos o no. Te va a tocar ir a investigarles."}],
+	"numOpciones":0, "pj": 91, "emo": 0
+	},
+
+	{"numNodo":22, "nodoSig":24, "numLineas": 1, 
+
+	"lineas":[ {"texto": "¿No sería mejor ir primero a resolver el caso de este hombre?"}],
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":23, "nodoSig":21, "numLineas": 4, 
+
+	"lineas":[ {"texto": "Ah, en fin, que desastre puedes ser a veces Alena. Moonprice es una"},
+	{"texto": "farmacéutica que extrae minerales de la Luna, con ellos hacen medicinas"},
+	{"texto": "bastante potentes. Ahora sin embargo la están liando bastante con sus"},
+	{"texto": "experimentos y creemos que se dedican a crear drogas de diseño."}],
+	"numOpciones":0, "pj": 91, "emo": 0
+	},
+
+	{"numNodo":24, "nodoSig":25, "numLineas": 3, 
+
+	"lineas":[ {"texto": "Cierto, ¿Ves? Así es como tiemes que trabajar si quieres que te ascienda."},
+	{"texto": "Como no sabía si ibas a poder resolver el caso, te he asignado un "},
+	{"texto": "compañero para que te ayude."}],
+	"numOpciones":0, "pj": 91, "emo": 5
+	},
+
+	{"numNodo":25, "nodoSig":26, "numLineas": 0,
+
+	"numOpciones":3, 
+	"opciones":[
+	{"nodoApuntado": 26, "textoOpcion": "Joder, otra vez no."},
+	{"nodoApuntado": 28, "textoOpcion": "Buff, no necesito compañeros."},
+	{"nodoApuntado": 30, "textoOpcion": "¿De quien se trata?"}
+	],
+
+	"pj": 89,	"emo": 3
+	},
+
+	{"numNodo":26, "nodoSig":27, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Pues sí, otra vez. Eso sí, esta vez no le des una paliza cuando"},
+	 {"texto": "te tenga que ayudar a trepar por alguna ventana."}	],
+	"numOpciones":0, "pj": 91, "emo": 0
+	},
+
+	{"numNodo":27, "nodoSig":26, "numLineas": 0,
+
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 32, "textoOpcion": "El último me toco el culo."},
+	{"nodoApuntado": 34, "textoOpcion": "Si es necesario lo voy a hacer."}
+	],
+
+	"pj": 89,	"emo": 0
+	},
+
+	{"numNodo":28, "nodoSig":29, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Para este caso sí, Alena. Puede ser peligroso y no quiero mandar"},
+	{"texto": "a ningún agente solo. Compórtate por favor."}],
+	"numOpciones":0, "pj": 91, "emo": 0
+	},
+
+	{"numNodo":29, "nodoSig":40, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Bueno, vale, seré maja con él."}],
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":30, "nodoSig":31, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Es este hombre de aquí, se llama Ander y es de Inglaterra."}],
+	"numOpciones":0, "pj": 91, "emo": 0
+	},
+
+	{"numNodo":31, "nodoSig":30, "numLineas": 0,
+
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 34, "textoOpcion": "Buff que nombre más horrible."},
+	{"nodoApuntado": 35, "textoOpcion": "Puede que sea majo."}
+	],
+
+	"pj": 89,	"emo": 0
+	},
+
+	{"numNodo":32, "nodoSig":29, "numLineas": 3, 
+		
+	"lineas":[ {"texto": "Y ya hablamos de ello en su momento, así que déjate de tonterías. "},
+		{"texto": "Además, ese hombre no volvió a pisar la oficina cuando efectivamente se "},
+		{"texto": "demostró que intentó manosear a otras compañeras, el asqueroso."}],
+	"numOpciones":0, "pj": 91, "emo": 3
+	},
+
+	{"numNodo":33, "nodoSig":29, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Es imposible discutir contigo, Alena."}],
+	"numOpciones":0, "pj": 91, "emo": 3
+	},
+
+	{"numNodo":34, "nodoSig":29, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Alena por favor, siempre con lo mismo, "},
+		{"texto": "¿Puedes por un momento no ser tan antipática?"}],
+	"numOpciones":0, "pj": 91, "emo": 3
+	},
+
+	{"numNodo":35, "nodoSig":36, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Vaya eso sí que es nuevo en ti Alena. ¿Estás bien?"}],
+	"numOpciones":0, "pj": 91, "emo": 5
+	},
+
+	{"numNodo":36, "nodoSig":37, "numLineas": 0,
+
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 34, "textoOpcion": "No, sólo estaba de broma."},
+	{"nodoApuntado": 38, "textoOpcion": "Perfectamente, es sólo que quiero empezar a trabajar ya."}
+	],
+
+	"pj": 89,	"emo": 0
+	},
+
+	{"numNodo":37, "nodoSig":34, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Buff, que nombre más horrible."}],
+	"numOpciones":0, "pj": 91, "emo": 0
+	},
+
+	{"numNodo":38, "nodoSig":29, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Perfecto entonces. Pero compórtate."}],
+	"numOpciones":0, "pj": 91, "emo": 0
+	},
+
+	{"numNodo":39, "nodoSig":40, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Este de aquí es Ander, como te he dicho."}],
+	"numOpciones":0, "pj": 91, "emo": 0
+	},
+
+	{"numNodo":40, "nodoSig":41, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Ander, puedes quitarte la música."}],
+	"numOpciones":0, "pj": 91, "emo": 0
+	},
+
+	{"numNodo":41, "nodoSig":42, "numLineas": 1, 
+
+	"lineas":[ {"texto": "¡Buenas! Jeffa me dijo que me quedara aquí sin escuchar, lo siento."}],
+	"numOpciones":0, "pj": 90, "emo": 5
+	},
+
+	{"numNodo":42, "nodoSig":41, "numLineas": 0,
+
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 43, "textoOpcion": "Hola."},
+	{"nodoApuntado": 45, "textoOpcion": "Hola, creo que vamos a ser compañeros."}
+	],
+
+	"pj": 89,	"emo": 0
+	},
+
+	{"numNodo":43, "nodoSig":44, "numLineas": 1, 
+
+	"lineas":[ {"texto": "¡Espera! No nos hemos presentado, me llamo Ander, encantado."}],
+	"numOpciones":0, "pj": 90, "emo": 5
+	},
+
+	{"numNodo":44, "nodoSig":46, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Alena, y ahora vámonos."}],
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":45, "nodoSig":44, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Efectivamente, eso es lo que me han dicho. Me llamo Ander."}],
+	"numOpciones":0, "pj": 90, "emo": 5
+	},
+
+	{"numNodo":46, "nodoSig":47, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Segun el informe el piso está en la plaza Drzewo."},
+		{"texto": "En el cuarto piso de un bloque bastante grande."}],
+	"numOpciones":0, "pj": 90, "emo": 0
+	},
+
+	{"numNodo":47, "nodoSig":-1, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Eso está muy lejos, fuera de la ciudad."},
+	{"texto": "No me apetece nada coger el coche."}],
+	"numOpciones":0, "pj": 89, "emo": 0
+	}
+
+	]
+}

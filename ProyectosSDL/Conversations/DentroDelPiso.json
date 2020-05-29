@@ -1,0 +1,42 @@
+{
+	"NumNodos": 4,
+
+	"Nodo": [
+
+	{"numNodo":0, "nodoSig":1, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Deberíamos mirar el cuadro de luces, igual ha saltado el diferencial."}],
+	
+	"numOpciones":0, "pj": 90, "emo": 1
+	},
+
+	{"numNodo":1, "nodoSig":0, "numLineas": 0,
+
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": -1, "textoOpcion": "Cierto, quizá así podamos ver algo."},
+	{"nodoApuntado": 2, "textoOpcion": "¿Tienes miedo a la oscuridad, Ander?"}
+	],
+	"pj": 89, "emo": 0
+	},
+
+	{"numNodo":2, "nodoSig":3, "numLineas": 3, 
+
+	"lineas":[ {"texto": "No... No es eso, es que no me apetece estar a oscuras en un piso "},
+	{"texto": "donde venden droga y que estamos tratando de investigar. "},
+	{"texto": "No me transmite seguridad."}],
+	
+	"numOpciones":0, "pj": 90, "emo": 2
+	},
+
+	{"numNodo":3, "nodoSig":0, "numLineas": 0,
+
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": -1, "textoOpcion": "Cierto, quizá así podamos ver algo."},
+	{"nodoApuntado": -1, "textoOpcion": "Vale, no te preocupes, todos tenemos miedo a algunas cosas, es algo normal."}
+	],
+	"pj": 89, "emo": 0
+	}
+	]
+}

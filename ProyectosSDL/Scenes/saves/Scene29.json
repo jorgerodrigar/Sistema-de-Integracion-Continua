@@ -1,0 +1,175 @@
+{
+   "AlenaActiva": true,
+   "CambioActo": true,
+   "CollisionableObject": [
+      {
+         "Texture": 276,
+         "h": 210.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 1100.0,
+         "y": 280.0
+      },
+      {
+         "Texture": 276,
+         "h": 206.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 57.0,
+         "x": 300.0,
+         "y": 240.0
+      },
+      {
+         "Texture": 104,
+         "h": 105.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 142.0,
+         "x": 400.0,
+         "y": 315.0
+      }
+   ],
+   "Decorado": [
+      {
+         "Anims": [
+            [
+               0,
+               1,
+               1,
+               0,
+               0,
+               0,
+               0,
+               1,
+               0,
+               1,
+               0,
+               0,
+               1,
+               1,
+               0,
+               0,
+               1,
+               0,
+               0,
+               1
+            ]
+         ],
+         "Texture": 241,
+         "animation": true,
+         "h": 40.0,
+         "heightFrame": 40,
+         "loop": true,
+         "numColsFrame": 1,
+         "numFilsFrame": 2,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 150.0,
+         "w": 40.0,
+         "widthFrame": 40,
+         "x": 1220.0,
+         "y": 291.0
+      }
+   ],
+   "GOTransiciones": [
+      {
+         "Texture": 29,
+         "h": 60.0,
+         "rotat": 0.0,
+         "rotation": 0.0,
+         "scneNum": 30,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 1205.0,
+         "y": 500.0
+      }
+   ],
+   "HeaderActo": "La fábrica Polbots",
+   "MusicVolume": [
+      0
+   ],
+   "NPC": [
+      {
+         "Anims": [
+            [
+               4,
+               5,
+               6,
+               7
+            ]
+         ],
+         "Texture": 124,
+         "animation": true,
+         "dialogo": "Ander19",
+         "done": false,
+         "h": 210.0,
+         "heightFrame": 149,
+         "loop": true,
+         "numColsFrame": 2,
+         "numFilsFrame": 4,
+         "repeatDialog": true,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 60.0,
+         "widthFrame": 41,
+         "x": 1100.0,
+         "y": 280.0
+      },
+      {
+         "Anims": [
+            [
+               0,
+               2,
+               0,
+               2,
+               0,
+               2,
+               0,
+               2,
+               0,
+               3,
+               0,
+               2
+            ]
+         ],
+         "Texture": 184,
+         "animation": true,
+         "dialogo": "caso1_acto4_trabajadorPolbots2",
+         "done": false,
+         "h": 206.0,
+         "heightFrame": 125,
+         "loop": true,
+         "numColsFrame": 2,
+         "numFilsFrame": 2,
+         "repeatDialog": true,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 57.0,
+         "widthFrame": 31,
+         "x": 300.0,
+         "y": 240.0
+      }
+   ],
+   "PlayerPos": {
+      "x": 10.0,
+      "y": 475.0
+   },
+   "PlayerTam": {
+      "h": 201.6,
+      "w": 84.0
+   },
+   "StopActualMusic": [
+      false
+   ],
+   "Texture": 206,
+   "actNumber": 4,
+   "h": 720.0,
+   "rotation": 0.0,
+   "soundEffect": 1,
+   "w": 1280.0,
+   "x": 0.0,
+   "y": 0.0
+}

@@ -1,0 +1,1756 @@
+{
+  "NumNodos": 104,
+
+  "Nodo": [
+
+    {
+      "numNodo": 0,
+      "nodoSig": 1,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Vaya, parece que este tío le daba fuerte a todo," },
+        { "texto": "aquí hay droga para parar un tren." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 1
+    },
+
+
+    {
+      "numNodo": 1,
+      "nodoSig": 0,
+      "numLineas": 0,
+
+      "numOpciones": 6,
+      "opciones": [
+        {
+          "nodoApuntado": 2,
+          "textoOpcion": "Tampoco te emociones, no hay tanta."
+        },
+        {
+          "nodoApuntado": 95,
+          "textoOpcion": "Un poco, parece."
+        },
+        {
+          "nodoApuntado": 96,
+          "textoOpcion": "Qué va, he visto muchos más kilos juntos."
+        },
+        {
+          "nodoApuntado": 4,
+          "textoOpcion": "Me intriga más saber de donde puede ser esta llave de aquí."
+        },
+        {
+          "nodoApuntado": 10,
+          "textoOpcion": "Ese olor a café me resulta más extraño, si te digo la verdad."
+        },
+        {
+          "nodoApuntado": 24,
+          "textoOpcion": "Y también tenemos un móvil, eso sí que puede ser útil."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 2,
+      "nodoSig": 3,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Es la primera vez que veo más de un cuarto de gramo junto," },
+        { "texto": " si te digo la verdad. Tú no habrás visto tampoco mucho más." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 2
+    },
+
+    {
+      "numNodo": 3,
+      "nodoSig": 2,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 6,
+          "textoOpcion": "Eres muy nuevo al parecer."
+        },
+        {
+          "nodoApuntado": 96,
+          "textoOpcion": "Qué va, he visto muchos más kilos juntos."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 5
+    },
+
+
+    {
+      "numNodo": 4,
+      "nodoSig": 5,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Sip, parece la llave de un piso muy similar a este." },
+        { "texto": "Al menos se parece bastante a la de la puerta." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 5,
+      "nodoSig": 97,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Interesante..." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 89,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 6,
+      "nodoSig": 7,
+      "numLineas": 3,
+
+      "lineas": [
+        { "texto": "Pues bueno, un poco sí, la verdad." },
+        { "texto": "Este es de mis primeros casos relacionados con las drogas." },
+        { "texto": "Pero esto es interesante, tanta droga junta." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 2
+    },
+
+    {
+      "numNodo": 7,
+      "nodoSig": 6,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 8,
+          "textoOpcion": "Bueno, no pasa nada, todo es aprender."
+        },
+        {
+          "nodoApuntado": 4,
+          "textoOpcion": "Me intriga más saber de donde puede ser esta llave de aquí."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 0
+    },
+
+
+    {
+      "numNodo": 8,
+      "nodoSig": 9,
+      "numLineas": 1,
+
+      "lineas": [ { "texto": "Ya ya, en fin. ¿Qué te parece esa llave de ahí?" } ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 9,
+      "nodoSig": 8,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 10,
+          "textoOpcion": "Ese olor a café me resulta más extraño, si te digo la verdad."
+        },
+        {
+          "nodoApuntado": 12,
+          "textoOpcion": "Interesante..."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 10,
+      "nodoSig": 11,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "En la cocina había un tícket con el nombre de la tienda," },
+        { "texto": "al parecer también compró allí el vodka." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 11,
+      "nodoSig": 10,
+      "numLineas": 0,
+
+      "numOpciones": 3,
+      "opciones": [
+        {
+          "nodoApuntado": 23,
+          "textoOpcion": "Podemos ir a investigar la tienda"
+        },
+        {
+          "nodoApuntado": 30,
+          "textoOpcion": "Sí, no es normal tener cocaína y café en el mismo sitio."
+        },
+        {
+          "nodoApuntado": 26,
+          "textoOpcion": "Hmm, creo que sería mejor investigar de donde es la llave."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 12,
+      "nodoSig": 13,
+      "numLineas": 3,
+
+      "lineas": [
+        { "texto": "Sí, ¿quién tendría dos pisos? Es más " },
+        { "texto": "¿Quién los tendría iguales? Desde que salimos al espacio" },
+        { "texto": "la gente dejó de comprarse pisos en la Tierra." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 13,
+      "nodoSig": 12,
+      "numLineas": 0,
+
+      "numOpciones": 3,
+      "opciones": [
+        {
+          "nodoApuntado": 14,
+          "textoOpcion": "Cierto, se venden más en Marte."
+        },
+        {
+          "nodoApuntado": 99,
+          "textoOpcion": "Pero antes era normal tener más de una casa."
+        },
+        {
+          "nodoApuntado": 98,
+          "textoOpcion": "Los que no se pueden permitir salir de la Tierra."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 14,
+      "nodoSig": 15,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Pero teniendo en cuenta su posición social... " },
+        { "texto": "No me extraña." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 15,
+      "nodoSig": 14,
+      "numLineas": 0,
+
+      "numOpciones": 3,
+      "opciones": [
+        {
+          "nodoApuntado": 16,
+          "textoOpcion": "Igual ganaba suficiente dinero, pero se lo gastaba todo en drogas."
+        },
+        {
+          "nodoApuntado": 98,
+          "textoOpcion": "Los que no se pueden permitir salir de la Tierra."
+        },
+        {
+          "nodoApuntado": 18,
+          "textoOpcion": "A mi tampoco la verdad."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 16,
+      "nodoSig": 17,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Es una posibilidad, creo que conozco la tienda " },
+        { "texto": "esa donde compraba el vodka, está por aquí cerca. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 17,
+      "nodoSig": 16,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 20,
+          "textoOpcion": "¿Cómo conoces tú una tienda de aquí?"
+        },
+        {
+          "nodoApuntado": 23,
+          "textoOpcion": "Podemos ir a investigar la tienda"
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 18,
+      "nodoSig": 19,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Ya, bueno, lo importante es que tenemos varias botellas" },
+        { "texto": "de vodka y un ticket, así que podemos ir a investigar la tienda." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 19,
+      "nodoSig": 23,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Cierto, es interesante. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 89,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 20,
+      "nodoSig": 21,
+      "numLineas": 3,
+
+      "lineas": [
+        { "texto": "Ahm... esto... vine de viaje hace un tiempo " },
+        { "texto": "con unos amigos de la universidad, recorrimos toda europa en coche." },
+        { "texto": "Paramos por aquí a comprar algo de vodka. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 21,
+      "nodoSig": 20,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 23,
+          "textoOpcion": "Ya bueno, en fin continuemos."
+        },
+        {
+          "nodoApuntado": 22,
+          "textoOpcion": "No te lo puedo reprochar, el vodka es lo mejor que hay."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 22,
+      "nodoSig": 23,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Vaya, que casualidad. " },
+        { "texto": "Mi mejor amigo también lo considera lo mejor. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 23,
+      "nodoSig": -1,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Podemos ir a investigar la tienda " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 24,
+      "nodoSig": 25,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Sí,pero no podemos desbloquearlo. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 25,
+      "nodoSig": 24,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 43,
+          "textoOpcion": "Podríamos sacar más información preguntando a gente cercana."
+        },
+        {
+          "nodoApuntado": 28,
+          "textoOpcion": "Su pareja igual nos puede decir cómo."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+    {
+      "numNodo": 26,
+      "nodoSig": 27,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Pues sí, deberíamos averiguar qué piso es." },
+        { "texto": "¿No pone nada en el llavero?" }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 27,
+      "nodoSig": 26,
+      "numLineas": 0,
+
+      "numOpciones": 3,
+      "opciones": [
+        {
+          "nodoApuntado": 45,
+          "textoOpcion": "Sólo hay unos números grabados."
+        },
+        {
+          "nodoApuntado": 40,
+          "textoOpcion": "No pone nada, será imposible saber de donde es."
+        },
+        {
+          "nodoApuntado": 69,
+          "textoOpcion": "Está la marca del fabricante, puede sernos de utilidad."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 0
+    },
+    {
+      "numNodo": 28,
+      "nodoSig": 29,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Cierto, esa foto de ahí aprece ser ella. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 29,
+      "nodoSig": 100,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Es verdad, podría pedir que me pasaran su ficha." },
+        { "texto": "Envíale un mensaje  a Jeffa con la foto." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 30,
+      "nodoSig": 31,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "A menos que quieras que te de un ataque al corazón. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+    {
+      "numNodo": 31,
+      "nodoSig": 32,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Por supuesto, pero nadie querría eso." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 32,
+      "nodoSig": 33,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Puede ser excitante estar a punto de morir por un ataque al corazón" }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 33,
+      "nodoSig": 32,
+      "numLineas": 0,
+
+      "numOpciones": 3,
+      "opciones": [
+        {
+          "nodoApuntado": 38,
+          "textoOpcion": "...."
+        },
+        {
+          "nodoApuntado": 36,
+          "textoOpcion": "Por supuesto, seguro que es como saltar en paracaídas."
+        },
+        {
+          "nodoApuntado": 34,
+          "textoOpcion": "Voy a ignorar eso."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 34,
+      "nodoSig": 35,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Ya, bueno, pero que podemos investigar esto." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 35,
+      "nodoSig": 23,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Sí, mejor seguir con la investigación." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 36,
+      "nodoSig": 37,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Pues dicen que es la misma sensación. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 37,
+      "nodoSig": 36,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 38,
+          "textoOpcion": "...."
+        },
+        {
+          "nodoApuntado": 34,
+          "textoOpcion": "Voy a ignorar eso."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 38,
+      "nodoSig": 39,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Vale, pero seguro que a alguien le parece excitante. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 39,
+      "nodoSig": 38,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 36,
+          "textoOpcion": "Por supuesto, seguro que es como saltar en paracaídas."
+        },
+        {
+          "nodoApuntado": 34,
+          "textoOpcion": "Voy a ignorar eso."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 40,
+      "nodoSig": 41,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Siempre se puede investigar quién y donde la fabricó." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 41,
+      "nodoSig": 40,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 42,
+          "textoOpcion": "Bah, no creo, mejor investiguemos otra cosa."
+        },
+        {
+          "nodoApuntado": 43,
+          "textoOpcion": "Podríamos sacar más información si preguntamos a gente cercana."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 42,
+      "nodoSig": 30,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Bueno, ¿entonces el café?" }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+
+    {
+      "numNodo": 43,
+      "nodoSig": 44,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Cierto, podríamos hablar con esta chica de aquí, parece su pareja." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 44,
+      "nodoSig": 43,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 50,
+          "textoOpcion": "Podría pedir su ficha. Envíale un mensaje  a Jeffa con la foto."
+        },
+        {
+          "nodoApuntado": 52,
+          "textoOpcion": "Es extraño que no esté aquí también."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 45,
+      "nodoSig": 46,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Bueno, eso igual nos puede servir de algo." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 46,
+      "nodoSig": 45,
+      "numLineas": 0,
+
+      "numOpciones": 3,
+      "opciones": [
+        {
+          "nodoApuntado": 42,
+          "textoOpcion": "Bah, no creo, mejor investiguemos otra cosa."
+        },
+        {
+          "nodoApuntado": 43,
+          "textoOpcion": "Podríamos sacar más información si preguntamos a gente cercana."
+        },
+        {
+          "nodoApuntado": 47,
+          "textoOpcion": "No parece, la verdad."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+
+    {
+      "numNodo": 47,
+      "nodoSig": 101,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "No, supongo que no." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 48,
+      "nodoSig": 49,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "No digas esas cosas, es buena persona." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 49,
+      "nodoSig": 48,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 102,
+          "textoOpcion": "En fin, paso de discutir, se la envío yo."
+        },
+        {
+          "nodoApuntado": 59,
+          "textoOpcion": "Claro, como la conoces tanto."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+
+    {
+      "numNodo": 50,
+      "nodoSig": 51,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Mándasela tú mejor, que seguro que la alegra ver que seguimos vivos. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 0
+    },
+
+    {
+      "numNodo": 51,
+      "nodoSig": 50,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 48,
+          "textoOpcion": "Buff, a Jeffa le importa bien poco lo que nos pase."
+        },
+        {
+          "nodoApuntado": 102,
+          "textoOpcion": "En fin, paso de discutir, se la envío yo."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 52,
+      "nodoSig": 53,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Pues sí, si mi pareja muriese iría" },
+        { "texto": "en menos dos segundos a ver por qué y deshecho en lágrimas. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 53,
+      "nodoSig": 52,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 54,
+          "textoOpcion": "¿Tú tienes pareja?"
+        },
+        {
+          "nodoApuntado": 63,
+          "textoOpcion": "Bueno, no todo el mundo reacciona igual."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 54,
+      "nodoSig": 55,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Nah, esas cosas no me interesan que luego hay que andar preocupándose." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 55,
+      "nodoSig": 54,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 56,
+          "textoOpcion": "Ya ya, eso dices ahora."
+        },
+        {
+          "nodoApuntado": 58,
+          "textoOpcion": "Supongo que tienes razón."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 56,
+      "nodoSig": 57,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Oh vaya, ¿tú tienes mucha experiencia en estos temas?" }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 57,
+      "nodoSig": 56,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 66,
+          "textoOpcion": "Tampoco es que me interese mucho la verdad."
+        },
+        {
+          "nodoApuntado": 64,
+          "textoOpcion": "Prefiero no hablar de eso."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 58,
+      "nodoSig": 100,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Claro que la tengo, pero todavía tenemos" },
+        { "texto": "que averiguar quién es la pareja de este tío." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 59,
+      "nodoSig": 60,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Bueno, ¿y tú cuanto la conoces de verdad?" }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+    {
+      "numNodo": 60,
+      "nodoSig": 59,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 61,
+          "textoOpcion": "Bueno... no tanto como debería..."
+        },
+        {
+          "nodoApuntado": 62,
+          "textoOpcion": "Quizá lo suficiente... o igual no..."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+    {
+      "numNodo": 61,
+      "nodoSig": 102,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Bueno, ¿y tú cuanto la conoces de verdad?" }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 62,
+      "nodoSig": 102,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Bueno, sea como sea tenemos que resolver el caso." },
+        { "texto": "Pero sigo pensando que no la conoces lo suficiente. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+
+        {
+      "numNodo": 63,
+      "nodoSig": 100,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Cierto, pero me parece extraño." },
+        { "texto": "Sea como sea tenemos que averiguar quién es. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 64,
+      "nodoSig": 65,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Uhhh vaya, alguien oculta secretos." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 65,
+      "nodoSig": 64,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 67,
+          "textoOpcion": "Sí, y si no quieres acabar en la calle mejor no sigas preguntando."
+        },
+        {
+          "nodoApuntado": 68,
+          "textoOpcion": "Como todo el mundo supongo."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 66,
+      "nodoSig": 100,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Vaya, como yo. En fin, descubramos quién es la chica. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 67,
+      "nodoSig": 100,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Vale, tranquila que no quería ofender." },
+        { "texto": "Sea como sea tenemos que encontrar a esta chica. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 68,
+      "nodoSig": 100,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Ya, eso es verdad." },
+        { "texto": "En fin, descubramos el secreto de quién es esta chica." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 69,
+      "nodoSig": 70,
+      "numLineas": 3,
+
+      "lineas": [
+        { "texto": "Cierto. Igual el fabricante sabe para que pisos" },
+        { "texto": "fabrica las llaves y si ese es el número de serie" },
+        { "texto": "igual se podría saber a que piso pertenece." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+    {
+      "numNodo": 70,
+      "nodoSig": 69,
+      "numLineas": 0,
+
+      "numOpciones": 3,
+      "opciones": [
+        {
+          "nodoApuntado": 71,
+          "textoOpcion": "Cierto, eso de que ahora se registren esos pisos."
+        },
+        {
+          "nodoApuntado": 42,
+          "textoOpcion": "Bah, no creo, mejor investiguemos otra cosa."
+        },
+        {
+          "nodoApuntado": 43,
+          "textoOpcion": "Podríamos sacar más información preguntando a gente cercana."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+    {
+      "numNodo": 71,
+      "nodoSig": 72,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Pues nada, habrá que pedirle esa información a Jeffa. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 72,
+      "nodoSig": 71,
+      "numLineas": 0,
+
+      "numOpciones": 3,
+      "opciones": [
+        {
+          "nodoApuntado": 80,
+          "textoOpcion": "¿Se la pides tú?"
+        },
+        {
+          "nodoApuntado": 93,
+          "textoOpcion": "La puedo buscar yo en mi portátil."
+        },
+        {
+          "nodoApuntado": 73,
+          "textoOpcion": "No hace falta tampoco."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 73,
+      "nodoSig": 74,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "¿Por qué no?" }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 74,
+      "nodoSig": 73,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 93,
+          "textoOpcion": "La puedo buscar yo en mi portátil."
+        },
+        {
+          "nodoApuntado": 75,
+          "textoOpcion": "Ya conozco de donde puede ser la llave."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+
+    {
+      "numNodo": 75,
+      "nodoSig": 76,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "¿Vaya y eso?" }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 76,
+      "nodoSig": 75,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 77,
+          "textoOpcion": "Conozco la zona donde puede estar el piso."
+        },
+        {
+          "nodoApuntado": 79,
+          "textoOpcion": "Se parece mucho a las llaves que usan otros vecinos."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+    {
+      "numNodo": 77,
+      "nodoSig": 78,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Pero tu piso tendrá una llave distinta, ¿no?" }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 78,
+      "nodoSig": 102,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Claro, no va a ser la misma." },
+        { "texto": "Si este tío tuviera un piso en mi edificio lo sabría. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+    {
+      "numNodo": 79,
+      "nodoSig": 93,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Ah bueno, entonces ya tenemos reducida la zona de búsqueda." },
+        { "texto": "Pero de todas formas estaría bien saber el piso exacto. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 80,
+      "nodoSig": 81,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Nah, pídesela tú que tienes más confianza con ella. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 81,
+      "nodoSig": 80,
+      "numLineas": 0,
+
+      "numOpciones": 3,
+      "opciones": [
+        {
+          "nodoApuntado": 82,
+          "textoOpcion": "Bueno, tampoco tanta..."
+        },
+        {
+          "nodoApuntado": 84,
+          "textoOpcion": "Ya... sí... bueno."
+        },
+        {
+          "nodoApuntado": 94,
+          "textoOpcion": "Vale, ahora le envío un mensaje con la información."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 82,
+      "nodoSig": 83,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Vaya, ¿te ha puteado muchas veces en el trabajo?" }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 83,
+      "nodoSig": 82,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 86,
+          "textoOpcion": "Yo... quiero pensar que no ha sido ella."
+        },
+        {
+          "nodoApuntado": 90,
+          "textoOpcion": "Sí, pero no es momento de hablar de esto."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 84,
+      "nodoSig": 85,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Vaya, ¿alguien está insegura de algo?" }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+    {
+      "numNodo": 85,
+      "nodoSig": 84,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 91,
+          "textoOpcion": "Nada nada, no es nada."
+        },
+        {
+          "nodoApuntado": 87,
+          "textoOpcion": "No, ha sido sólo un recuerdo."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 86,
+      "nodoSig": 103,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Bueno, hay varios jefes por encima de ella" },
+        { "texto": "y tiene que cumplir órdenes. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+    {
+      "numNodo": 87,
+      "nodoSig": 88,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Ohh, recuerdos de la universidad, supongo." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+    {
+      "numNodo": 88,
+      "nodoSig": 87,
+      "numLineas": 0,
+
+      "numOpciones": 2,
+      "opciones": [
+        {
+          "nodoApuntado": 91,
+          "textoOpcion": "Nada nada, no es nada."
+        },
+        {
+          "nodoApuntado": 92,
+          "textoOpcion": "N es algo de lo que quiera hablar ahora."
+        }
+      ],
+
+      "pj": 89,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 89,
+      "nodoSig": 94,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Bueno, no hay que preocuparse de eso ahora." },
+        { "texto": "Necesitamos conocer el piso para ir allí." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 90,
+      "nodoSig": 94,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Usted manda jefa, pero necesitamos esa información." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 91,
+      "nodoSig": 94,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Bueno, pues envíale el mensaje. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 92,
+      "nodoSig": 94,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Bien, no preguntaré más entonces." },
+        { "texto": " Pero necesitamos saber dónde está el piso. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 93,
+      "nodoSig": -1,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "La puedo buscar yo en mi portátil." }
+      ],
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 94,
+      "nodoSig": -1,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Vale, ahora le envío un mensaje con la información." }
+      ],
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+
+    {
+      "numNodo": 95,
+      "nodoSig": -1,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Un poco, parece." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 90,
+      "emo": 4
+    },
+    {
+      "numNodo": 96,
+      "nodoSig": -1,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Qué va, he visto muchos más kilos juntos." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 89,
+      "emo": 0
+    },
+    {
+      "numNodo": 97,
+      "nodoSig": 12,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Interesante..." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 89,
+      "emo": 0
+    },
+    {
+      "numNodo": 98,
+      "nodoSig": -1,
+      "numLineas": 2,
+
+      "lineas": [
+        { "texto": "Todavía hay gente que lo hace" },
+
+        { "texto": "sobre todo los que no se pueden permitir salir de la Tierra." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 89,
+      "emo": 0
+    },
+    {
+      "numNodo": 99,
+      "nodoSig": -1,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Pero antes era normal tener más de una casa." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 89,
+      "emo": 0
+    },
+    {
+      "numNodo": 100,
+      "nodoSig": 50,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Pero antes era normal tener más de una casa." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 89,
+      "emo": 0
+    },
+    {
+      "numNodo": 101,
+      "nodoSig": 43,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Igual podríamos sacar más información si preguntamos" },
+        { "texto": "a sus amigos o gente cercana. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 89,
+      "emo": 0
+    },
+    {
+      "numNodo": 102,
+      "nodoSig": 79,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Se parece mucho a las llaves que usan otros vecinos de la zona." },
+        { "texto": "a sus amigos o gente cercana. " }
+      ],
+
+      "numOpciones": 0,
+      "pj": 89,
+      "emo": 0
+    },
+    {
+      "numNodo": 103,
+      "nodoSig": 89,
+      "numLineas": 1,
+
+      "lineas": [
+        { "texto": "Bueno, hay varios jefes por encima de ella" },
+        { "texto": "y tiene que cumplir órdenes." }
+      ],
+
+      "numOpciones": 0,
+      "pj": 89,
+      "emo": 0
+    }
+
+  ]
+}

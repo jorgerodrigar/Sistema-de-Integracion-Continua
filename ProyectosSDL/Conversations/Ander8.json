@@ -1,0 +1,14 @@
+{
+
+	"NumNodos": 1,
+
+	"Nodo": [
+
+	{"numNodo":0, "nodoSig":-1, "numLineas": 1, "lineas":[ 
+		{"texto": "No es difícil saber donde tenemos que ir."}],
+	"numOpciones":0, "pj": 90, "emo": 1
+	}
+
+	]
+
+}

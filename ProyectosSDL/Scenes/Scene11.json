@@ -1,0 +1,42 @@
+{
+
+    "Texture": 101,
+    "h": 720.0,
+    "w": 1280.0,
+    "x": 0.0,
+    "y": 0.0,
+
+    "GOTransiciones": [
+        { "x": 1155, "y": 295, "w": 60, "h": 60, "Texture": 29, "scneNum": 12, "rotation": -90 },
+        { "x": 550, "y": 655, "w": 60, "h": 60, "Texture": 29, "scneNum": 10, "rotation": 90 }
+    ],
+
+    "GODoors":[
+		{"x":478,"y":140,"w":205,"h":223,"Texture":102,"tag":"key","scneNum": 13, "UnlockId": 1,"rotGOTr": -90, "soundEffect": 23 }
+	],
+
+     "GOState": [
+        { "x": 588, "y": 240, "w": 30, "h": 30, "Texture": 29, "rotation": -45, "password": "stevens","type": 2, "UnlockId": 1, "TexturaFondo": 176, "posFontX": 410, "posFontY": 438 }
+    ],
+
+	"CollisionableObject": [
+    	{ "x": 0, "y": 0, "w": 184, "h": 740, "Texture": 43 },
+    	{ "x": 186, "y": 290, "w": 60, "h": 90, "Texture": 103 },
+    	{ "x": 642, "y": 315, "w": 142, "h": 105, "Texture": 104 },
+    	{ "x": 742, "y": 0, "w": 506, "h": 394, "Texture": 105 }
+    ],
+
+    "PlayerPos": {
+        "x": 550,
+        "y": 500
+    },
+
+    "NPC":[
+
+        { "x": 1000, "y": 450, "w": 60, "h": 206, "Texture": 124,
+            "animation": true, "numFilsFrame": 4, "numColsFrame": 2,
+            "widthFrame": 41, "heightFrame": 149, "vel": 200, "loop": true,
+            "Anims": [ [4,5,6,7] ], "dialogo": "Ander3"
+        }
+    ]
+}

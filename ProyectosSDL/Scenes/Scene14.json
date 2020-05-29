@@ -1,0 +1,59 @@
+{
+
+    "Texture": 114,
+    "h": 720.0,
+    "w": 1280.0,
+    "x": 0.0,
+    "y": 0.0,
+
+    "GOTransiciones": [
+        { "x": 878, "y": 650, "w": 60, "h": 60, "Texture": 29, "scneNum": 15, "rotation": 90, "soundEffect": 23 },
+        { "x": 1210, "y": 450, "w": 60, "h": 60, "Texture": 29, "scneNum": 13, "rotation": 0 }
+    ],
+
+    "SoundEffect": [
+        24
+    ],
+
+    "volumenes": [
+        5
+    ],
+
+    "numRepeticionesSonidos": [
+        -1
+    ],
+
+    "CollisionableObject": [
+        { "x": 140, "y": 265, "w": 70, "h": 130, "Texture": 116 },
+        { "x": 530, "y": 265, "w": 267, "h": 135, "Texture": 117 },
+        { "x": 1130, "y": 120, "w": 87, "h": 289, "Texture": 115 },
+        { "x": 610, "y": 450, "w": 110, "h": 110, "Texture": 118 }
+    ],
+
+    "Decorado": [
+        { "x": 146, "y": 249, "w": 15, "h": 32, "Texture": 142,
+            "animation": true, "numFilsFrame": 2, "numColsFrame": 2,
+            "widthFrame": 15, "heightFrame": 32, "vel": 200, "loop": true,
+            "Anims": [ [0,0,1,1,2,2,3,3] ] 
+        },
+        { "x": 546, "y": 20, "w": 180, "h": 133, "Texture": 138,
+            "animation": true, "numFilsFrame": 4, "numColsFrame": 2,
+            "widthFrame": 180, "heightFrame": 133, "vel": 200, "loop": true,
+            "Anims": [ [0,1,2,3,4,5,6,7] ] 
+        }
+    ],
+
+    "PlayerPos": {
+        "x": 1200,
+        "y": 450
+    },
+
+    "NPC":[
+
+        { "x": 200, "y": 400, "w": 60, "h": 206, "Texture": 124,
+            "animation": true, "numFilsFrame": 4, "numColsFrame": 2,
+            "widthFrame": 41, "heightFrame": 149, "vel": 200, "loop": true,
+            "Anims": [ [0,1,2,3] ], "dialogo": "Ander6"
+        }
+    ]
+}

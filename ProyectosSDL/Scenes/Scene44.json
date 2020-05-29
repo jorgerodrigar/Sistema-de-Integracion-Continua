@@ -1,0 +1,58 @@
+{
+
+    "Texture": 194,
+    "h": 720.0,
+    "w": 1280.0,
+    "x": 0.0,
+    "y": 0.0,
+    
+    "CollisionableObject": [
+        { "x": 90, "y": 500, "w": 256, "h": 134, "Texture": 195 },
+        { "x": 690, "y": 490, "w": 256, "h": 134, "Texture": 195 },
+        { "x": 50, "y": 250, "w": 218, "h": 170, "Texture": 196 },
+        { "x": 920, "y": 250, "w": 218, "h": 170, "Texture": 197 }
+    ],
+
+    "PlayerPos": {
+        "x": 10,
+        "y": 320
+    },
+
+    "PlayerTam": {
+        "h": 201.6,
+        "w": 84.0
+    },
+
+    "Music": [ 
+        4
+    ],
+
+    "volumenes": [
+        4
+    ],
+
+    "ItemInventario": [
+        { "x": 710, "y": 495, "w": 42, "h": 42, "descripcion": "Tiene el logo de Beyond. Parece una medicina bastante potente.", "tag": "antidoto", "Texture": 208, "soundEffect": 1,
+            "animation": true, "numFilsFrame": 2, "numColsFrame": 1,
+            "widthFrame": 42, "heightFrame": 42, "vel": 200, "loop": true,
+            "Anims": [ [0],[1] ]}
+    ],
+
+    "Decorado": [
+        { "x": 898, "y": 145, "w": 255, "h": 103, "Texture": 233, "animation": true, "numFilsFrame": 4, "numColsFrame": 2,
+            "widthFrame": 255, "heightFrame": 103, "vel": 100, "loop": true, "Anims": [ [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 6, 5, 6, 5] ] }
+    ],
+    "NPC": [
+        
+                { "x": 100, "y": 500, "w": 60, "h": 206, "Texture": 124,
+                    "animation": true, "numFilsFrame": 4, "numColsFrame": 2,
+                    "widthFrame": 41, "heightFrame": 149, "vel": 200, "loop": true,
+                    "Anims": [ [0,1,2,3] ], "dialogo": "Ander30"
+                },
+                { "x": 750, "y": 350, "w": 60, "h": 206, "Texture": 179,
+                    "animation": true, "numFilsFrame": 5, "numColsFrame": 2,
+                    "widthFrame": 36, "heightFrame": 127, "vel": 200, "loop": true,
+                    "Anims": [ [0,2,0,2,0,2,0,2,0,3,4,5,6,7,8,9,2,0,2,0,2,1] ], "dialogo": "ForenseFinal"
+                }
+            ]
+}

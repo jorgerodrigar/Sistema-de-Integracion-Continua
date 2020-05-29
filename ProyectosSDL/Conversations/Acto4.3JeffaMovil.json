@@ -1,0 +1,262 @@
+{
+    "NumNodos": 19,
+    
+    "Nodo": [
+
+        {
+			"numNodo": 0,
+      		"nodoSig": 1,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+      		{"texto": "¡ALENA! Por fin me cago en todo... perdona. ¿Dónde estabas?"}, 
+      		{"texto": "No has salido de tu casa en estos tres días al parecer."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 148,
+      		"emo": 4 
+        },
+
+        {
+			"numNodo": 1,
+      		"nodoSig": 2,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+              {"texto": "No grites por favor. Sí, llevo tres días metida en casa bebiendo"},
+              {"texto": "y comiendo. No había nada más que investigar."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 0 
+        },
+
+        {
+			"numNodo": 2,
+      		"nodoSig": 3,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+      		{"texto": "¿CÓMO QUE NO? ¿Y EL CASO QUE TE HE ASIGNADO DEL DROGADICTO? ¿NO VES"}, 
+      		{"texto": "QUE ES EL CASO QUE PODRÍA LEVANTAR TU CARRERA?"}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 148,
+      		"emo": 4 
+        },
+
+        {
+			"numNodo": 3,
+      		"nodoSig": 4,
+      		"numLineas": 4,
+
+      		"lineas": [ 
+              {"texto": "Te he dicho que no me grites por favor. Ahora mismo es como si muchos"},
+              {"texto": "elefantes se hubiesen sentado en mi cabeza y después hubiesen bailado."},
+              {"texto": "Ya sé que es el caso que puede levantar mi carrera, pero es que eso"},
+              {"texto": "mismo me has dicho en otras ocasiones y siempre acaban igual."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 3 
+        },
+
+        {
+			"numNodo": 4,
+      		"nodoSig": 5,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+              {"texto": "Parece un caso prometedor pero termina en un simple accidente o cosas"},
+              {"texto": "del estilo y ya como que he perdido las ganas."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 3 
+        },
+
+        {
+			"numNodo": 5,
+      		"nodoSig": 6,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+      		{"texto": "Ya… Lo se… Pero es que busco casos interesantes para ti y que te puedan proyectar"}, 
+      		{"texto": "como la gran detective que eres y no te los tomas muy en serio."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 148,
+      		"emo": 4 
+        },
+
+        {
+			"numNodo": 6,
+      		"nodoSig": 7,
+      		"numLineas": 4,
+
+      		"lineas": [ 
+              {"texto": "Porque al final da igual lo que haga siempre termino en la misma posición, llevando"},
+              {"texto": "los mismos casos de robos de chuches entre niños y ya está. Mira Jeffa, sólo quiero"},
+              {"texto": "salir de este planeta, ¿vale? El futuro y los buenos casos están en Marte,"},
+              {"texto": "donde deberíamos estar todos."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 3 
+        },
+
+        {
+			"numNodo": 7,
+      		"nodoSig": 8,
+      		"numLineas": 3,
+
+      		"lineas": [ 
+              {"texto": "Sólo los estados africanos se atrevieron a vivir allí y ahora mira, todo occidente"},
+              {"texto": "que tanto se mofaba de ser el primer mundo, aquí nos tienes, cegados por el dinero"},
+              {"texto": "y las drogas."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 3 
+        },
+
+        {
+			"numNodo": 8,
+      		"nodoSig": 9,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+      		{"texto": "Vaya… no sabía que fueras filósofa."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 148,
+      		"emo": 4 
+        },
+
+        {
+			"numNodo": 9,
+      		"nodoSig": 10,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+              {"texto": "Ya… bueno… en mis ratos libres me gusta pensar… y por eso bebo, para no pensar."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 4 
+        },
+
+        {
+			"numNodo": 10,
+      		"nodoSig": 11,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+              {"texto": "Bueno. . . pues. . . si necesitas ayuda o algo… no sé, aquí estoy para que me pidas"},
+              {"texto": "lo que sea necesario, ya sabes." }
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 148,
+      		"emo": 4 
+        },
+
+        {
+			"numNodo": 11,
+      		"nodoSig": 12,
+      		"numLineas": 1,
+
+      		"lineas": [ 
+              {"texto": "Ejem. . . porque no me gusta que mis trabajadores estén mal y esas cosas."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 148,
+      		"emo": 4 
+        },
+
+        {
+			"numNodo": 12,
+      		"nodoSig": 13,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+              {"texto": "Sí, sí, me lo imagino… De todas formas tengo que seguir con el caso,"},
+              {"texto": "pero gracias… supongo."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 2 
+        },
+
+        {
+			"numNodo": 13,
+      		"nodoSig": 14,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+              {"texto": "Vale, bueno, eso. Suerte y… ten cuidado, que no me gustaría perder a una"},
+              {"texto": "de mis mejores agentes."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 148,
+      		"emo": 4 
+        },
+
+        {
+			"numNodo": 14,
+      		"nodoSig": 15,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+              {"texto": "Pero si sólo estamos Nina y yo…"}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 2 
+        },
+
+        {
+			"numNodo": 15,
+      		"nodoSig": 16,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+              {"texto": "Por eso, y Nina ya sabes cómo es. Así que eso, que tengas cuidado."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 148,
+      		"emo": 4 
+        },
+
+        {
+			"numNodo": 16,
+      		"nodoSig": -1,
+      		"numLineas": 2,
+
+      		"lineas": [ 
+              {"texto": "Bueno vale, gracias supongo. Hasta luego."}
+      		],
+
+      		"numOpciones": 0,
+      		"pj": 89,
+      		"emo": 2 
+        },
+
+
+    ]
+}

@@ -1,0 +1,341 @@
+{
+   "AlenaActiva": true,
+   "CambioActo": false,
+   "CollisionableObject": [
+      {
+         "Texture": 276,
+         "h": 206.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 100.0,
+         "y": 300.0
+      },
+      {
+         "Texture": 141,
+         "h": 128.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 210.0,
+         "x": 370.0,
+         "y": 420.0
+      },
+      {
+         "Texture": 113,
+         "h": 249.0,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "w": 458.0,
+         "x": 750.0,
+         "y": 165.0
+      }
+   ],
+   "Decorado": [
+      {
+         "Anims": [
+            [
+               0
+            ],
+            [
+               1
+            ]
+         ],
+         "Texture": 15,
+         "animation": true,
+         "h": 40.0,
+         "heightFrame": 40,
+         "loop": true,
+         "numColsFrame": 1,
+         "numFilsFrame": 2,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 40.0,
+         "widthFrame": 40,
+         "x": 905.0,
+         "y": 270.0
+      },
+      {
+         "Anims": [
+            [
+               0
+            ],
+            [
+               1
+            ]
+         ],
+         "Texture": 71,
+         "animation": true,
+         "h": 45.0,
+         "heightFrame": 40,
+         "loop": true,
+         "numColsFrame": 1,
+         "numFilsFrame": 2,
+         "rotation": 45.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 45.0,
+         "widthFrame": 40,
+         "x": 1075.0,
+         "y": 260.0
+      },
+      {
+         "Anims": [
+            [
+               0,
+               1,
+               1,
+               0,
+               0,
+               0,
+               0,
+               1,
+               0,
+               1,
+               0,
+               0,
+               1,
+               1,
+               0,
+               0,
+               1,
+               0,
+               0,
+               1
+            ],
+            [
+               2
+            ]
+         ],
+         "Texture": 238,
+         "animation": true,
+         "h": 81.0,
+         "heightFrame": 81,
+         "loop": true,
+         "numColsFrame": 1,
+         "numFilsFrame": 3,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 150.0,
+         "w": 70.0,
+         "widthFrame": 70,
+         "x": 600.0,
+         "y": 285.0
+      }
+   ],
+   "GOConversational": [
+      {
+         "Anims": [
+            [
+               0
+            ],
+            [
+               1
+            ]
+         ],
+         "Texture": 20,
+         "animation": true,
+         "convoName": "Ander10",
+         "done": false,
+         "h": 45.0,
+         "heightFrame": 40,
+         "loop": true,
+         "numColsFrame": 1,
+         "numFilsFrame": 2,
+         "repeat": false,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 45.0,
+         "widthFrame": 40,
+         "x": 380.0,
+         "y": 435.0
+      }
+   ],
+   "GOState": [
+      {
+         "Texture": 29,
+         "UnlockId": 1,
+         "dificultad": 2,
+         "h": 30.0,
+         "numCas": 3,
+         "rotation": -45,
+         "soundEffect": 1,
+         "type": 1,
+         "w": 30.0,
+         "x": 610.0,
+         "y": 305.0
+      }
+   ],
+   "GOTransiciones": [
+      {
+         "Texture": 29,
+         "h": 60.0,
+         "rotat": 180.0,
+         "rotation": 180.0,
+         "scneNum": 17,
+         "soundEffect": 1,
+         "w": 60.0,
+         "x": 10.0,
+         "y": 450.0
+      }
+   ],
+   "HeaderActo": "",
+   "Interruptores": [
+      {
+         "Texture": 237,
+         "UnlockId": 1,
+         "canWork": false,
+         "h": 34.0,
+         "maxAlpha": 220,
+         "minAlpha": 0,
+         "off": true,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "tag": "interruptor0",
+         "w": 37.0,
+         "x": 400.0,
+         "y": 235.0
+      }
+   ],
+   "ItemInventario": [
+      {
+         "Anims": [
+            [
+               0
+            ],
+            [
+               1
+            ]
+         ],
+         "Texture": 20,
+         "animation": true,
+         "descripcion": "Nos puede proporcionar muchas pistas.",
+         "h": 45.0,
+         "heightFrame": 40,
+         "loop": true,
+         "numColsFrame": 1,
+         "numFilsFrame": 2,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "tag": "MovilMuerto",
+         "vel": 200.0,
+         "w": 45.0,
+         "widthFrame": 40,
+         "x": 380.0,
+         "y": 435.0
+      },
+      {
+         "Anims": [
+            [
+               0
+            ],
+            [
+               1
+            ]
+         ],
+         "Texture": 71,
+         "animation": true,
+         "descripcion": "Huele a       café recién hecho.",
+         "h": 45.0,
+         "heightFrame": 42,
+         "loop": true,
+         "numColsFrame": 1,
+         "numFilsFrame": 2,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "tag": "bolsaCafe",
+         "vel": 200.0,
+         "w": 45.0,
+         "widthFrame": 42,
+         "x": 975.0,
+         "y": 270.0
+      },
+      {
+         "Anims": [
+            [
+               0
+            ],
+            [
+               1
+            ]
+         ],
+         "Texture": 21,
+         "animation": true,
+         "descripcion": "Se dejó bastante dinero en vodka. Ojalá poder hacer lo mismo...",
+         "h": 20.0,
+         "heightFrame": 40,
+         "loop": true,
+         "numColsFrame": 1,
+         "numFilsFrame": 2,
+         "rotation": 45.0,
+         "soundEffect": 1,
+         "tag": "ticket",
+         "vel": 200.0,
+         "w": 20.0,
+         "widthFrame": 40,
+         "x": 1180.0,
+         "y": 300.0
+      }
+   ],
+   "MusicVolume": [
+      0
+   ],
+   "NPC": [
+      {
+         "Anims": [
+            [
+               0,
+               1,
+               2,
+               3
+            ]
+         ],
+         "Texture": 124,
+         "animation": true,
+         "dialogo": "Ander2",
+         "done": false,
+         "h": 206.0,
+         "heightFrame": 149,
+         "loop": true,
+         "numColsFrame": 2,
+         "numFilsFrame": 4,
+         "repeatDialog": true,
+         "rotation": 0.0,
+         "soundEffect": 1,
+         "vel": 200.0,
+         "w": 60.0,
+         "widthFrame": 41,
+         "x": 100.0,
+         "y": 300.0
+      }
+   ],
+   "PlayerPos": {
+      "x": 30.0,
+      "y": 450.0
+   },
+   "PlayerTam": {
+      "h": 201.6,
+      "w": 84.0
+   },
+   "SoundEffect": [
+      24
+   ],
+   "StopActualMusic": [
+      false
+   ],
+   "Texture": 112,
+   "actNumber": -1,
+   "h": 720.0,
+   "numRepeticionesSonidos": [
+      -1
+   ],
+   "rotation": 0.0,
+   "soundEffect": 1,
+   "volumenes": [
+      5
+   ],
+   "w": 1280.0,
+   "x": 0.0,
+   "y": 0.0
+}

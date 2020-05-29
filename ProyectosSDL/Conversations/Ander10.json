@@ -1,0 +1,20 @@
+{
+
+	"NumNodos": 1,
+    "msg": 3,
+    "textureItem": 20,
+    "tagItem": "movilMuerto",
+    "descripcionItem": "Nos puede proporcionar muchas pistas.",
+    "numScene": 19,
+    "permanenteItem": false,
+	"Nodo": [
+
+	{"numNodo":0, "nodoSig":-1, "numLineas": 2, "lineas":[ 
+		{"texto": "No hay nada más que hacer aquí. Será mejor ir a "},
+		{"texto": "investigar a sus amigos y conocidos."}],
+	"numOpciones":0, "pj": 90, "emo": 1
+	}
+
+	]
+
+}

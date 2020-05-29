@@ -1,0 +1,499 @@
+{
+	"NumNodos": 59,
+	"msg": 2,
+    "textureItem": 54,
+    "tagItem": "keyCoche",
+    "descripcionItem": "Es la llave del coche  de la empresa",
+   	"permanenteItem": false,
+
+	"Nodo": [
+
+	{"numNodo":0, "nodoSig":1, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Buenos días, ¿en qué les podemos ayudar?"}],
+	
+	"numOpciones":0, "pj": 257, "emo": 5
+	},
+
+	{"numNodo":1, "nodoSig":2, "numLineas": 3,
+
+	"lineas":[ {"texto": "Buenos días, somos de la LOD, venimos porque"},
+		{"texto": "estamos investigando un caso de muerte por sobredosis"},
+		{"texto": "y queremos saber qué droga consumía."}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":2, "nodoSig":3, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Este es el muerto, ¿lo conocía?"}, 
+	{"texto": "Sabemos que vino aquí a comprar vodka y café hace unos días. "}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":3, "nodoSig":4, "numLineas": 2, 
+
+	"lineas":[ {"texto": "A menos que quieran comprar algo no les pienso"},
+	{"texto":"decir nada sobre ese muchacho, es amigo de mi marido. "}],
+	
+	"numOpciones":0, "pj": 257, "emo": 3
+	},
+
+	{"numNodo":4, "nodoSig":0, "numLineas": 0, 
+	"numOpciones": 3,
+
+	"opciones":[
+	{"nodoApuntado": 5, "textoOpcion": "¿De verdad que no va colaborar? (dejar un par de billetes sobre la mesa)"},
+	{"nodoApuntado": 9, "textoOpcion": "Bueno, pues pongame una botella del mejor vodka que tenga."},
+	{"nodoApuntado": 10, "textoOpcion": "Puedo ser bastante persuasiva, la policía siempre me suele hacer caso."}
+	],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":5, "nodoSig":6, "numLineas": 1, 
+
+	"lineas":[ {"texto": "No aceptamos sobornos en esta tienda señora, no es tan fácil comprarnos."}],
+	
+	"numOpciones":0, "pj": 257, "emo": 3
+	},
+
+	{"numNodo":6, "nodoSig":0, "numLineas": 0,
+
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 7, "textoOpcion": "Vaya, pensaba que funcionaría, siempre lo suele hacer."},
+	{"nodoApuntado": 9, "textoOpcion": "Bueno, pues pongame una botella del mejor vodka que tenga."}
+	],
+
+	"pj": 89,	"emo": 0
+	},
+
+	{"numNodo":7, "nodoSig":8, "numLineas": 1, 
+
+	"lineas":[ {"texto": "No está en una película señora, debería saberlo usted mejor que nadie."}],
+	
+	"numOpciones":0, "pj": 257, "emo": 0
+	},
+
+	{"numNodo":8, "nodoSig":9, "numLineas": 2,
+
+	"lineas":[ {"texto": "En el fondo tiene razón."},
+	{"texto": "Bueno, pues pongame una botella del mejor vodka que tenga."}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":9, "nodoSig": 12, "numLineas": 1, 
+
+	"lineas":[ {"texto": "La mía se ha terminado y necesito restaurar reservas."}],
+	
+	"numOpciones":0, "pj": 89, "emo": 5
+	},
+
+	{"numNodo":10, "nodoSig":11, "numLineas": 2, 
+
+	"lineas":[ {"texto": "No se preocupe, tenemos todos los papeles en regla."}, 
+	{"texto": "Además, nada de lo que vendemos aquí es ilegal."}],
+	
+	"numOpciones":0, "pj": 257, "emo": 0
+	},
+
+	{"numNodo":11, "nodoSig":0, "numLineas": 0, 
+
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 5, "textoOpcion": "¿De verdad que no va colaborar? (dejar un par de billetes sobre la mesa)"},
+	{"nodoApuntado": 9, "textoOpcion": "Bueno, pues pongame una botella del mejor vodka que tenga."}],
+
+	"pj": 89,	"emo": 0
+	},
+
+	{"numNodo":12, "nodoSig":13, "numLineas": 1,
+
+	"lineas":[ {"texto": "Pero Alena, estamos de servicio, no puedes beber en el trabajo. "}],
+	
+	"numOpciones":0, "pj": 90, "emo": 2
+	},
+
+	{"numNodo":13, "nodoSig":0, "numLineas": 0, 
+
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 14, "textoOpcion": "Oh vaya, tienes razón."},
+	{"nodoApuntado": 18, "textoOpcion": "Ya, esa es la teoría."}],
+
+	"pj": 89,	"emo": 0
+	},
+
+	{"numNodo":14, "nodoSig":15, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Anda, déjame hablar a mí."}],
+	
+	"numOpciones":0, "pj": 90, "emo": 0
+	},
+
+	{"numNodo":15, "nodoSig":0, "numLineas": 0, 
+
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 17, "textoOpcion": "Anda, pero si estaba de coña. Deme esa botella."},
+	{"nodoApuntado": 16, "textoOpcion": "No, aquí la jefa soy yo."}],
+
+	"pj": 89,	"emo": 0
+	},
+
+	{"numNodo":16, "nodoSig":17, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Bueno, lo que tú digas."}],
+	
+	"numOpciones":0, "pj": 90, "emo": 2
+	},
+
+
+	{"numNodo":17, "nodoSig":23, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Bien, aquí tiene, doscientos y quédese con el cambio."},
+		{"texto": "Ahora hablemos de este hombre. ¿Qué saben de él?"}],
+	
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":18, "nodoSig":19, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Serán 100 terranos con 50 lunas."}],
+	
+	"numOpciones":0, "pj": 257, "emo": 0
+	},
+
+	{"numNodo":19, "nodoSig":20, "numLineas": 0, 
+
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 20, "textoOpcion": "Bien, aquí tiene, doscientos y quédese con el cambio."},
+	{"nodoApuntado": 21, "textoOpcion": "Joder, qué caro."}],
+
+	"pj": 89,	"emo": 0
+	},
+	
+	{"numNodo":20, "nodoSig":23, "numLineas": 1,
+
+	"lineas":[ {"texto": "Ahora hablemos de este hombre. ¿Qué saben de él?"}],
+
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":21, "nodoSig":22, "numLineas": 1,
+
+	"lineas":[ {"texto": "Es lo que hay, si quiere aquí tenemos esta botella por dos terranos."}],
+
+	"numOpciones":0, "pj": 257, "emo": 0
+	},
+
+	{"numNodo":22, "nodoSig":17, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Buah, no que asco."},
+		{"texto": "Eso debe de ser colonia embotellada."}],
+	"numOpciones":0, "pj": 89, "emo": 1
+	},
+
+	{"numNodo":23, "nodoSig":24, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Pues no mucho la verdad, se llamaba Dimitri y venía a comprar "},
+	{"texto": "todas las semanas. Terminamos hablando bastante cada vez que venía."}],
+	"numOpciones":0, "pj": 269, "emo": 0
+	},
+
+	{"numNodo":24, "nodoSig":25, "numLineas": 3, 
+
+	"lineas":[ {"texto": "Me comentó cosas de su trabajo y demás, pero nunca se quedaba "},
+	{"texto": "mucho tiempo y cuando venía siempre estaba nervioso y sudando, por lo que "},
+	{"texto": "el intercambio solía ser rápido."}],
+	"numOpciones":0, "pj": 269, "emo": 0
+	},
+
+	{"numNodo":25, "nodoSig":0, "numLineas": 0,
+
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 26, "textoOpcion": "¿Saben si frecuentaba compañías no deseables?"},
+	{"nodoApuntado": 42, "textoOpcion": "¿Vino alguna vez con una mujer?"}],
+
+	"pj": 89,	"emo": 0
+	},
+
+	{"numNodo":26, "nodoSig":27, "numLineas": 3, 
+
+	"lineas":[ {"texto": "Hace un par de semanas vino acompañado de un hombre un poco extraño,"},
+	{"texto": "estaba muy demacrado y tenía la piel amarilla,"},
+	{"texto": "parecía estar hecho de papiro."}],
+
+	"numOpciones":0, "pj": 257, "emo": 0
+	},
+
+	{"numNodo":27, "nodoSig":28,"numLineas": 3, 
+
+	"lineas":[ {"texto": "Hablaban de cosas de su casa, pensamos que era su vecino."},
+	{"texto": "Según escuchamos se llamaba Pavel o Pyotr, no estamos seguros "},
+	{"texto": "de verdad de su nombre."}],
+
+	"numOpciones":0, "pj": 257, "emo": 0
+	},
+
+	{"numNodo":28, "nodoSig":0, "numLineas": 0, 
+
+	"numOpciones":3, 
+	"opciones":[
+	{"nodoApuntado": 55, "textoOpcion": "¿Vino alguna vez con una mujer?"},
+	{"nodoApuntado": 29, "textoOpcion": "Parece que es el vecino del que nos habló la mujer."},
+	{"nodoApuntado": 35, "textoOpcion": "Justo el aspecto que tenía Dmitri..."}],
+
+	"pj": 89,	"emo": 0
+	},
+
+	{"numNodo":29, "nodoSig":30, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Podríamos ir a hablar con él."},
+	{"texto": "¿Qué más nos pueden decir?"}],
+
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":30, "nodoSig":31, "numLineas": 3, 
+
+	"lineas":[ {"texto": "Pues no mucho más, salvo que a ese hombre le hemos visto"},
+		{"texto": "más de una vez frecuentar un callejón que hay por aquí y salir "},
+		{"texto": "tambaleándose o no salir hasta varios días más tarde."}],
+
+	"numOpciones":0, "pj": 257, "emo": 0
+	},
+
+	{"numNodo":31, "nodoSig":32, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Fuimos a mirar a ver qué había, pero sólo eran un grupo de vagabundos"},
+		{"texto": "que han desaparecido, no se les ha vuelto a ver por la ciudad."}],
+
+	"numOpciones":0, "pj": 257, "emo": 0
+	},
+
+	{"numNodo":32, "nodoSig":0, "numLineas": 0, 
+		
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 38, "textoOpcion": "Bueno, muchas gracias de todas formas."},
+	{"nodoApuntado": 33, "textoOpcion": "¿Sabían algo de alguna droga nueva que estuvieran consumiendo?"}],
+
+	"pj": 89,	"emo": 0
+	},
+
+	{"numNodo":33, "nodoSig":34, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Nosotros no entramos en ese terreno señora."}],
+	"numOpciones":0, "pj": 257, "emo": 3
+	},
+
+	{"numNodo":34, "nodoSig": 38, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Bueno, muchas gracias de todas formas."}],
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":35, "nodoSig":36, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Perdone, ¿cómo ha dicho?"}],
+	"numOpciones":0, "pj": 257, "emo": 2
+	},
+
+	{"numNodo":36, "nodoSig":37, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Nada, nada, pensaba en alto."}],
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":37, "nodoSig":29, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Parece que es el vecino del que nos habló la mujer."}],
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":38, "nodoSig":39, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Hmm... deberíamos hablar con el señor P a ver qué nos dice."}],
+	"numOpciones":0, "pj": 257, "emo": 0
+	},
+
+	{"numNodo":39, "nodoSig":0, "numLineas": 0, 
+		
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 40, "textoOpcion": "¿El señor P?"},
+	{"nodoApuntado": -1, "textoOpcion": "Sí, igual nos puede dar información interesante."}],
+
+	"pj": 89,	"emo": 0
+	},
+
+	{"numNodo":40, "nodoSig":41, "numLineas": 3, 
+
+	"lineas":[ {"texto": "El vecino. Su nombre empieza por P seguro"},
+		{"texto": "pero no sabemos como se llama de verdad,"},
+		{"texto": "así que el nombre en clave podría ser señor P."}],
+	"numOpciones":0, "pj": 257, "emo": 0
+	},
+
+	{"numNodo":41, "nodoSig":-1, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Sí, igual nos puede dar información interesante."}],
+
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":42, "nodoSig":43, "numLineas": 4, 
+
+	"lineas":[ {"texto": "Sí, las primeras veces venía acompañado de una mujer que se llamaba Galina"},
+	{"texto": "y eran pareja según nos pareció ver."},
+	{"texto": "Cuando vinieron la primera vez ninguno estaba nervioso y se les veía felices,"},
+	{"texto": "después su relación empezó a deteriorarse, no sabemos por qué."}],
+
+	"numOpciones":0, "pj": 257, "emo": 0
+	},
+
+	{"numNodo":43, "nodoSig":44, "numLineas": 3, 
+
+	"lineas":[ {"texto": "Creemos que fue por la cantidad de alcohol que él bebía."},
+		{"texto": "Se llevaba siempre que venía al menos tres botellas"},
+		{"texto": "y solía aparecer a los cuatro días a por más."}],
+	"numOpciones":0, "pj": 257, "emo": 4
+	},
+
+	{"numNodo":44, "nodoSig":0, "numLineas": 0, 
+		
+	"numOpciones":3, 
+	"opciones":[
+	{"nodoApuntado": 47, "textoOpcion": "Entonces era un poco alcohólico, ¿no?"},
+	{"nodoApuntado": 49, "textoOpcion": "¿Llegó a venir con otra mujer más?"},
+	{"nodoApuntado": 57, "textoOpcion": "¿Saben si frecuentaba compañías no deseables?"}],
+
+	"pj": 89,	"emo": 0
+	},
+
+	{"numNodo":45, "nodoSig":0, "numLineas": 0, 
+		
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 47, "textoOpcion": "Entonces era un poco alcohólico, ¿no?"},
+	{"nodoApuntado": 49, "textoOpcion": "¿Llegó a venir con otra mujer más?"}],
+
+	"pj": 89,	"emo": 0
+	},
+
+	{"numNodo":46, "nodoSig":0, "numLineas": 0, 
+
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 29, "textoOpcion": "Parece que es el vecino del que nos habló la mujer."},
+	{"nodoApuntado": 35, "textoOpcion": "Justo el aspecto que tenía Dmitri..."}],
+
+	"pj": 89,	"emo": 0
+	},
+
+	{"numNodo":47, "nodoSig":48, "numLineas": 2, 
+
+	"lineas":[ {"texto": "No mucho la verdad, al menos no tanto como otros que hemos conocido,"},
+	{"texto": "pero había algo más que consumía y era perjudicial."}],
+	"numOpciones":0, "pj": 257, "emo": 4
+	},
+
+	{"numNodo":48, "nodoSig":0, "numLineas": 0, 
+
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 49, "textoOpcion": "¿Llegó a venir con otra mujer más?"},
+	{"nodoApuntado": 51, "textoOpcion": "¿Saben qué podía ser?"}],
+
+	"pj": 89,	"emo": 0
+	},
+
+	{"numNodo":49, "nodoSig":50, "numLineas": 3, 
+
+	"lineas":[ {"texto": "Hace unos días, antes de que muriera, vino con una mujer bastante  "},
+	{"texto": "demacrada y que apestaba a tabaco. Tenía la nariz torcida y los dientes negros."},
+	{"texto": "Decía que se llamaba Oksana, pero no sabemos más de ella. "}],
+	"numOpciones":0, "pj": 257, "emo": 0
+	},
+
+	{"numNodo":50, "nodoSig":0, "numLineas": 0, 
+
+	"numOpciones":2, 
+	"opciones":[
+	{"nodoApuntado": 53, "textoOpcion": "Bueno, de momento eso nos sirve, muchas gracias."},
+	{"nodoApuntado": 51, "textoOpcion": "¿Conocen a esa mujer?"}],
+
+	"pj": 89,	"emo": 0
+	},
+
+	{"numNodo":51, "nodoSig":52, "numLineas": 2, 
+
+	"lineas":[ {"texto": "No la verdad, nunca la habíamos visto por aquí, "},
+	{"texto": "suponíamos que era de Varsovia quizá."}],
+	"numOpciones":0, "pj": 257, "emo": 0
+	},
+
+	{"numNodo":52, "nodoSig":53, "numLineas": 1, 
+
+	"lineas":[ {"texto": "Bueno, de momento eso nos sirve, muchas gracias. "}],
+
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":53, "nodoSig":54, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Deberíamos ir a ver a esa tal Galina, tenemos el nombre y la foto,"},
+	{"texto": "podemos pedirle a Jeffa que nos pase una ficha de esta mujer."}],
+	"numOpciones":0, "pj": 90, "emo": 0
+	},
+
+	{"numNodo":54, "nodoSig":-1, "numLineas": 2, 
+
+	"lineas":[ {"texto": "Sí, es lo mejor que podemos hacer ahora."},
+	{"texto": "Además así podremos aclarar algunas cosas de este hombre."}],
+	"numOpciones":0, "pj": 89, "emo": 0
+	},
+
+	{"numNodo":55, "nodoSig":56, "numLineas": 4, 
+
+	"lineas":[ {"texto": "Sí, las primeras veces venía acompañado de una mujer que se llamaba Galina"},
+	{"texto": "y eran pareja según nos pareció ver."},
+	{"texto": "Cuando vinieron la primera vez ninguno estaba nervioso y se les veía felices,"},
+	{"texto": "después su relación empezó a deteriorarse, no sabemos por qué."}],
+
+	"numOpciones":0, "pj": 257, "emo": 0
+	},
+	{"numNodo":56, "nodoSig":45, "numLineas": 3, 
+
+	"lineas":[ {"texto": "Creemos que fue por la cantidad de alcohol que él bebía."},
+		{"texto": "Se llevaba siempre que venía al menos tres botellas"},
+		{"texto": "y solía aparecer a los cuatro días a por más."}],
+	"numOpciones":0, "pj": 257, "emo": 4
+	},
+
+	{"numNodo":57, "nodoSig":58, "numLineas": 3, 
+
+	"lineas":[ {"texto": "Hace un par de semanas vino acompañado de un hombre un poco extraño,"},
+	{"texto": "estaba muy demacrado y tenía la piel amarilla,"},
+	{"texto": "parecía estar hecho de papiro."}],
+
+	"numOpciones":0, "pj": 257, "emo": 0
+	},
+
+	{"numNodo":58, "nodoSig":46,"numLineas": 3, 
+
+	"lineas":[ {"texto": "Hablaban de cosas de su casa, pensamos que era su vecino."},
+	{"texto": "Según escuchamos se llamaba Pavel o Pyotr, no estamos seguros "},
+	{"texto": "de verdad de su nombre."}],
+
+	"numOpciones":0, "pj": 257, "emo": 0
+	}
+
+	]
+}

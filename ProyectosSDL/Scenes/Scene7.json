@@ -1,0 +1,53 @@
+{
+
+    "Texture": 73,
+    "h": 720.0,
+    "w": 1280.0,
+    "x": 0.0,
+    "y": 0.0,
+
+    "GOTransiciones": [
+        { "x": 900, "y": 365, "w": 60, "h": 60, "Texture": 29, "scneNum": 6, "rotation": -90 }
+    ],
+
+    "CollisionableObject": [
+	{ "x": 215, "y": 175, "w": 155, "h": 225, "Texture": 76,
+	 "animation": true, "numFilsFrame": 1, "numColsFrame": 2,
+            "widthFrame": 206, "heightFrame": 320, "vel": 200, "loop": true,
+            "Anims": [ [0,0,1,1] ] },
+	{ "x": 450, "y": 175, "w": 155, "h": 225, "Texture": 75,
+	 "animation": true, "numFilsFrame": 1, "numColsFrame": 2,
+            "widthFrame": 207, "heightFrame": 320, "vel": 200, "loop": true,
+            "Anims": [ [0,0,1,1] ]  },
+	{ "x": 640, "y": 295, "w": 105, "h": 98, "Texture": 74 }
+    ],
+
+    "Decorado": [
+        { "x": 965, "y": 115, "w": 166, "h": 150, "Texture": 135,
+            "animation": true, "numFilsFrame": 4, "numColsFrame": 4,
+            "widthFrame": 166, "heightFrame": 150, "vel": 200, "loop": true,
+            "Anims": [ [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14] ] 
+        }
+    ],
+
+    "GODoors": [
+        { "x": 41, "y": 155, "w": 110, "h": 207, "Texture": 274, "tag": "id", "scneNum": 8, "rotGOTr": -90, "soundEffect":  23 }
+    ],
+
+    "GOCofres": [
+        { "x": 505, "y": 305, "w": 44, "h": 40, "Texture": 219, "tag": "cajaFuerte", "wItem": 18, "hItem": 18, "descripcionItem": "Necesario para entrar en el despacho de Jeffa", 
+           "tagItem": "id","numTextItem": 271, "xItem": 514, "yItem": 324, "UnlockId": 1,
+            "animation": true, "numFilsFrame": 3, "numColsFrame": 2,
+            "widthFrame": 60, "heightFrame": 60, "vel": 200, "loop": true,
+            "Anims": [ [0], [5] ] }
+        ],
+
+    "GOState": [
+        { "x": 500, "y": 317, "w": 30, "h": 30, "Texture": 29, "rotation": -45, "password": "gackari","type": 2, "UnlockId": 1, "TexturaFondo": 177, "posFontX": 417, "posFontY": 436 }
+    ],
+
+    "PlayerPos": {
+        "x": 900,
+        "y": 335
+    }
+}
