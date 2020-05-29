@@ -198,8 +198,12 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>$(SolutionDir)SDL2_ttf-2.0.14\include;$(SolutionDir)Tracker\src;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)Tracker\Libs\Debug;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)SDL2_ttf-2.0.14\include;$(SolutionDir)cppUnit\include;$(SolutionDir)Tracker\src;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)cppUnit\lib;$(SolutionDir)Tracker\Libs\Debug;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(SolutionDir)cppUnit\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)cppUnit\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -210,7 +214,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>Tracker.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Tracker.lib;ws2_32.lib;cppunitd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -225,6 +229,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>cppunit.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

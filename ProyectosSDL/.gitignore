@@ -351,4 +351,5 @@ healthchecksdb
 Tracker/Inter/*
 Tracker/Libs/*
 logs/*
+cppUnit/*
 
