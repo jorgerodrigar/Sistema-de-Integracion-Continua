@@ -225,6 +225,9 @@
     <ClCompile Include="VerticalMovement.cpp">
       <Filter>Archivos de código fuente</Filter>
     </ClCompile>
+    <ClCompile Include="UnitTests.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ActEndingScreen.h">
@@ -453,6 +456,9 @@
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="VerticalMovement.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTests.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

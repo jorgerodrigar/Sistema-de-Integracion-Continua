@@ -79,6 +79,7 @@
     <ClCompile Include="Texture.cpp" />
     <ClCompile Include="Timer.cpp" />
     <ClCompile Include="TransitionScreen.cpp" />
+    <ClCompile Include="UnitTests.cpp" />
     <ClCompile Include="Vector2D.cpp" />
     <ClCompile Include="VerticalMovement.cpp" />
   </ItemGroup>
@@ -157,6 +158,7 @@
     <ClInclude Include="Texture.h" />
     <ClInclude Include="Timer.h" />
     <ClInclude Include="TransitionScreen.h" />
+    <ClInclude Include="UnitTests.h" />
     <ClInclude Include="Vector2D.h" />
     <ClInclude Include="VerticalMovement.h" />
   </ItemGroup>

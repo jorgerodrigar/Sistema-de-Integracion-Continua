@@ -5,6 +5,7 @@ class ItemInventario :
 	public ClickeableGO
 {
 public:
+	ItemInventario() {}
 	ItemInventario(SDLApp* game, int x, int y, int w, int h, string _desc, string _tag, Texture* texture, bool permanente = false);
 	virtual ~ItemInventario();
 	void act();
