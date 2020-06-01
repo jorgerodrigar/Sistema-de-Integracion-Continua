@@ -10,46 +10,70 @@
 #include <JsonSerializer.h>
 #include <CSVSerializer.h>
 #include "UnitTests.h"
+#include <cppunit/extensions/TestFactoryRegistry.h>
+#include <cppunit/BriefTestProgressListener.h>
+#include <cppunit/TestResult.h>
+#include <cppunit/TestResultCollector.h>
+#include <cppunit/TestRunner.h>
+#include <cppunit/TextOutputter.h>
 
 using namespace std;
 
 int main(int argc, char* argv[]){
-	//_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 
-	//// trackerAssets -> recogemos eventos de dificultad, claridad y sesion
-	//DifficultyTracker difficultyTracker;
-	//ClarityTracker clarityTracker;
-	//SessionTracker sessionTracker;
+	if (argc <= 1 || std::string(argv[1]) != "TEST") {
 
-	//// serializadores -> formatos json y csv
-	//JsonSerializer jsonSerializer;
-	//CSVSerializer csvSerializer;
+		_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 
-	//// persistencias -> en archivo y servidor
-	//FilePersistence filePersistence({&jsonSerializer, &csvSerializer});
-	//ServerPersistence serverPersistence({ &jsonSerializer, &csvSerializer });
+		// trackerAssets -> recogemos eventos de dificultad, claridad y sesion
+		DifficultyTracker difficultyTracker;
+		ClarityTracker clarityTracker;
+		SessionTracker sessionTracker;
 
-	//// inicializacion del sistema de telemetria
-	//Tracker::GetInstance().Init({&difficultyTracker, &clarityTracker, &sessionTracker }, { &serverPersistence, &filePersistence });
+		// serializadores -> formatos json y csv
+		JsonSerializer jsonSerializer;
+		CSVSerializer csvSerializer;
 
-	//SDLApp g(1280, 720);
-	//g.run();
-	//g.closeSDL();
+		// persistencias -> en archivo y servidor
+		FilePersistence filePersistence({&jsonSerializer, &csvSerializer});
+		ServerPersistence serverPersistence({ &jsonSerializer, &csvSerializer });
 
-	//Tracker::GetInstance().End();
+		// inicializacion del sistema de telemetria
+		Tracker::GetInstance().Init({&difficultyTracker, &clarityTracker, &sessionTracker }, { &serverPersistence, &filePersistence });
 
-	//filePersistence.release();
-	//serverPersistence.release();
-	//_CrtDumpMemoryLeaks(); //esta instruccion le vale a Diego para ver la basura. No quiteis el comentario pls T_T
+		SDLApp g(1280, 720);
+		g.run();
+		g.closeSDL();
 
-	CppUnit::TextUi::TestRunner run;
-	run.addTest(ObjectListTest::suite());
-	run.addTest(MoveEntityTest::suite());
+		Tracker::GetInstance().End();
 
-	if(run.run())
-		std::cout << "BIEN" << std::endl;
-	else
-		std::cout << "MAL" << std::endl;
+		filePersistence.release();
+		serverPersistence.release();
+		_CrtDumpMemoryLeaks(); //esta instruccion le vale a Diego para ver la basura. No quiteis el comentario pls T_T
+	}
+	else {
+		CppUnit::TestResultCollector result;
 
+		CppUnit::TestResult controller;
+		controller.addListener(&result);
+
+		CppUnit::BriefTestProgressListener progress;
+		controller.addListener(&progress);
+
+		std::filebuf fb;
+		fb.open("..\\logs\\testOutput.txt", std::ios::out);
+		std::ostream os(&fb);
+
+		CppUnit::TestRunner runner;
+		runner.addTest(ObjectListTest::suite());
+		runner.addTest(MoveEntityTest::suite());
+
+		runner.run(controller);
+
+		CppUnit::TextOutputter textOutputter(&result, os);
+		textOutputter.write();
+		fb.close();
+	}
+	
 	return 0;
 }
