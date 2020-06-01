@@ -34,7 +34,7 @@ void ObjectListTest::deleteItemTest()
 	objectList->deleteItem("test item");
 	unsigned char tam2 = objectList->getLength();
 
-	CPPUNIT_ASSERT(tam2 == tam1 - 2);
+	CPPUNIT_ASSERT(tam2 == tam1 - 1);
 }
 
 void ObjectListTest::deletePermanentItemTest()
