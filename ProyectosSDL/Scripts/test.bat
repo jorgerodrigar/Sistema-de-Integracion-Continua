@@ -1,19 +1,30 @@
 @echo off
+:: CHANGE THIS PATH IF YOUR DEVENV.EXE IS IN ANOTHER PATH
+SET PATH=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\
 
 :: Finds and executes the .exe
 cd ..
 cd bin
 
-:: Checks if the .exe exists
+:: Delete the previous .exe
+if exist HolaSDLDebug.exe (
+    echo DELETING PREVIOUS .EXE
+    del HolaSDLDebug.exe
+)
+
+:: Build the solution
+devenv "..\ProyectosSDL.sln" /build Debug
+echo.
+
+:: Checks if the .exe was created
 if not exist HolaSDLDebug.exe (
-    echo COULD NOT FIND THE PROJECT
+    echo COULD NOT BUILD THE PROJECT, CHECK YOUR DEVENV PATH OR COMPILATION ERRORS
     pause
     exit
 )
 
 :: Finds and executes .exe file.
 HolaSDLDebug.exe TEST
-echo.
 
 :: Finds the output of the .exe and reads its second line (results).
 cd ..
