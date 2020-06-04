@@ -15,8 +15,9 @@ class MainCharacter:
 	public Entity
 {
 public:
-	MainCharacter() {};
+	MainCharacter() {}
 	MainCharacter(SDLApp* game, json& j, ObjectList* list, std::list<GameObject*>* coll, ShortCut* shortcut_, double vel, PlayState* playState);
+	MainCharacter(ObjectList* list);
 	virtual ~MainCharacter();
 	void addInventoryObject(GameObject* o);
 	string getCurrentTag() { return this->currentTag; };
@@ -51,9 +52,9 @@ private:
 	ShortCut * shortCut;
 	string currentTag = "";
 	AnimationRenderer* render;
-	KeyboardComponent* keyboard;
-	MovementComponent* movement;
-	MouseMovement* mouseMovement;
+	KeyboardComponent* keyboard = nullptr;
+	MovementComponent* movement = nullptr;
+	MouseMovement* mouseMovement = nullptr;
 	ObjectList* list;
 	std::list<GameObject*>* colisionables;
 	ComponentSwitcher switcher = ComponentSwitcher(app, this);

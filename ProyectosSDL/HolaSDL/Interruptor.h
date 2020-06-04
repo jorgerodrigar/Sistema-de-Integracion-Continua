@@ -17,7 +17,7 @@ public:
 	Interruptor();
 	~Interruptor();
 	Interruptor(SDLApp* app, int x, int y, int w, int h, Texture* txt, string tag, int maxAlpha, int minAlpha, char id = NULL, bool on = true, bool canWork = true);
-	virtual void act();
+	virtual void act(MainCharacter* player = nullptr);
 	virtual void secondAct();
 	void changeLight();
 	void setLight();

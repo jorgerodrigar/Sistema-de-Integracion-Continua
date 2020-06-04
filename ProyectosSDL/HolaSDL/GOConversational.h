@@ -17,8 +17,8 @@ public:
 	};
 
 	virtual void receive(Mensaje* msg);
+	virtual void act(MainCharacter* player = nullptr);
 protected:
-	virtual void act();
 	virtual void secondAct() {};
 	bool inconversation = false;
 	string convoName_;

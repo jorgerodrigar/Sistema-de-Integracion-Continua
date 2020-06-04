@@ -11,7 +11,7 @@ GOConversational::~GOConversational()
 	delete convo;
 }
 
-void GOConversational::act() {
+void GOConversational::act(MainCharacter* player) {
 	if (!inconversation && !done_) {
 		PlaySoundE msg = { Resources::BotonSinClickar, 0 };
 		send(&msg);

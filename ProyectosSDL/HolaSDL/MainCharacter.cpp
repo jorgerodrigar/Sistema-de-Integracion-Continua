@@ -63,16 +63,21 @@ MainCharacter::MainCharacter(SDLApp* game, json& j, ObjectList* list, std::list<
 		this->currentScene = j["mainPj"]["actualScene"];
 }
 
+MainCharacter::MainCharacter(ObjectList* list):list(list)
+{
+	shortCut = nullptr;
+}
+
 MainCharacter::~MainCharacter()
 {
 	if (switcher.isKeyBoardComponent()) {
-		delete mouseMovement;
+		if(mouseMovement != nullptr)delete mouseMovement;
 		mouseMovement = nullptr;
 	}
 	else {
-		delete movement;
+		if (movement != nullptr)delete movement;
 		movement = nullptr;
-		delete keyboard;
+		if (keyboard != nullptr)delete keyboard;
 		keyboard = nullptr;
 	}
 	_texture = nullptr;
@@ -83,7 +88,8 @@ MainCharacter::~MainCharacter()
 
 void MainCharacter::addInventoryObject(GameObject* o) {
 	list->addItem(o); //a�ade un item al inventario
-	shortCut->ini(list->getLength()-1, shortCut->getCoef());
+	if (shortCut != nullptr)
+		shortCut->ini(list->getLength() - 1, shortCut->getCoef());
 }
 
 void MainCharacter::saveToJson(json& j) {

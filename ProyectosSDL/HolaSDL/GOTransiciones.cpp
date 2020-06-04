@@ -23,7 +23,7 @@ GOTransiciones::~GOTransiciones()
 {
 }
 
-void GOTransiciones::act() {
+void GOTransiciones::act(MainCharacter* player) {
 	PlaySoundE msg = { (Resources::SoundEffectId)soundId_, 0 };
 	send(&msg);
 	//Cambio de escena(ScneNumber)

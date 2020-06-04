@@ -16,6 +16,8 @@
 #include <cppunit/TestResultCollector.h>
 #include <cppunit/TestRunner.h>
 #include <cppunit/TextOutputter.h>
+#include "IntegrationTests.h"
+#include <list>
 
 using namespace std;
 
@@ -52,6 +54,8 @@ int main(int argc, char* argv[]){
 		_CrtDumpMemoryLeaks(); //esta instruccion le vale a Diego para ver la basura. No quiteis el comentario pls T_T
 	}
 	else {
+		// UNIT TESTS
+		std::cout << std::endl << std::endl << "UNIT TESTS" << std::endl;
 		CppUnit::TestResultCollector result;
 
 		CppUnit::TestResult controller;
@@ -73,6 +77,16 @@ int main(int argc, char* argv[]){
 		CppUnit::TextOutputter textOutputter(&result, os);
 		textOutputter.write();
 		fb.close();
+
+		// INTEGRATION TESTS
+		std::cout << std::endl << std::endl << "INTEGRATION TESTS" << std::endl;
+		list<IntegrationTest*> integrationTests;
+		PickObjectListTest pickTest;
+		integrationTests.push_back(&pickTest);
+
+		for (IntegrationTest* test : integrationTests) {
+			test->runTests();
+		}
 	}
 	
 	return 0;

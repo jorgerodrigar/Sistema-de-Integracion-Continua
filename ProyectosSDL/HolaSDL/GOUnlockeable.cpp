@@ -1,7 +1,7 @@
 #include "GOUnlockeable.h"
 #include "PlayState.h"
 
-void GOUnlockeable::act() {
+void GOUnlockeable::act(MainCharacter* player) {
 	if (!opened) {
 		PlayState* aux = static_cast<PlayState*>(app->getStateMachine()->currentState());
 

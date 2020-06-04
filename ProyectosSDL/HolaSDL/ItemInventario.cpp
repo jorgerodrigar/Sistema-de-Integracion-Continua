@@ -15,19 +15,25 @@ ItemInventario::~ItemInventario()
 {
 }
 
-void ItemInventario::act() {
-	cout << "Hanzo main" << endl;
+void ItemInventario::act(MainCharacter* player) {
+	if (active_) {
+		if (player == nullptr) {
+			PlayState* aux = static_cast<PlayState*>(app->getStateMachine()->currentState()); //casteo del playState
 
-	PlayState* aux = static_cast<PlayState*>(app->getStateMachine()->currentState()); //casteo del playState
-
-	if (aux != nullptr) {
-		app->getStateMachine()->currentState()->resetCursor();
-		MainCharacter* personaje = aux->getMainPj(); //casteo del main
-		if (personaje != nullptr) {
-			personaje->addInventoryObject(this); //añadimos objeto
-			personaje->send(&Mensaje(Ch_TakeObj));
+			if (aux != nullptr) {
+				app->getStateMachine()->currentState()->resetCursor();
+				MainCharacter* personaje = aux->getMainPj(); //casteo del main
+				if (personaje != nullptr) {
+					personaje->addInventoryObject(this); //añadimos objeto
+					personaje->send(&Mensaje(Ch_TakeObj));
+					this->setActive(false);
+					aux->playSoundEffect(Resources::SoundEffectId(getSoundEffect()));
+				}
+			}
+		}
+		else {
+			player->addInventoryObject(this); //añadimos objeto
 			this->setActive(false);
-			aux->playSoundEffect(Resources::SoundEffectId(getSoundEffect()));
 		}
 	}
 }

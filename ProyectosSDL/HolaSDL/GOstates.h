@@ -10,7 +10,7 @@ class GOstates :
 public:
 	GOstates(SDLApp* game, int x, int y, int w, int h, Texture* texture, GameState* state, json j, Observer* playState);
 	virtual ~GOstates();
-	void act();
+	void act(MainCharacter* player = nullptr);
 	virtual void saveToJson(json& j);
 	virtual void receive(Mensaje* msg);
 	bool added = false;

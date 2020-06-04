@@ -23,7 +23,7 @@ Interruptor::Interruptor(SDLApp* app, int x, int y, int w, int h, Texture* txt, 
 	changeLight();
 }
 
-void Interruptor::act()
+void Interruptor::act(MainCharacter* player)
 {
 	if (canWork_) {
 		changeLight();

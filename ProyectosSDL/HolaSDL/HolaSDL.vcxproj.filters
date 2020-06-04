@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{afbfc695-402d-49a1-b2c9-46e5b1b0419a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ActEndingScreen.cpp">
@@ -225,8 +228,11 @@
     <ClCompile Include="VerticalMovement.cpp">
       <Filter>Archivos de código fuente</Filter>
     </ClCompile>
+    <ClCompile Include="IntegrationTests.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
     <ClCompile Include="UnitTests.cpp">
-      <Filter>Archivos de código fuente</Filter>
+      <Filter>Test</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -459,7 +465,10 @@
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="UnitTests.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegrationTests.h">
+      <Filter>Test</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

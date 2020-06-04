@@ -26,7 +26,7 @@ GOstates::~GOstates()
 {
 }
 
-void GOstates::act() {
+void GOstates::act(MainCharacter* player) {
 	this->send(&Mensaje(CambioEstado));
 	app->getStateMachine()->currentState()->changeList();
 	state_->searchId(); 

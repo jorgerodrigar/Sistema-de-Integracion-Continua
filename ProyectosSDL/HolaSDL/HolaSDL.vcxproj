@@ -46,6 +46,7 @@
     <ClCompile Include="ImageRenderer.cpp" />
     <ClCompile Include="inGameMenu.cpp" />
     <ClCompile Include="InputComponent.cpp" />
+    <ClCompile Include="IntegrationTests.cpp" />
     <ClCompile Include="Interruptor.cpp" />
     <ClCompile Include="IntroState.cpp" />
     <ClCompile Include="Inventory.cpp" />
@@ -122,6 +123,7 @@
     <ClInclude Include="ImageRenderer.h" />
     <ClInclude Include="inGameMenu.h" />
     <ClInclude Include="InputComponent.h" />
+    <ClInclude Include="IntegrationTests.h" />
     <ClInclude Include="Interruptor.h" />
     <ClInclude Include="IntroState.h" />
     <ClInclude Include="Inventory.h" />
