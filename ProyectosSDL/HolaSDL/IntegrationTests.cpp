@@ -3,6 +3,7 @@
 #include "ItemInventario.h"
 #include "IntegrationTests.h"
 #include "MainCharacter.h"
+#include "GOUnlockeable.h"
 
 void PickObjectListTest::pickObjectTest()
 {
@@ -72,6 +73,84 @@ void PickObjectListTest::tearDown()
 }
 
 PickObjectListTest::~PickObjectListTest()
+{
+	tearDown();
+}
+
+void UseObjectTest::useObject()
+{
+	item->use(player);
+	unlockable->act(player);
+}
+
+void UseObjectTest::useObjectCorrectTag()
+{
+	player->setPosition({ 0, 0 });
+	unlockable->setPosition({ 0, 0 });
+	item->setTag("test item");
+	unlockable->setKey("test item");
+	unlockable->setOpened(false);
+
+	useObject();
+
+	if (unlockable->isOpened()) {
+		std::cout << "UseObjectCorrectTag: OK" << std::endl;
+	}
+	else {
+		std::cout << "UseObjectCorrectTag: failed" << std::endl;
+	}
+}
+
+void UseObjectTest::useObjectIncorrectTag()
+{
+	player->setPosition({ 0, 0 });
+	unlockable->setPosition({ 0, 0 });
+	item->setTag("test item");
+	unlockable->setKey("no test item");
+	unlockable->setOpened(false);
+
+	useObject();
+
+	if (!unlockable->isOpened()) {
+		std::cout << "UseObjectIncorrectTag: OK" << std::endl;
+	}
+	else {
+		std::cout << "UseObjectIncorrectTag: failed" << std::endl;
+	}
+}
+
+UseObjectTest::UseObjectTest()
+{
+	setUp();
+}
+
+void UseObjectTest::runTests()
+{
+	useObjectCorrectTag();
+	useObjectIncorrectTag();
+}
+
+void UseObjectTest::setUp()
+{
+	player = new MainCharacter();
+	item = new ItemInventario(nullptr, 0, 0, 10, 10, "test item", "test item", nullptr);
+	unlockable = new GOUnlockeable(nullptr, 0, 0, 10, 10, nullptr, "test item");
+}
+
+void UseObjectTest::tearDown()
+{
+	if (item != nullptr){
+		delete item; 
+		item = nullptr;
+	}
+
+	if (player != nullptr){ 
+		delete player; 
+		player = nullptr; 
+	}
+}
+
+UseObjectTest::~UseObjectTest()
 {
 	tearDown();
 }

@@ -2,6 +2,7 @@
 #include "checkML.h"
 #include "ClickeableGO.h"
 
+
 class ItemInventario :
 	public ClickeableGO
 {
@@ -14,6 +15,10 @@ public:
 	string getDescription() { return desc; }
 	virtual void saveToJson(json& j) { if (this->isActive()) { json aux;  Entity::saveToJson(aux); aux["tag"] = getTag(); aux["descripcion"] = getDescription();  j["ItemInventario"].push_back(aux); } }
 	bool const isPermanent() { return permanente_; };
+
+	void use(MainCharacter* player);
+	inline void setTag(std::string value) { tag = value; }
+
 private:
 	string desc;
 	string tag;

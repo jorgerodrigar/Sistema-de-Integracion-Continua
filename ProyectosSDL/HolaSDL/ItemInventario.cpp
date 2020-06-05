@@ -38,3 +38,8 @@ void ItemInventario::act(MainCharacter* player) {
 	}
 }
 
+void ItemInventario::use(MainCharacter* player)
+{
+	player->setCurrenTag(tag);
+}
+

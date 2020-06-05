@@ -6,6 +6,7 @@
 class ObjectList;
 class MainCharacter;
 class ItemInventario;
+class GOUnlockeable;
 
 class IntegrationTest {
 public:
@@ -31,4 +32,22 @@ public:
 	virtual void setUp();
 	virtual void tearDown();
 	~PickObjectListTest();
+};
+
+class UseObjectTest : public IntegrationTest {
+private:
+	MainCharacter* player;
+	ItemInventario* item;
+	GOUnlockeable* unlockable;
+
+	void useObject();
+	void useObjectCorrectTag();
+	void useObjectIncorrectTag();
+
+public:
+	UseObjectTest();
+	virtual void runTests();
+	virtual void setUp();
+	virtual void tearDown();
+	~UseObjectTest();
 };
