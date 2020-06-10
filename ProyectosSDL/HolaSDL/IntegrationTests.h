@@ -8,15 +8,8 @@ class MainCharacter;
 class ItemInventario;
 class GOUnlockeable;
 
-class IntegrationTest {
-public:
-	virtual void runTests() = 0;
 
-	virtual void setUp() = 0;
-	virtual void tearDown() = 0;
-};
-
-class PickObjectListTest: public IntegrationTest {
+class PickObjectListTest: public CppUnit::TestFixture {
 private:
 	MainCharacter* player;
 	ObjectList* objectList;
@@ -28,13 +21,16 @@ private:
 
 public:
 	PickObjectListTest();
-	virtual void runTests();
+	~PickObjectListTest();
+
 	virtual void setUp();
 	virtual void tearDown();
-	~PickObjectListTest();
+
+
+	static CppUnit::Test* suite();
 };
 
-class UseObjectTest : public IntegrationTest {
+class UseObjectTest : public CppUnit::TestFixture {
 private:
 	MainCharacter* player;
 	ItemInventario* item;
@@ -46,8 +42,10 @@ private:
 
 public:
 	UseObjectTest();
-	virtual void runTests();
+	~UseObjectTest();
+
 	virtual void setUp();
 	virtual void tearDown();
-	~UseObjectTest();
+
+	static CppUnit::Test* suite();
 };

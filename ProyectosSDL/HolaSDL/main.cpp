@@ -72,25 +72,15 @@ int main(int argc, char* argv[]){
 		runner.addTest(ObjectListTest::suite());
 		runner.addTest(MoveEntityTest::suite());
 
-		runner.run(controller);
+		// INTEGRATION TESTS
+		std::cout << std::endl << std::endl << "INTEGRATION TESTS" << std::endl;
+		runner.addTest(PickObjectListTest::suite());
+		runner.addTest(UseObjectTest::suite());
 
+		runner.run(controller);
 		CppUnit::TextOutputter textOutputter(&result, os);
 		textOutputter.write();
 		fb.close();
-
-		// INTEGRATION TESTS
-		std::cout << std::endl << std::endl << "INTEGRATION TESTS" << std::endl;
-		list<IntegrationTest*> integrationTests;
-
-		PickObjectListTest pickTest;
-		integrationTests.push_back(&pickTest);
-
-		UseObjectTest useTest;
-		integrationTests.push_back(&useTest);
-
-		for (IntegrationTest* test : integrationTests) {
-			test->runTests();
-		}
 	}
 	
 	return 0;

@@ -79,12 +79,12 @@ void ObjectListTest::tearDown()
 CppUnit::Test* ObjectListTest::suite()
 {
 	CppUnit::TestSuite* suite = new CppUnit::TestSuite();
-	suite->addTest(new CppUnit::TestCaller<ObjectListTest>("addToListTest", &ObjectListTest::addItemTest));
-	suite->addTest(new CppUnit::TestCaller<ObjectListTest>("addPermanentToListTest", &ObjectListTest::addPermanentItemTest));
-	suite->addTest(new CppUnit::TestCaller<ObjectListTest>("deleteListTest", &ObjectListTest::deleteItemTest));
-	suite->addTest(new CppUnit::TestCaller<ObjectListTest>("deletePermanentListTest", &ObjectListTest::deletePermanentItemTest));
-	suite->addTest(new CppUnit::TestCaller<ObjectListTest>("deleteUnexistentListTest", &ObjectListTest::deleteUnexistentItemTest));
-	suite->addTest(new CppUnit::TestCaller<ObjectListTest>("deleteFromEmptyListTest", &ObjectListTest::deleteFromEmptyListTest));
+	suite->addTest(new CppUnit::TestCaller<ObjectListTest>("addToListTest_Unit", &ObjectListTest::addItemTest));
+	suite->addTest(new CppUnit::TestCaller<ObjectListTest>("addPermanentToListTest_Unit", &ObjectListTest::addPermanentItemTest));
+	suite->addTest(new CppUnit::TestCaller<ObjectListTest>("deleteListTest_Unit", &ObjectListTest::deleteItemTest));
+	suite->addTest(new CppUnit::TestCaller<ObjectListTest>("deletePermanentListTest_Unit", &ObjectListTest::deletePermanentItemTest));
+	suite->addTest(new CppUnit::TestCaller<ObjectListTest>("deleteUnexistentListTest_Unit", &ObjectListTest::deleteUnexistentItemTest));
+	suite->addTest(new CppUnit::TestCaller<ObjectListTest>("deleteFromEmptyListTest_Unit", &ObjectListTest::deleteFromEmptyListTest));
 
 	return suite;
 }
@@ -126,8 +126,8 @@ void MoveEntityTest::tearDown()
 CppUnit::Test* MoveEntityTest::suite()
 {
 	CppUnit::TestSuite* suite = new CppUnit::TestSuite();
-	suite->addTest(new CppUnit::TestCaller<MoveEntityTest>("positionTest", &MoveEntityTest::positionTest));
-	suite->addTest(new CppUnit::TestCaller<MoveEntityTest>("velocityTest", &MoveEntityTest::velocityTest));
+	suite->addTest(new CppUnit::TestCaller<MoveEntityTest>("positionTest_Unit", &MoveEntityTest::positionTest));
+	suite->addTest(new CppUnit::TestCaller<MoveEntityTest>("velocityTest_Unit", &MoveEntityTest::velocityTest));
 
 	return suite;
 }
