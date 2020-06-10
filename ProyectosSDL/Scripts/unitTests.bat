@@ -27,24 +27,27 @@ if not exist HolaSDLDebug.exe (
 )
 
 :: Finds and executes .exe file.
-HolaSDLDebug.exe TEST
+HolaSDLDebug.exe UNIT_TEST
 
 :: Finds the output of the .exe and reads its second line (results).
 cd ..
 cd logs
 
-for /f "skip=1" %%G IN (testOutput.txt) DO if not defined line set "line=%%G"
+for /f "skip=1" %%G IN (unitTestsOutput.txt) DO if not defined unitLine set "unitLine=%%G"
 
-if %line%==!!!FAILURES!!! (
+if %unitLine%==!!!FAILURES!!! (
     :: If the tests fail, shows the output.
-    type testOutput.txt
+    type unitTestsOutput.txt
     color 0C
     echo UNIT TESTS HAVE FAILED.
+    pause
 ) else (
     :: If the tests pass, executes the integration tests.
-    color 0A
     echo UNIT TESTS HAVE PASSED.
     echo.
-)
 
-pause
+    :: Goes to the original path to start the integration test .bat
+    cd ..
+    cd Scripts
+    call integrationTest.bat
+)

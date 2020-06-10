@@ -23,7 +23,7 @@ using namespace std;
 
 int main(int argc, char* argv[]){
 
-	if (argc <= 1 || std::string(argv[1]) != "TEST") {
+	if (argc <= 1 || (std::string(argv[1]) != "UNIT_TEST" && std::string(argv[1]) != "INTEGRATION_TEST")) {
 
 		_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 
@@ -53,7 +53,7 @@ int main(int argc, char* argv[]){
 		serverPersistence.release();
 		_CrtDumpMemoryLeaks(); //esta instruccion le vale a Diego para ver la basura. No quiteis el comentario pls T_T
 	}
-	else {
+	else if(std::string(argv[1]) == "UNIT_TEST"){
 		// UNIT TESTS
 		std::cout << std::endl << std::endl << "UNIT TESTS" << std::endl;
 		CppUnit::TestResultCollector result;
@@ -65,15 +65,33 @@ int main(int argc, char* argv[]){
 		controller.addListener(&progress);
 
 		std::filebuf fb;
-		fb.open("..\\logs\\testOutput.txt", std::ios::out);
+		fb.open("..\\logs\\unitTestsOutput.txt", std::ios::out);
 		std::ostream os(&fb);
 
 		CppUnit::TestRunner runner;
 		runner.addTest(ObjectListTest::suite());
 		runner.addTest(MoveEntityTest::suite());
-
+		runner.run(controller);
+		CppUnit::TextOutputter textOutputter(&result, os);
+		textOutputter.write();
+		fb.close();
+	}
+	else if (std::string(argv[1]) == "INTEGRATION_TEST") {
 		// INTEGRATION TESTS
 		std::cout << std::endl << std::endl << "INTEGRATION TESTS" << std::endl;
+		CppUnit::TestResultCollector result;
+
+		CppUnit::TestResult controller;
+		controller.addListener(&result);
+
+		CppUnit::BriefTestProgressListener progress;
+		controller.addListener(&progress);
+
+		std::filebuf fb;
+		fb.open("..\\logs\\integrationTestsOutput.txt", std::ios::out);
+		std::ostream os(&fb);
+
+		CppUnit::TestRunner runner;
 		runner.addTest(PickObjectListTest::suite());
 		runner.addTest(UseObjectTest::suite());
 
