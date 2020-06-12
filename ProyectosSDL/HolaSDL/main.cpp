@@ -94,17 +94,23 @@ int main(int argc, char* argv[]){
 		CppUnit::BriefTestProgressListener progress;
 		controller.addListener(&progress);
 
-		std::filebuf fb;
-		fb.open("..\\logs\\integrationTestsOutput.txt", std::ios::out);
-		std::ostream os(&fb);
 
 		CppUnit::TestRunner runner;
 		runner.addTest(PickObjectListTest::suite());
 		runner.addTest(UseObjectTest::suite());
 
+		std::filebuf fb;
+		fb.open("..\\logs\\integrationTestsOutput.txt", std::ios::out);
+		std::ostream textOs(&fb);
 		runner.run(controller);
-		CppUnit::TextOutputter textOutputter(&result, os);
+		CppUnit::TextOutputter textOutputter(&result, textOs);
 		textOutputter.write();
+		fb.close();
+
+		fb.open("..\\logs\\integrationTestsOutput.xml", std::ios::out);
+		std::ostream xmlOs(&fb);
+		CppUnit::XmlOutputter xmlOutputter(&result, xmlOs);
+		xmlOutputter.write();
 		fb.close();
 	}
 	
