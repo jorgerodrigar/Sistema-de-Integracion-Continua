@@ -6,7 +6,7 @@ cd bin
 
 :: Checks if the .exe was created
 if not exist HolaSDLDebug.exe (
-    echo COULD NOT BUILD THE PROJECT, CHECK YOUR DEVENV PATH OR COMPILATION ERRORS
+    echo COULD NOT FIND HolaSDLDebug.exe
     color 0C
     exit
 )
