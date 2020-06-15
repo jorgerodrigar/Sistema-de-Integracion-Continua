@@ -47,10 +47,10 @@ public:
 	void closeSDL();
 	void setExit(bool b) { exit = b; }
 	void updatePantallaCarga();
-	SDL_Window* SDLApp::getWindow() const;
-	SDL_Renderer* SDLApp::getRenderer() const;
-	int SDLApp::getWindowWidth() const;
-	int SDLApp::getWindowHeight() const;
+	SDL_Window* getWindow() const;
+	SDL_Renderer* getRenderer() const;
+	int getWindowWidth() const;
+	int getWindowHeight() const;
 	const Resources* getResources() const{ return resources; }
 	void initResources() { if (!resourInitiated) { resources = new Resources(this); resourInitiated = true; } }
 	void closeResources(){ delete resources; }

@@ -126,7 +126,7 @@
          "Texture": 77,
          "animation": true,
          "dialogo": "Acto1",
-         "done": false,
+         "done": true,
          "h": 207.0,
          "heightFrame": 137,
          "loop": true,
@@ -170,8 +170,8 @@
       }
    ],
    "PlayerPos": {
-      "x": 1150.0,
-      "y": 300.0
+      "x": 322.0,
+      "y": 456.0
    },
    "PlayerTam": {
       "h": 201.6,

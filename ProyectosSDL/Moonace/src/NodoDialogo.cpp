@@ -30,7 +30,7 @@ vector<string> NodoDialogo::getTexto(){
 		vector<string> salida;
 		salida.resize(numOpciones);
 		int n = 0;
-		for each (opciones op in respuestas)
+		for (opciones op : respuestas)
 		{
 			salida[n] = op.texto;
 			n++;
