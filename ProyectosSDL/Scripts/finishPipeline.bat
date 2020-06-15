@@ -5,6 +5,7 @@
 cd ..
 cd ..
 
+git pull
 git push
 
 echo PUSH HAS FINISHED SUCCESFULLY
