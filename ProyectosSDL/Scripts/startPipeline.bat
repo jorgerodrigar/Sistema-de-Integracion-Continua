@@ -6,5 +6,5 @@ git commit -m "%commitName%"
 
 :: Calls the unit test task
 echo CALLING UNIT TEST TASK
-echo .
+echo.
 call unitTests.bat

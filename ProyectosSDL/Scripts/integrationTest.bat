@@ -47,5 +47,9 @@ if %integrationLine%==!!!FAILURES!!! (
     color 0A
     echo INTEGRATION TESTS HAVE PASSED
     echo.
+
+    :: Goes to the original path to start the integration test .bat
+    cd ..
+    cd Scripts
     call finishPipeline.bat
 )
