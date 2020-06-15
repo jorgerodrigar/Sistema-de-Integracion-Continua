@@ -39,11 +39,12 @@ if %unitLine%==!!!FAILURES!!! (
     :: If the tests fail, shows the output.
     type unitTestsOutput.txt
     color 0C
-    echo UNIT TESTS HAVE FAILED.
+    echo UNIT TESTS HAVE FAILED
+    echo PUSH HAS BEEN CANCELLED
     pause
 ) else (
     :: If the tests pass, executes the integration tests.
-    echo UNIT TESTS HAVE PASSED.
+    echo UNIT TESTS HAVE PASSED
     echo.
 
     :: Goes to the original path to start the integration test .bat

@@ -39,12 +39,13 @@ if %integrationLine%==!!!FAILURES!!! (
     :: If the tests fail, shows the output.
     type integrationTestsOutput.txt
     color 0C
-    echo INTEGRATION TESTS HAVE FAILED.
+    echo INTEGRATION TESTS HAVE FAILED
+    echo PUSH HAS BEEN CANCELLED
+    pause
 ) else (
     :: If the tests pass, executes the integration tests.
     color 0A
-    echo INTEGRATION TESTS HAVE PASSED.
+    echo INTEGRATION TESTS HAVE PASSED
     echo.
+    call finishPipeline.bat
 )
-
-pause
