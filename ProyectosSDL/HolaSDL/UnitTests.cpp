@@ -15,7 +15,7 @@ void ObjectListTest::addItemTest()
 	addItem("test item");
 	unsigned char tam2 = objectList->getLength();
 
-	CPPUNIT_ASSERT(tam2 == tam1 + 1);
+	CPPUNIT_ASSERT(tam2 == tam1 + 2);
 }
 
 void ObjectListTest::addPermanentItemTest()
