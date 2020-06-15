@@ -15,7 +15,7 @@ void PickObjectListTest::pickObjectTest()
 	pickObject();
 	int tam2 = player->getList()->getLength();
 
-	CPPUNIT_ASSERT(tam2 == tam1 + 2);
+	CPPUNIT_ASSERT(tam2 == tam1 + 1);
 	/*if (tam1 + 1 == tam2) {
 		std::cout << "PickObjectTest: OK" << std::endl;
 	}
