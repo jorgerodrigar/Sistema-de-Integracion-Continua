@@ -20,37 +20,37 @@ using namespace std;
 
 int main(int argc, char* argv[]){
 
-	//if (argc <= 1 || std::string(argv[1]) != "INTEGRATION_TEST") {
+	if (argc <= 1 || std::string(argv[1]) != "INTEGRATION_TEST") {
 
-	//	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
+		_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 
-	//	// trackerAssets -> recogemos eventos de dificultad, claridad y sesion
-	//	DifficultyTracker difficultyTracker;
-	//	ClarityTracker clarityTracker;
-	//	SessionTracker sessionTracker;
+		// trackerAssets -> recogemos eventos de dificultad, claridad y sesion
+		DifficultyTracker difficultyTracker;
+		ClarityTracker clarityTracker;
+		SessionTracker sessionTracker;
 
-	//	// serializadores -> formatos json y csv
-	//	JsonSerializer jsonSerializer;
-	//	CSVSerializer csvSerializer;
+		// serializadores -> formatos json y csv
+		JsonSerializer jsonSerializer;
+		CSVSerializer csvSerializer;
 
-	//	// persistencias -> en archivo y servidor
-	//	FilePersistence filePersistence({&jsonSerializer, &csvSerializer});
-	//	//ServerPersistence serverPersistence({ &jsonSerializer, &csvSerializer });
+		// persistencias -> en archivo y servidor
+		FilePersistence filePersistence({&jsonSerializer, &csvSerializer});
+		//ServerPersistence serverPersistence({ &jsonSerializer, &csvSerializer });
 
-	//	// inicializacion del sistema de telemetria
-	//	Tracker::GetInstance().Init({&difficultyTracker, &clarityTracker, &sessionTracker }, { /*&serverPersistence,*/ &filePersistence });
+		// inicializacion del sistema de telemetria
+		Tracker::GetInstance().Init({&difficultyTracker, &clarityTracker, &sessionTracker }, { /*&serverPersistence,*/ &filePersistence });
 
-	//	SDLApp g(1280, 720);
-	//	g.run();
-	//	g.closeSDL();
+		SDLApp g(1280, 720);
+		g.run();
+		g.closeSDL();
 
-	//	Tracker::GetInstance().End();
+		Tracker::GetInstance().End();
 
-	//	filePersistence.release();
-	//	//serverPersistence.release();
-	//	_CrtDumpMemoryLeaks(); //esta instruccion le vale a Diego para ver la basura. No quiteis el comentario pls T_T
-	//}
-	//else if (std::string(argv[1]) == "INTEGRATION_TEST") {
+		filePersistence.release();
+		//serverPersistence.release();
+		_CrtDumpMemoryLeaks(); //esta instruccion le vale a Diego para ver la basura. No quiteis el comentario pls T_T
+	}
+	else if (std::string(argv[1]) == "INTEGRATION_TEST") {
 		// INTEGRATION TESTS
 		std::cout << std::endl << std::endl << "INTEGRATION TESTS" << std::endl;
 		CppUnit::TestResultCollector result;
@@ -79,7 +79,7 @@ int main(int argc, char* argv[]){
 		CppUnit::XmlOutputter xmlOutputter(&result, xmlOs);
 		xmlOutputter.write();
 		fb.close();
-	//}
+	}
 	
 	return 0;
 }
