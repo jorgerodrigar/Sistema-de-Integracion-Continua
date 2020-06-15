@@ -1,6 +1,7 @@
 @echo off
 :: CHANGE THIS PATH IF YOUR DEVENV.EXE IS IN ANOTHER PATH
-SET PATH=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\
+set ORIGINAL_PATH=%PATH% 
+set PATH=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\
 
 :: Finds and executes the .exe
 cd ..
@@ -17,6 +18,9 @@ echo.
 echo BUILDING THE SOLUTION
 devenv "..\ProyectosSDL.sln" /build Debug
 echo.
+
+:: Recovers the original user defined path
+set PATH=%ORIGINAL_PATH% 
 
 :: Checks if the .exe was created
 if not exist HolaSDLDebug.exe (
@@ -39,11 +43,12 @@ if %unitLine%==!!!FAILURES!!! (
     :: If the tests fail, shows the output.
     type unitTestsOutput.txt
     color 0C
-    echo UNIT TESTS HAVE FAILED.
+    echo UNIT TESTS HAVE FAILED
+    echo PUSH HAS BEEN CANCELLED
     pause
 ) else (
     :: If the tests pass, executes the integration tests.
-    echo UNIT TESTS HAVE PASSED.
+    echo UNIT TESTS HAVE PASSED
     echo.
 
     :: Goes to the original path to start the integration test .bat
