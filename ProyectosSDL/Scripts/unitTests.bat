@@ -1,39 +1,14 @@
 @echo off
-:: CHANGE THIS PATH IF YOUR DEVENV.EXE IS IN ANOTHER PATH
-set ORIGINAL_PATH=%PATH% 
-set PATH=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\
 
-:: Finds and executes the .exe
 cd ..
-cd bin
-
-:: Delete the previous .exe
-if exist HolaSDLDebug.exe (
-    echo DELETING PREVIOUS .EXE
-    del HolaSDLDebug.exe
-)
-
-echo.
-:: Build the solution
-echo BUILDING THE SOLUTION
-devenv "..\ProyectosSDL.sln" /build Debug
-echo.
-
-:: Recovers the original user defined path
-set PATH=%ORIGINAL_PATH% 
-
-:: Checks if the .exe was created
-if not exist HolaSDLDebug.exe (
-    echo COULD NOT BUILD THE PROJECT, CHECK YOUR DEVENV PATH OR COMPILATION ERRORS
-    color 0C
-    pause
-    exit
-)
+cd UnitTests
+cd exes
 
 :: Finds and executes .exe file.
-HolaSDLDebug.exe UNIT_TEST
+UnitTests.exe
 
 :: Finds the output of the .exe and reads its second line (results).
+cd ..
 cd ..
 cd logs
 

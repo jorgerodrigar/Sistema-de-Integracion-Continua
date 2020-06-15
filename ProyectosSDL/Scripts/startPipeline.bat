@@ -11,7 +11,7 @@ git commit -m "%commitName%"
 :: Goes to the /Scripts directory
 cd ProyectosSDL/Scripts
 
-:: Calls the unit test task
-echo CALLING UNIT TEST TASK
+:: Calls the building test task
+echo CALLING BUILDING TASK
 echo.
-call unitTests.bat
+call buildSolution.bat

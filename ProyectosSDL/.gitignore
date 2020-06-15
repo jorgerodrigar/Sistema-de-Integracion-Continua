@@ -352,4 +352,6 @@ Tracker/Inter/*
 Tracker/Libs/*
 logs/*
 cppUnit/*
+UnitTests/exes/*
+UnitTests/Inter/*
 
