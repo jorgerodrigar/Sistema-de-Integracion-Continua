@@ -29,13 +29,13 @@ int main(int argc, char* argv[]) {
 	runner.run(controller);
 
 	std::filebuf fb;
-	fb.open("..\\logs\\unitTestsOutput.txt", std::ios::out);
+	fb.open("..\\..\\logs\\unitTestsOutput.txt", std::ios::out);
 	std::ostream textOs(&fb);
 	CppUnit::TextOutputter textOutputter(&result, textOs);
 	textOutputter.write();
 	fb.close();
 
-	fb.open("..\\logs\\unitTestsOutput.xml", std::ios::out);
+	fb.open("..\\..\\logs\\unitTestsOutput.xml", std::ios::out);
 	std::ostream xmlOs(&fb);
 	CppUnit::XmlOutputter xmlOutputter(&result, xmlOs);
 	xmlOutputter.write();
