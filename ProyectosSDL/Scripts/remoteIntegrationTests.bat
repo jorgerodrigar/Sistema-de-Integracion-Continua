@@ -5,11 +5,11 @@ cd ..
 cd bin
 
 :: Checks if the .exe was created
-if not exist HolaSDLDebug.exe (
-    echo COULD NOT FIND HolaSDLDebug.exe
+if not exist Main.exe (
+    echo COULD NOT FIND Main.exe
     color 0C
     exit
 )
 
 :: Finds and executes .exe file.
-HolaSDLDebug.exe INTEGRATION_TEST
+Main.exe INTEGRATION_TEST
