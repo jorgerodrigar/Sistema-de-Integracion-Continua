@@ -9,6 +9,7 @@ class ObjectListTest : public CppUnit::TestFixture {
 private:
 	ObjectList* objectList;
 
+	// adds an item to the object list
 	void addItem(std::string tag, bool permanent = false);
 	void addItemTest();
 	void addPermanentItemTest();
