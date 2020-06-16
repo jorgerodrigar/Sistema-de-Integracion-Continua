@@ -28,10 +28,7 @@ cd ..
 echo.
 :: Build the solution
 echo BUILDING THE SOLUTION
-devenv /Build Debug /Project Tracker "..\ProyectosSDL.sln"
-devenv /Build Debug /Project Moonace "..\ProyectosSDL.sln"
-devenv /Build Debug /Project UnitTests "..\ProyectosSDL.sln"
-devenv /Build Debug /Project Main "..\ProyectosSDL.sln"
+devenv "..\ProyectosSDL.sln" /Build Debug
 echo.
 
 :: Recovers the original user defined path

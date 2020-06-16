@@ -6,10 +6,19 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tracker", "Tracker\Tracker.vcxproj", "{6F40F9A5-E14F-45AC-8131-8A1E63FEC8B1}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Moonace", "Moonace\Moonace.vcxproj", "{F95D34E9-26ED-4A3D-89C8-120B48C6E405}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6F40F9A5-E14F-45AC-8131-8A1E63FEC8B1} = {6F40F9A5-E14F-45AC-8131-8A1E63FEC8B1}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Main", "Main\Main.vcxproj", "{B78569EA-B667-4C79-B9C1-C1C37331BA43}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F95D34E9-26ED-4A3D-89C8-120B48C6E405} = {F95D34E9-26ED-4A3D-89C8-120B48C6E405}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTests", "UnitTests\UnitTests.vcxproj", "{A6A4A3DA-4DA2-44DF-BC41-A915706F5DE2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F95D34E9-26ED-4A3D-89C8-120B48C6E405} = {F95D34E9-26ED-4A3D-89C8-120B48C6E405}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
