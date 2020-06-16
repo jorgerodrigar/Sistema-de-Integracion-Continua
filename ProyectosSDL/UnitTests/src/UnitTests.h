@@ -16,6 +16,7 @@ private:
 	void deleteItemTest();
 	void deletePermanentItemTest();
 	void deleteUnexistentItemTest();
+	// delete an object from an empty object list
 	void deleteFromEmptyListTest();
 
 public:
