@@ -26,7 +26,7 @@ void ObjectListTest::addPermanentItemTest()
 
 	CPPUNIT_ASSERT(tam2 == tam1 + 1);
 }
-
+//deleteItemSet
 void ObjectListTest::deleteItemTest()
 {
 	addItem("test item");
